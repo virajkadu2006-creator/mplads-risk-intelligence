@@ -13,60 +13,104 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for government/analytical dashboard feel
-st.markdown("""
+# Navigation state
+if "page" not in st.session_state:
+    st.session_state.page = "Overview"
+
+if "theme_mode" not in st.session_state:
+    st.session_state.theme_mode = "Dark 🌙"
+
+# Sidebar controls
+st.sidebar.markdown("### 🏛️ MPLADS Risk Intelligence")
+st.sidebar.caption("SIH PS-26102 | Decision-Support System")
+
+pages = ["Overview", "Risk Monitor", "Project Investigation", "Geo Analysis", "ML Insights"]
+current_page = st.sidebar.radio("Navigation", pages, index=pages.index(st.session_state.page) if st.session_state.page in pages else 0)
+st.session_state.page = current_page
+
+st.sidebar.markdown("---")
+theme = st.sidebar.radio("🎨 Theme Mode", ["Dark 🌙", "Light ☀️"], index=0 if "Dark" in st.session_state.theme_mode else 1)
+st.session_state.theme_mode = theme
+is_dark = "Dark" in theme
+
+# Theme variables
+bg_color = "#0f172a" if is_dark else "#f8fafc"
+card_bg = "#1e293b" if is_dark else "#ffffff"
+card_border = "#334155" if is_dark else "#e2e8f0"
+text_color = "#f8fafc" if is_dark else "#1e293b"
+muted_text = "#94a3b8" if is_dark else "#64748b"
+disclaimer_border = "#334155" if is_dark else "#cbd5e1"
+plotly_template = "plotly_dark" if is_dark else "plotly_white"
+
+# Dynamic CSS Injection
+st.markdown(f"""
 <style>
-    .reportview-container {
-        background: #f8fafc;
-    }
-    .main-header {
+    .stApp {{
+        background-color: {bg_color};
+        color: {text_color};
+    }}
+    .main-header {{
         font-size: 26px;
         font-weight: 700;
-        color: #1e293b;
+        color: {text_color};
         margin-bottom: 20px;
-    }
-    .metric-card {
-        background: white;
+    }}
+    .metric-card {{
+        background: {card_bg};
         padding: 18px;
         border-radius: 8px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-        border: 1px solid #e2e8f0;
-    }
-    .badge-critical {
-        background-color: #fee2e2;
-        color: #991b1b;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        border: 1px solid {card_border};
+        color: {text_color};
+    }}
+    .card-label {{
+        font-size: 14px;
+        color: {muted_text};
+    }}
+    .card-value {{
+        font-size: 42px;
+        font-weight: 800;
+        color: {text_color};
+    }}
+    .badge-critical {{
+        background-color: {"rgba(185, 28, 28, 0.25)" if is_dark else "#fee2e2"};
+        color: {"#fca5a5" if is_dark else "#991b1b"};
+        border: 1px solid {"#ef4444" if is_dark else "#f87171"};
         padding: 4px 10px;
         border-radius: 12px;
         font-weight: 600;
-    }
-    .badge-high {
-        background-color: #ffedd5;
-        color: #9a3412;
+    }}
+    .badge-high {{
+        background-color: {"rgba(234, 88, 12, 0.25)" if is_dark else "#ffedd5"};
+        color: {"#fdba74" if is_dark else "#9a3412"};
+        border: 1px solid {"#f97316" if is_dark else "#fb923c"};
         padding: 4px 10px;
         border-radius: 12px;
         font-weight: 600;
-    }
-    .badge-medium {
-        background-color: #fef9c3;
-        color: #854d0e;
+    }}
+    .badge-medium {{
+        background-color: {"rgba(234, 179, 8, 0.25)" if is_dark else "#fef9c3"};
+        color: {"#fde047" if is_dark else "#854d0e"};
+        border: 1px solid {"#eab308" if is_dark else "#facc15"};
         padding: 4px 10px;
         border-radius: 12px;
         font-weight: 600;
-    }
-    .badge-low {
-        background-color: #dcfce7;
-        color: #166534;
+    }}
+    .badge-low {{
+        background-color: {"rgba(22, 163, 74, 0.25)" if is_dark else "#dcfce7"};
+        color: {"#86efac" if is_dark else "#166534"};
+        border: 1px solid {"#22c55e" if is_dark else "#4ade80"};
         padding: 4px 10px;
         border-radius: 12px;
         font-weight: 600;
-    }
-    .disclaimer {
+    }}
+    .disclaimer {{
         font-size: 12px;
-        color: #64748b;
-        border-top: 1px solid #cbd5e1;
+        color: {muted_text};
+        border-top: 1px solid {disclaimer_border};
         padding-top: 12px;
         margin-top: 30px;
-    }
+    }}
 </style>
 """, unsafe_allow_html=True)
 
@@ -88,17 +132,6 @@ def post_api(endpoint, payload):
     except Exception as e:
         st.error(f"Action failed: {e}")
         return None
-
-# Navigation state
-if "page" not in st.session_state:
-    st.session_state.page = "Overview"
-
-st.sidebar.markdown("### 🏛️ MPLADS Risk Intelligence")
-st.sidebar.caption("SIH PS-26102 | Decision-Support System")
-
-pages = ["Overview", "Risk Monitor", "Project Investigation", "Geo Analysis", "ML Insights"]
-current_page = st.sidebar.radio("Navigation", pages, index=pages.index(st.session_state.page) if st.session_state.page in pages else 0)
-st.session_state.page = current_page
 
 # -------------------------------------------------------------
 # SCREEN 1: OVERVIEW
@@ -133,6 +166,7 @@ if st.session_state.page == "Overview":
                 color_discrete_map={"Critical": "#b91c1c", "High": "#ea580c", "Medium": "#eab308", "Low": "#16a34a"},
                 hole=0.4
             )
+            fig_pie.update_layout(template=plotly_template, paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
             st.plotly_chart(fig_pie, width='stretch')
             
         with col_bar:
@@ -141,7 +175,8 @@ if st.session_state.page == "Overview":
                 "Type": ["Sanctioned", "Spent"],
                 "Amount (₹ Cr)": [kpis['total_sanctioned']/1e7, kpis['total_spent']/1e7]
             })
-            fig_bar = px.bar(funds_df, x="Type", y="Amount (₹ Cr)", color="Type", color_discrete_sequence=["#2563eb", "#0d9488"])
+            fig_bar = px.bar(funds_df, x="Type", y="Amount (₹ Cr)", color="Type", color_discrete_sequence=["#3b82f6", "#0d9488"])
+            fig_bar.update_layout(template=plotly_template, paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
             st.plotly_chart(fig_bar, width='stretch')
             
         st.info("💡 **Auditor Workflow:** Go to **Risk Monitor** to inspect ranked candidate projects, or click **Project Investigation** to view evidence dossiers.")
@@ -254,14 +289,13 @@ elif st.session_state.page == "Project Investigation":
             st.markdown(f"**Hon'ble MP:** {p.get('mp_name')} | **Constituency:** {p.get('constituency')} | **Location:** {p.get('district')}, {p.get('state')}")
             st.markdown(f"**Implementing Agency:** {p.get('implementing_agency')}")
         with c_meta2:
-            # 5-Second Rule: Dominant Alert Box
             score = p.get('risk_score', 0)
             cat = p.get('risk_category', 'Low')
             color_class = "badge-critical" if cat == "Critical" else "badge-high" if cat == "High" else "badge-medium" if cat == "Medium" else "badge-low"
             st.markdown(f"""
             <div class='metric-card' style='text-align: center;'>
-                <div style='font-size: 14px; color: #64748b;'>Composite Risk Score</div>
-                <div style='font-size: 42px; font-weight: 800; color: #1e293b;'>{score}<span style='font-size: 20px; color:#94a3b8;'>/100</span></div>
+                <div class='card-label'>Composite Risk Score</div>
+                <div class='card-value'>{score}<span style='font-size: 20px; color:{muted_text};'>/100</span></div>
                 <span class='{color_class}'>{cat.upper()} RISK</span>
             </div>
             """, unsafe_allow_html=True)
@@ -343,7 +377,7 @@ elif st.session_state.page == "Project Investigation":
                     st.rerun()
 
         # Provenance
-        with st.expander("🔎 Audit Provenance & Source Traceability (Part 28)"):
+        with st.expander("🔎 Audit Provenance & Source Traceability"):
             prov = p.get("provenance", {})
             st.json({
                 "work_id": p.get("project_id"),
@@ -353,7 +387,7 @@ elif st.session_state.page == "Project Investigation":
                 "active_features_evaluated": prov.get("features_used")
             })
             
-        # Investigation Notes Workflow (Part 14)
+        # Investigation Notes Workflow
         st.markdown("---")
         st.markdown("#### 📝 Auditor Investigation Workflow & Case Notes")
         
@@ -394,6 +428,7 @@ elif st.session_state.page == "Geo Analysis":
                 color="High_Plus_Critical",
                 color_continuous_scale="Reds"
             )
+            fig_geo_bar.update_layout(template=plotly_template, paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
             st.plotly_chart(fig_geo_bar, width='stretch')
             
         with col_m2:
@@ -445,8 +480,9 @@ elif st.session_state.page == "ML Insights":
             size="ml_risk_score",
             hover_data=["project_id", "mp_name", "work_name", "risk_score"],
             labels={"cost_overrun_ratio": "Cost Overrun Ratio", "delay_days": "Delay in Days"},
-            color_discrete_map={"Critical": "#b91c1c", "High": "#ea580c", "Medium": "#eab308", "Low": "#16a34a"}
+            color_discrete_map={"Critical": "#ef4444", "High": "#f97316", "Medium": "#eab308", "Low": "#22c55e"}
         )
+        fig_scatter.update_layout(template=plotly_template, paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
         st.plotly_chart(fig_scatter, width='stretch')
     else:
         st.warning("Unable to load ML insights data.")
