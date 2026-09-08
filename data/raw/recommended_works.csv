@@ -1,0 +1,1002 @@
+unique_work_number,mp_name,state,constituency,work_name,work_category,recommended_amount,date_recommended,implementing_agency
+W-1000,MP_19,Uttar Pradesh,Constituency_7,Construction of Education at location 459,Education,7007317.92,2023-03-29,PWD
+W-1001,MP_25,Maharashtra,Constituency_12,Construction of Roads at location 475,Roads,8297288.95,2023-02-28,PWD
+W-1002,MP_37,West Bengal,Constituency_3,Construction of Education at location 647,Education,9284735.41,2023-01-21,PWD
+W-1003,MP_20,Bihar,Constituency_2,Construction of Health at location 367,Health,1170576.16,2023-09-21,PWD
+W-1004,MP_36,Bihar,Constituency_10,Construction of Health at location 702,Health,16968410.05,2023-10-23,Gram Panchayat
+W-1005,MP_9,Maharashtra,Constituency_7,Construction of Roads at location 648,Roads,16401497.85,2023-03-04,Gram Panchayat
+W-1006,MP_48,Uttar Pradesh,Constituency_1,Construction of Sanitation at location 99,Sanitation,12932370.69,2023-06-21,PWD
+W-1007,MP_15,West Bengal,Constituency_15,Construction of Drinking Water at location 554,Drinking Water,1112869.12,2023-06-28,Gram Panchayat
+W-1008,MP_22,Uttar Pradesh,Constituency_19,Construction of Health at location 578,Health,16258347.4,2023-06-19,PWD
+W-1009,MP_33,Bihar,Constituency_7,Construction of Roads at location 377,Roads,8828601.88,2023-10-10,Gram Panchayat
+W-1010,MP_49,West Bengal,Constituency_9,Construction of Roads at location 442,Roads,5314083.23,2023-02-21,PWD
+W-1011,MP_19,Kerala,Constituency_1,Construction of Drinking Water at location 53,Drinking Water,9231771.71,2023-06-21,Zila Parishad
+W-1012,MP_6,West Bengal,Constituency_9,Construction of Sanitation at location 771,Sanitation,6856198.65,2023-05-28,Municipal Corporation
+W-1013,MP_18,Maharashtra,Constituency_7,Construction of Roads at location 779,Roads,11058235.49,2023-05-31,Gram Panchayat
+W-1014,MP_32,Uttar Pradesh,Constituency_5,Construction of Education at location 9,Education,7309586.7,2023-08-21,Municipal Corporation
+W-1015,MP_25,Uttar Pradesh,Constituency_16,Construction of Education at location 153,Education,6036459.01,2023-12-15,Zila Parishad
+W-1016,MP_7,Uttar Pradesh,Constituency_8,Construction of Education at location 401,Education,11582017.77,2023-05-08,PWD
+W-1017,MP_27,Kerala,Constituency_8,Construction of Education at location 226,Education,10301423.32,2023-10-04,Municipal Corporation
+W-1018,MP_28,Maharashtra,Constituency_12,Construction of Sanitation at location 46,Sanitation,7718094.65,2023-01-06,PWD
+W-1019,MP_3,West Bengal,Constituency_1,Construction of Drinking Water at location 793,Drinking Water,16962156.24,2023-08-11,Municipal Corporation
+W-1020,MP_33,Bihar,Constituency_8,Construction of Roads at location 811,Roads,7510077.45,2023-09-03,Municipal Corporation
+W-1021,MP_46,Uttar Pradesh,Constituency_8,Construction of Health at location 883,Health,7823867.58,2023-05-23,Municipal Corporation
+W-1022,MP_42,Kerala,Constituency_17,Construction of Education at location 444,Education,10683743.57,2023-04-11,Zila Parishad
+W-1023,MP_16,West Bengal,Constituency_8,Construction of Sanitation at location 370,Sanitation,14434604.53,2023-05-04,Zila Parishad
+W-1024,MP_12,Bihar,Constituency_9,Construction of Sanitation at location 641,Sanitation,18346667.69,2023-02-27,Municipal Corporation
+W-1025,MP_12,Kerala,Constituency_3,Construction of Drinking Water at location 656,Drinking Water,780673.03,2023-03-27,Trust
+W-1026,MP_33,Kerala,Constituency_4,Construction of Sanitation at location 23,Sanitation,12509076.91,2023-09-07,PWD
+W-1027,MP_24,Kerala,Constituency_16,Construction of Drinking Water at location 497,Drinking Water,18834489.71,2023-06-09,Gram Panchayat
+W-1028,MP_43,Maharashtra,Constituency_10,Construction of Health at location 285,Health,2465171.03,2023-01-12,Municipal Corporation
+W-1029,MP_41,Kerala,Constituency_19,Construction of Health at location 826,Health,12764385.51,2023-04-24,Gram Panchayat
+W-1030,MP_36,Maharashtra,Constituency_16,Construction of Drinking Water at location 999,Drinking Water,7145669.03,2023-04-06,Gram Panchayat
+W-1031,MP_25,Maharashtra,Constituency_16,Construction of Sanitation at location 699,Sanitation,8089432.74,2023-01-19,Gram Panchayat
+W-1032,MP_16,Uttar Pradesh,Constituency_15,Construction of Sanitation at location 69,Sanitation,12247598.06,2023-04-09,Gram Panchayat
+W-1033,MP_23,Bihar,Constituency_3,Construction of Sanitation at location 235,Sanitation,2782806.82,2023-11-27,Gram Panchayat
+W-1034,MP_29,Bihar,Constituency_5,Construction of Sanitation at location 422,Sanitation,11835455.64,2023-12-05,Zila Parishad
+W-1035,MP_27,West Bengal,Constituency_7,Construction of Drinking Water at location 858,Drinking Water,2668350.9,2023-01-19,Zila Parishad
+W-1036,MP_3,Maharashtra,Constituency_1,Construction of Sanitation at location 348,Sanitation,8304346.41,2023-07-09,Gram Panchayat
+W-1037,MP_37,Kerala,Constituency_11,Construction of Health at location 227,Health,19401399.44,2023-05-27,Municipal Corporation
+W-1038,MP_12,West Bengal,Constituency_6,Construction of Health at location 373,Health,3808758.13,2023-01-08,Gram Panchayat
+W-1039,MP_9,West Bengal,Constituency_17,Construction of Roads at location 724,Roads,5783674.03,2023-08-08,Gram Panchayat
+W-1040,MP_45,Bihar,Constituency_18,Construction of Sanitation at location 119,Sanitation,15663244.53,2023-10-16,Municipal Corporation
+W-1041,MP_1,Bihar,Constituency_3,Construction of Sanitation at location 823,Sanitation,13988430.74,2023-01-06,PWD
+W-1042,MP_1,Kerala,Constituency_14,Construction of Education at location 685,Education,4540939.16,2023-07-24,PWD
+W-1043,MP_1,West Bengal,Constituency_12,Construction of Health at location 389,Health,15940447.87,2023-08-10,Municipal Corporation
+W-1044,MP_34,Uttar Pradesh,Constituency_6,Construction of Drinking Water at location 798,Drinking Water,9030760.98,2023-12-01,Zila Parishad
+W-1045,MP_5,Bihar,Constituency_17,Construction of Sanitation at location 900,Sanitation,18568458.69,2023-05-18,PWD
+W-1046,MP_23,West Bengal,Constituency_15,Construction of Education at location 374,Education,4011311.81,2023-01-08,Gram Panchayat
+W-1047,MP_28,Kerala,Constituency_18,Construction of Drinking Water at location 829,Drinking Water,2229699.41,2023-01-22,Municipal Corporation
+W-1048,MP_30,Maharashtra,Constituency_15,Construction of Education at location 831,Education,1691020.22,2023-02-17,Municipal Corporation
+W-1049,MP_24,Bihar,Constituency_14,Construction of Drinking Water at location 365,Drinking Water,1215322.46,2023-06-03,Municipal Corporation
+W-1050,MP_15,Bihar,Constituency_3,Construction of Roads at location 631,Roads,891388.36,2023-01-28,Gram Panchayat
+W-1051,MP_36,Maharashtra,Constituency_15,Construction of Drinking Water at location 623,Drinking Water,11937440.98,2023-09-21,Municipal Corporation
+W-1052,MP_22,Kerala,Constituency_1,Construction of Sanitation at location 710,Sanitation,5296175.7,2023-03-11,Municipal Corporation
+W-1053,MP_37,West Bengal,Constituency_8,Construction of Health at location 920,Health,17983900.13,2023-08-11,PWD
+W-1054,MP_45,Bihar,Constituency_19,Construction of Health at location 645,Health,19375884.3,2023-11-22,Gram Panchayat
+W-1055,MP_43,Kerala,Constituency_13,Construction of Education at location 673,Education,9358225.46,2023-06-27,Municipal Corporation
+W-1056,MP_35,Maharashtra,Constituency_6,Construction of Roads at location 581,Roads,15046503.25,2023-11-14,Gram Panchayat
+W-1057,MP_41,Uttar Pradesh,Constituency_11,Construction of Sanitation at location 270,Sanitation,3691290.89,2023-11-12,Gram Panchayat
+W-1058,MP_23,West Bengal,Constituency_1,Construction of Roads at location 665,Roads,18041704.18,2023-05-25,Municipal Corporation
+W-1059,MP_8,West Bengal,Constituency_19,Construction of Drinking Water at location 448,Drinking Water,17633267.75,2023-01-15,Municipal Corporation
+W-1060,MP_10,Uttar Pradesh,Constituency_2,Construction of Sanitation at location 635,Sanitation,7170594.1,2023-11-26,Zila Parishad
+W-1061,MP_45,Kerala,Constituency_12,Construction of Drinking Water at location 411,Drinking Water,12169632.67,2023-04-05,PWD
+W-1062,MP_25,Bihar,Constituency_18,Construction of Roads at location 623,Roads,17506416.22,2023-04-14,PWD
+W-1063,MP_29,Bihar,Constituency_19,Construction of Roads at location 726,Roads,9291367.74,2023-09-24,Gram Panchayat
+W-1064,MP_21,West Bengal,Constituency_15,Construction of Roads at location 309,Roads,4508806.26,2023-05-17,PWD
+W-1065,MP_43,West Bengal,Constituency_17,Construction of Education at location 876,Education,3246711.9,2023-09-08,Municipal Corporation
+W-1066,MP_7,Uttar Pradesh,Constituency_17,Construction of Roads at location 84,Roads,3398923.19,2023-12-27,PWD
+W-1067,MP_29,West Bengal,Constituency_13,Construction of Education at location 18,Education,15622788.53,2023-09-14,Municipal Corporation
+W-1068,MP_3,Kerala,Constituency_7,Construction of Drinking Water at location 458,Drinking Water,8470316.34,2023-06-11,Municipal Corporation
+W-1069,MP_24,Maharashtra,Constituency_3,Construction of Education at location 767,Education,2530117.35,2023-11-24,PWD
+W-1070,MP_21,West Bengal,Constituency_5,Construction of Drinking Water at location 7,Drinking Water,2167416.35,2023-11-26,PWD
+W-1071,MP_23,Uttar Pradesh,Constituency_3,Construction of Health at location 532,Health,7231246.83,2023-09-18,PWD
+W-1072,MP_23,Maharashtra,Constituency_14,Construction of Roads at location 882,Roads,10492924.29,2023-04-25,PWD
+W-1073,MP_11,Kerala,Constituency_5,Construction of Drinking Water at location 128,Drinking Water,16393561.35,2023-12-07,Trust
+W-1074,MP_27,West Bengal,Constituency_6,Construction of Drinking Water at location 268,Drinking Water,13468215.15,2023-08-25,Zila Parishad
+W-1075,MP_36,West Bengal,Constituency_19,Construction of Education at location 794,Education,8091264.47,2023-01-29,PWD
+W-1076,MP_36,Kerala,Constituency_1,Construction of Health at location 467,Health,16909828.38,2023-08-15,Gram Panchayat
+W-1077,MP_35,Bihar,Constituency_7,Construction of Education at location 498,Education,545618.12,2023-08-17,Gram Panchayat
+W-1078,MP_47,Bihar,Constituency_17,Construction of Health at location 318,Health,17522443.8,2023-03-21,PWD
+W-1079,MP_15,Bihar,Constituency_12,Construction of Education at location 922,Education,13563390.56,2023-12-31,Municipal Corporation
+W-1080,MP_15,Bihar,Constituency_14,Construction of Sanitation at location 519,Sanitation,4255681.04,2023-05-17,Municipal Corporation
+W-1081,MP_44,Maharashtra,Constituency_3,Construction of Health at location 813,Health,17757467.95,2023-04-08,Zila Parishad
+W-1082,MP_18,Kerala,Constituency_13,Construction of Roads at location 16,Roads,5042709.76,2023-04-18,Municipal Corporation
+W-1083,MP_39,Kerala,Constituency_3,Construction of Health at location 29,Health,9857574.6,2023-11-14,Municipal Corporation
+W-1084,MP_14,Maharashtra,Constituency_13,Construction of Drinking Water at location 324,Drinking Water,5055351.15,2023-05-26,Municipal Corporation
+W-1085,MP_12,Maharashtra,Constituency_4,Construction of Education at location 805,Education,5550161.71,2023-03-02,PWD
+W-1086,MP_8,Maharashtra,Constituency_4,Construction of Health at location 861,Health,4996099.32,2023-03-04,Municipal Corporation
+W-1087,MP_23,Kerala,Constituency_15,Construction of Roads at location 521,Roads,12146844.41,2023-04-09,Municipal Corporation
+W-1088,MP_25,Kerala,Constituency_15,Construction of Roads at location 580,Roads,2283993.33,2023-12-23,Gram Panchayat
+W-1089,MP_40,Bihar,Constituency_15,Construction of Roads at location 261,Roads,8464837.65,2023-08-14,Zila Parishad
+W-1090,MP_40,Kerala,Constituency_18,Construction of Sanitation at location 224,Sanitation,12051951.8,2023-11-14,PWD
+W-1091,MP_41,Uttar Pradesh,Constituency_16,Construction of Sanitation at location 363,Sanitation,14100693.5,2023-02-14,PWD
+W-1092,MP_31,Bihar,Constituency_7,Construction of Drinking Water at location 356,Drinking Water,16726616.47,2023-09-15,Gram Panchayat
+W-1093,MP_35,Bihar,Constituency_13,Construction of Education at location 414,Education,8928695.29,2023-03-15,Zila Parishad
+W-1094,MP_22,Uttar Pradesh,Constituency_12,Construction of Roads at location 906,Roads,1629448.98,2023-07-12,Zila Parishad
+W-1095,MP_12,Uttar Pradesh,Constituency_3,Construction of Sanitation at location 907,Sanitation,6810399.27,2023-02-02,Gram Panchayat
+W-1096,MP_15,Kerala,Constituency_7,Construction of Sanitation at location 157,Sanitation,4805007.45,2023-03-16,Municipal Corporation
+W-1097,MP_16,Maharashtra,Constituency_15,Construction of Sanitation at location 955,Sanitation,8253090.76,2023-03-25,Gram Panchayat
+W-1098,MP_18,Maharashtra,Constituency_12,Construction of Health at location 208,Health,19379771.84,2023-01-27,PWD
+W-1099,MP_20,West Bengal,Constituency_3,Construction of Roads at location 734,Roads,12167381.67,2023-07-25,PWD
+W-1100,MP_11,Bihar,Constituency_8,Construction of Sanitation at location 721,Sanitation,9559672.63,2023-03-13,Municipal Corporation
+W-1101,MP_8,Maharashtra,Constituency_9,Construction of Education at location 214,Education,2546138.48,2023-06-28,Gram Panchayat
+W-1102,MP_33,Bihar,Constituency_2,Construction of Roads at location 745,Roads,2032280.69,2023-03-18,PWD
+W-1103,MP_3,Maharashtra,Constituency_11,Construction of Education at location 902,Education,18756138.8,2023-01-09,Zila Parishad
+W-1104,MP_7,Bihar,Constituency_15,Construction of Education at location 84,Education,11178051.33,2023-07-27,PWD
+W-1105,MP_23,Bihar,Constituency_12,Construction of Health at location 909,Health,17499779.55,2023-01-25,Municipal Corporation
+W-1106,MP_19,Bihar,Constituency_18,Construction of Sanitation at location 352,Sanitation,19508466.66,2023-11-08,Gram Panchayat
+W-1107,MP_4,Kerala,Constituency_5,Construction of Health at location 364,Health,10344475.2,2023-01-20,Zila Parishad
+W-1108,MP_42,Uttar Pradesh,Constituency_7,Construction of Education at location 371,Education,18291085.24,2023-07-05,PWD
+W-1109,MP_5,Bihar,Constituency_5,Construction of Sanitation at location 553,Sanitation,2399171.15,2023-11-14,Gram Panchayat
+W-1110,MP_37,Uttar Pradesh,Constituency_3,Construction of Sanitation at location 449,Sanitation,19411510.38,2023-06-13,PWD
+W-1111,MP_5,Uttar Pradesh,Constituency_1,Construction of Health at location 776,Health,18997375.42,2023-06-20,Gram Panchayat
+W-1112,MP_28,Maharashtra,Constituency_12,Construction of Health at location 251,Health,1613193.69,2023-11-30,PWD
+W-1113,MP_49,West Bengal,Constituency_1,Construction of Education at location 206,Education,3392692.42,2023-01-12,Gram Panchayat
+W-1114,MP_38,West Bengal,Constituency_12,Construction of Health at location 151,Health,6504633.86,2023-05-06,Gram Panchayat
+W-1115,MP_34,Kerala,Constituency_15,Construction of Roads at location 311,Roads,18919977.28,2023-04-29,Municipal Corporation
+W-1116,MP_19,Uttar Pradesh,Constituency_1,Construction of Sanitation at location 304,Sanitation,11755112.12,2023-03-10,Gram Panchayat
+W-1117,MP_4,Kerala,Constituency_11,Construction of Drinking Water at location 381,Drinking Water,6877146.65,2023-04-12,Municipal Corporation
+W-1118,MP_1,Maharashtra,Constituency_15,Construction of Health at location 711,Health,14061610.53,2023-05-23,Trust
+W-1119,MP_46,West Bengal,Constituency_8,Construction of Drinking Water at location 962,Drinking Water,7905822.71,2023-09-22,Zila Parishad
+W-1120,MP_43,Kerala,Constituency_15,Construction of Drinking Water at location 364,Drinking Water,4317670.72,2023-01-21,Municipal Corporation
+W-1121,MP_4,West Bengal,Constituency_15,Construction of Sanitation at location 141,Sanitation,2477706.15,2023-10-02,Municipal Corporation
+W-1122,MP_2,Bihar,Constituency_18,Construction of Roads at location 589,Roads,16551893.3,2023-05-12,Municipal Corporation
+W-1123,MP_20,Kerala,Constituency_4,Construction of Health at location 886,Health,16407098.55,2023-09-20,Gram Panchayat
+W-1124,MP_10,Bihar,Constituency_15,Construction of Drinking Water at location 633,Drinking Water,18164876.54,2023-05-05,Zila Parishad
+W-1125,MP_36,Maharashtra,Constituency_19,Construction of Drinking Water at location 993,Drinking Water,3483184.12,2023-08-30,Gram Panchayat
+W-1126,MP_10,Uttar Pradesh,Constituency_11,Construction of Roads at location 590,Roads,12092288.54,2023-03-18,PWD
+W-1127,MP_19,Maharashtra,Constituency_14,Construction of Health at location 218,Health,11778544.88,2023-04-12,Gram Panchayat
+W-1128,MP_5,Uttar Pradesh,Constituency_2,Construction of Health at location 539,Health,11030232.33,2023-06-09,PWD
+W-1129,MP_35,Bihar,Constituency_17,Construction of Drinking Water at location 471,Drinking Water,7004606.21,2023-10-13,Municipal Corporation
+W-1130,MP_12,Bihar,Constituency_16,Construction of Roads at location 400,Roads,16011274.24,2023-05-16,Zila Parishad
+W-1131,MP_22,Kerala,Constituency_6,Construction of Drinking Water at location 456,Drinking Water,17361380.74,2023-08-19,Municipal Corporation
+W-1132,MP_27,Maharashtra,Constituency_2,Construction of Roads at location 969,Roads,16593079.11,2023-11-27,PWD
+W-1133,MP_12,Uttar Pradesh,Constituency_10,Construction of Roads at location 42,Roads,16440269.32,2023-06-15,Zila Parishad
+W-1134,MP_2,Maharashtra,Constituency_3,Construction of Education at location 130,Education,19524398.92,2023-07-25,PWD
+W-1135,MP_35,Kerala,Constituency_3,Construction of Roads at location 902,Roads,13492984.27,2023-01-25,Gram Panchayat
+W-1136,MP_29,Uttar Pradesh,Constituency_18,Construction of Health at location 447,Health,4712744.56,2023-06-09,PWD
+W-1137,MP_9,West Bengal,Constituency_15,Construction of Education at location 905,Education,1955281.38,2023-04-09,Zila Parishad
+W-1138,MP_29,Maharashtra,Constituency_7,Construction of Health at location 420,Health,17036309.76,2023-05-04,Municipal Corporation
+W-1139,MP_2,Kerala,Constituency_5,Construction of Education at location 405,Education,15911585.85,2023-09-03,PWD
+W-1140,MP_45,Kerala,Constituency_5,Construction of Health at location 465,Health,13098757.41,2023-07-07,Zila Parishad
+W-1141,MP_42,Maharashtra,Constituency_6,Construction of Sanitation at location 554,Sanitation,19129026.39,2023-04-23,Gram Panchayat
+W-1142,MP_34,Bihar,Constituency_11,Construction of Education at location 726,Education,4925811.54,2023-07-19,Zila Parishad
+W-1143,MP_8,Kerala,Constituency_13,Construction of Roads at location 87,Roads,13351192.92,2023-02-12,PWD
+W-1144,MP_19,Uttar Pradesh,Constituency_15,Construction of Education at location 540,Education,3895132.04,2023-02-20,Zila Parishad
+W-1145,MP_40,Uttar Pradesh,Constituency_8,Construction of Roads at location 329,Roads,5480562.95,2023-02-18,PWD
+W-1146,MP_13,Uttar Pradesh,Constituency_2,Construction of Sanitation at location 160,Sanitation,10654978.77,2023-12-17,Gram Panchayat
+W-1147,MP_22,Uttar Pradesh,Constituency_18,Construction of Health at location 414,Health,13681654.37,2023-08-01,Municipal Corporation
+W-1148,MP_21,Maharashtra,Constituency_13,Construction of Health at location 736,Health,6741166.73,2023-07-22,Gram Panchayat
+W-1149,MP_13,Bihar,Constituency_12,Construction of Education at location 421,Education,14996763.83,2023-07-08,Municipal Corporation
+W-1150,MP_16,Kerala,Constituency_10,Construction of Roads at location 876,Roads,17688290.2,2023-09-18,PWD
+W-1151,MP_13,Bihar,Constituency_16,Construction of Roads at location 500,Roads,17036931.93,2023-03-27,Zila Parishad
+W-1152,MP_47,West Bengal,Constituency_4,Construction of Sanitation at location 132,Sanitation,15717795.63,2023-01-20,Trust
+W-1153,MP_20,Uttar Pradesh,Constituency_13,Construction of Roads at location 119,Roads,9878971.35,2023-03-12,Zila Parishad
+W-1154,MP_31,Bihar,Constituency_19,Construction of Health at location 60,Health,12911567.7,2023-11-01,Zila Parishad
+W-1155,MP_33,Kerala,Constituency_17,Construction of Drinking Water at location 831,Drinking Water,1719573.42,2023-04-26,PWD
+W-1156,MP_14,West Bengal,Constituency_15,Construction of Health at location 75,Health,11651509.29,2023-12-25,Gram Panchayat
+W-1157,MP_45,Kerala,Constituency_17,Construction of Education at location 757,Education,8878307.85,2023-02-04,Zila Parishad
+W-1158,MP_24,Bihar,Constituency_1,Construction of Roads at location 612,Roads,1616964.9,2023-11-22,PWD
+W-1159,MP_28,Uttar Pradesh,Constituency_3,Construction of Drinking Water at location 848,Drinking Water,8863294.14,2023-07-01,Municipal Corporation
+W-1160,MP_33,Bihar,Constituency_4,Construction of Education at location 519,Education,18046750.24,2023-03-11,Zila Parishad
+W-1161,MP_37,Kerala,Constituency_14,Construction of Drinking Water at location 21,Drinking Water,3326818.91,2023-03-23,Zila Parishad
+W-1162,MP_42,Maharashtra,Constituency_4,Construction of Roads at location 327,Roads,11443844.37,2023-03-27,Gram Panchayat
+W-1163,MP_6,Maharashtra,Constituency_2,Construction of Drinking Water at location 577,Drinking Water,3732603.53,2023-11-26,Municipal Corporation
+W-1164,MP_40,Uttar Pradesh,Constituency_15,Construction of Health at location 571,Health,19572205.45,2023-05-18,PWD
+W-1165,MP_40,Uttar Pradesh,Constituency_15,Construction of Sanitation at location 79,Sanitation,3651586.32,2023-08-02,PWD
+W-1166,MP_33,West Bengal,Constituency_12,Construction of Drinking Water at location 227,Drinking Water,7752687.02,2023-09-19,Zila Parishad
+W-1167,MP_37,Uttar Pradesh,Constituency_4,Construction of Sanitation at location 72,Sanitation,13032155.82,2023-02-24,PWD
+W-1168,MP_43,West Bengal,Constituency_18,Construction of Roads at location 220,Roads,1150980.23,2023-05-09,PWD
+W-1169,MP_11,West Bengal,Constituency_12,Construction of Roads at location 575,Roads,19690151.22,2023-04-19,Municipal Corporation
+W-1170,MP_4,Maharashtra,Constituency_1,Construction of Roads at location 916,Roads,2048428.4,2023-06-03,Municipal Corporation
+W-1171,MP_44,West Bengal,Constituency_15,Construction of Health at location 457,Health,5459278.63,2023-08-01,PWD
+W-1172,MP_41,West Bengal,Constituency_2,Construction of Education at location 943,Education,15102113.57,2023-12-04,Municipal Corporation
+W-1173,MP_20,West Bengal,Constituency_1,Construction of Sanitation at location 272,Sanitation,6640931.98,2023-03-07,Gram Panchayat
+W-1174,MP_4,Maharashtra,Constituency_3,Construction of Drinking Water at location 921,Drinking Water,6453558.2,2023-10-30,Gram Panchayat
+W-1175,MP_33,Uttar Pradesh,Constituency_19,Construction of Education at location 219,Education,8100308.05,2023-04-01,Municipal Corporation
+W-1176,MP_25,West Bengal,Constituency_17,Construction of Drinking Water at location 614,Drinking Water,2985352.21,2023-08-03,Zila Parishad
+W-1177,MP_47,Maharashtra,Constituency_19,Construction of Health at location 398,Health,14221876.56,2023-04-30,Gram Panchayat
+W-1178,MP_30,West Bengal,Constituency_14,Construction of Roads at location 708,Roads,17606169.41,2023-03-09,Zila Parishad
+W-1179,MP_46,Maharashtra,Constituency_11,Construction of Drinking Water at location 469,Drinking Water,13347088.87,2023-09-12,Zila Parishad
+W-1180,MP_23,Maharashtra,Constituency_13,Construction of Health at location 438,Health,9556448.11,2023-03-17,Gram Panchayat
+W-1181,MP_4,Uttar Pradesh,Constituency_19,Construction of Health at location 540,Health,7997970.89,2023-09-17,Municipal Corporation
+W-1182,MP_12,Maharashtra,Constituency_17,Construction of Drinking Water at location 283,Drinking Water,5157704.88,2023-05-16,PWD
+W-1183,MP_13,Kerala,Constituency_17,Construction of Sanitation at location 998,Sanitation,649448.64,2023-02-18,Gram Panchayat
+W-1184,MP_9,Bihar,Constituency_9,Construction of Sanitation at location 817,Sanitation,16455030.04,2023-02-10,PWD
+W-1185,MP_44,Kerala,Constituency_8,Construction of Education at location 332,Education,18198414.55,2023-03-13,PWD
+W-1186,MP_47,West Bengal,Constituency_13,Construction of Roads at location 687,Roads,13888503.31,2023-12-06,Municipal Corporation
+W-1187,MP_12,Uttar Pradesh,Constituency_1,Construction of Drinking Water at location 755,Drinking Water,15122089.91,2023-05-23,Trust
+W-1188,MP_39,Bihar,Constituency_9,Construction of Health at location 771,Health,12938603.31,2023-03-25,PWD
+W-1189,MP_15,Maharashtra,Constituency_13,Construction of Drinking Water at location 357,Drinking Water,16256441.28,2023-08-01,Gram Panchayat
+W-1190,MP_45,Bihar,Constituency_3,Construction of Roads at location 949,Roads,12010568.09,2023-05-02,Municipal Corporation
+W-1191,MP_33,Bihar,Constituency_4,Construction of Drinking Water at location 440,Drinking Water,8895322.1,2023-06-05,Gram Panchayat
+W-1192,MP_47,Bihar,Constituency_11,Construction of Education at location 126,Education,2474568.33,2023-11-01,PWD
+W-1193,MP_5,Uttar Pradesh,Constituency_13,Construction of Education at location 579,Education,3147886.42,2023-03-16,Zila Parishad
+W-1194,MP_15,West Bengal,Constituency_6,Construction of Sanitation at location 542,Sanitation,2764709.72,2023-05-02,Gram Panchayat
+W-1195,MP_45,Kerala,Constituency_17,Construction of Health at location 69,Health,9818629.74,2023-06-14,PWD
+W-1196,MP_21,Kerala,Constituency_17,Construction of Health at location 533,Health,16698425.96,2023-10-27,Gram Panchayat
+W-1197,MP_17,West Bengal,Constituency_19,Construction of Education at location 764,Education,12656416.18,2023-12-04,Gram Panchayat
+W-1198,MP_27,Uttar Pradesh,Constituency_19,Construction of Sanitation at location 866,Sanitation,7392484.44,2023-09-24,Zila Parishad
+W-1199,MP_19,Uttar Pradesh,Constituency_17,Construction of Drinking Water at location 304,Drinking Water,9926445.0,2023-04-18,Municipal Corporation
+W-1200,MP_17,Maharashtra,Constituency_18,Construction of Education at location 949,Education,8447892.07,2023-08-07,Gram Panchayat
+W-1201,MP_49,Kerala,Constituency_17,Construction of Roads at location 864,Roads,1717923.08,2023-11-24,Zila Parishad
+W-1202,MP_3,Kerala,Constituency_11,Construction of Drinking Water at location 810,Drinking Water,6338213.97,2023-11-16,Municipal Corporation
+W-1203,MP_7,Bihar,Constituency_8,Construction of Education at location 65,Education,16765819.64,2023-10-19,Zila Parishad
+W-1204,MP_2,Maharashtra,Constituency_3,Construction of Roads at location 802,Roads,8438576.54,2023-09-17,PWD
+W-1205,MP_19,Kerala,Constituency_13,Construction of Education at location 358,Education,13794098.56,2023-01-16,PWD
+W-1206,MP_31,Kerala,Constituency_15,Construction of Health at location 290,Health,8325467.47,2023-10-22,Gram Panchayat
+W-1207,MP_19,Kerala,Constituency_19,Construction of Roads at location 281,Roads,4162935.62,2023-08-02,PWD
+W-1208,MP_24,Bihar,Constituency_14,Construction of Health at location 205,Health,15619249.93,2023-02-28,Gram Panchayat
+W-1209,MP_32,Maharashtra,Constituency_18,Construction of Roads at location 343,Roads,16867100.6,2023-03-29,Zila Parishad
+W-1210,MP_43,West Bengal,Constituency_1,Construction of Education at location 137,Education,6610284.39,2023-06-11,Zila Parishad
+W-1211,MP_27,Bihar,Constituency_1,Construction of Roads at location 632,Roads,3755585.23,2023-06-24,Gram Panchayat
+W-1212,MP_19,Maharashtra,Constituency_19,Construction of Health at location 293,Health,2543757.27,2023-10-25,PWD
+W-1213,MP_41,West Bengal,Constituency_7,Construction of Sanitation at location 210,Sanitation,16532507.79,2023-08-17,Gram Panchayat
+W-1214,MP_24,Kerala,Constituency_9,Construction of Health at location 274,Health,6654733.2,2023-01-03,Zila Parishad
+W-1215,MP_44,Maharashtra,Constituency_10,Construction of Sanitation at location 586,Sanitation,5216833.23,2023-02-15,Municipal Corporation
+W-1216,MP_25,Uttar Pradesh,Constituency_11,Construction of Health at location 378,Health,8254127.8,2023-07-07,PWD
+W-1217,MP_37,Kerala,Constituency_2,Construction of Sanitation at location 665,Sanitation,14911017.88,2023-02-02,Gram Panchayat
+W-1218,MP_32,Uttar Pradesh,Constituency_9,Construction of Education at location 776,Education,12319858.02,2023-08-13,Gram Panchayat
+W-1219,MP_15,Bihar,Constituency_13,Construction of Health at location 471,Health,11853070.82,2023-08-06,Municipal Corporation
+W-1220,MP_7,Maharashtra,Constituency_12,Construction of Drinking Water at location 441,Drinking Water,17020291.56,2023-01-26,Zila Parishad
+W-1221,MP_47,Uttar Pradesh,Constituency_17,Construction of Health at location 102,Health,14637132.81,2023-08-04,Zila Parishad
+W-1222,MP_27,Maharashtra,Constituency_6,Construction of Drinking Water at location 15,Drinking Water,10261769.64,2023-08-12,PWD
+W-1223,MP_44,West Bengal,Constituency_8,Construction of Sanitation at location 235,Sanitation,16951168.45,2023-04-18,PWD
+W-1224,MP_26,Uttar Pradesh,Constituency_16,Construction of Roads at location 332,Roads,9449787.85,2023-05-19,Zila Parishad
+W-1225,MP_43,Kerala,Constituency_17,Construction of Education at location 245,Education,19557504.21,2023-12-02,Municipal Corporation
+W-1226,MP_20,West Bengal,Constituency_17,Construction of Drinking Water at location 854,Drinking Water,10228465.46,2023-04-03,Zila Parishad
+W-1227,MP_40,Bihar,Constituency_10,Construction of Drinking Water at location 567,Drinking Water,5449511.02,2023-04-01,Gram Panchayat
+W-1228,MP_1,West Bengal,Constituency_19,Construction of Roads at location 605,Roads,7748619.29,2023-11-23,PWD
+W-1229,MP_4,Uttar Pradesh,Constituency_18,Construction of Roads at location 114,Roads,4236062.44,2023-09-14,Gram Panchayat
+W-1230,MP_5,Kerala,Constituency_4,Construction of Education at location 824,Education,10575618.51,2023-05-29,Municipal Corporation
+W-1231,MP_4,Kerala,Constituency_14,Construction of Drinking Water at location 84,Drinking Water,4491262.13,2023-08-30,Gram Panchayat
+W-1232,MP_3,West Bengal,Constituency_1,Construction of Education at location 40,Education,14671609.87,2023-07-08,Gram Panchayat
+W-1233,MP_6,Kerala,Constituency_9,Construction of Sanitation at location 825,Sanitation,4410924.9,2023-05-18,PWD
+W-1234,MP_36,Uttar Pradesh,Constituency_19,Construction of Roads at location 965,Roads,12387804.73,2023-12-09,Municipal Corporation
+W-1235,MP_49,Kerala,Constituency_8,Construction of Education at location 799,Education,903091.69,2023-07-21,Zila Parishad
+W-1236,MP_38,Maharashtra,Constituency_5,Construction of Roads at location 833,Roads,10423365.83,2023-07-10,Municipal Corporation
+W-1237,MP_34,Bihar,Constituency_17,Construction of Education at location 681,Education,7234168.07,2023-03-14,Municipal Corporation
+W-1238,MP_26,Maharashtra,Constituency_3,Construction of Health at location 544,Health,14821656.68,2023-12-18,PWD
+W-1239,MP_6,Uttar Pradesh,Constituency_19,Construction of Roads at location 993,Roads,1507540.07,2023-06-17,Zila Parishad
+W-1240,MP_44,West Bengal,Constituency_4,Construction of Drinking Water at location 376,Drinking Water,13617708.39,2023-01-22,Municipal Corporation
+W-1241,MP_12,Uttar Pradesh,Constituency_17,Construction of Sanitation at location 331,Sanitation,8527281.48,2023-10-10,Gram Panchayat
+W-1242,MP_2,Maharashtra,Constituency_5,Construction of Health at location 289,Health,15804805.55,2023-05-21,Zila Parishad
+W-1243,MP_26,Bihar,Constituency_8,Construction of Sanitation at location 202,Sanitation,2510866.57,2023-01-17,Gram Panchayat
+W-1244,MP_34,West Bengal,Constituency_10,Construction of Roads at location 803,Roads,12798659.19,2023-07-27,Municipal Corporation
+W-1245,MP_19,Uttar Pradesh,Constituency_12,Construction of Health at location 483,Health,5714339.54,2023-11-18,Municipal Corporation
+W-1246,MP_36,Maharashtra,Constituency_9,Construction of Education at location 508,Education,17388864.86,2023-09-15,PWD
+W-1247,MP_34,Kerala,Constituency_4,Construction of Roads at location 284,Roads,11867058.11,2023-10-28,PWD
+W-1248,MP_35,Maharashtra,Constituency_18,Construction of Health at location 507,Health,18333698.95,2023-12-07,PWD
+W-1249,MP_41,Uttar Pradesh,Constituency_11,Construction of Drinking Water at location 946,Drinking Water,4478480.98,2023-07-31,Municipal Corporation
+W-1250,MP_11,Kerala,Constituency_8,Construction of Sanitation at location 946,Sanitation,12331268.63,2023-11-14,Municipal Corporation
+W-1251,MP_3,Kerala,Constituency_14,Construction of Drinking Water at location 870,Drinking Water,5440464.82,2023-11-17,Municipal Corporation
+W-1252,MP_9,Uttar Pradesh,Constituency_5,Construction of Drinking Water at location 568,Drinking Water,9359735.75,2023-07-06,Gram Panchayat
+W-1253,MP_13,Bihar,Constituency_11,Construction of Health at location 214,Health,8448840.73,2023-09-13,Municipal Corporation
+W-1254,MP_38,Bihar,Constituency_1,Construction of Sanitation at location 925,Sanitation,15837186.46,2023-05-13,Municipal Corporation
+W-1255,MP_27,Maharashtra,Constituency_12,Construction of Drinking Water at location 535,Drinking Water,7459276.52,2023-06-02,Zila Parishad
+W-1256,MP_39,Bihar,Constituency_10,Construction of Roads at location 881,Roads,18119389.65,2023-08-01,PWD
+W-1257,MP_12,Kerala,Constituency_17,Construction of Education at location 414,Education,758395.15,2023-11-09,Municipal Corporation
+W-1258,MP_21,Kerala,Constituency_8,Construction of Drinking Water at location 485,Drinking Water,15893927.79,2023-05-14,PWD
+W-1259,MP_34,Bihar,Constituency_4,Construction of Roads at location 234,Roads,6564548.65,2023-01-28,PWD
+W-1260,MP_33,West Bengal,Constituency_15,Construction of Roads at location 19,Roads,14080381.24,2023-07-14,PWD
+W-1261,MP_24,Kerala,Constituency_7,Construction of Drinking Water at location 17,Drinking Water,2728572.51,2023-03-12,PWD
+W-1262,MP_29,West Bengal,Constituency_15,Construction of Sanitation at location 416,Sanitation,5438811.48,2023-10-09,Zila Parishad
+W-1263,MP_41,Maharashtra,Constituency_16,Construction of Education at location 364,Education,15935384.95,2023-04-28,Trust
+W-1264,MP_48,Maharashtra,Constituency_18,Construction of Drinking Water at location 736,Drinking Water,17608333.84,2023-05-16,Gram Panchayat
+W-1265,MP_45,Bihar,Constituency_13,Construction of Health at location 960,Health,11401656.06,2023-08-09,Municipal Corporation
+W-1266,MP_31,Uttar Pradesh,Constituency_11,Construction of Education at location 96,Education,7894917.48,2023-12-13,Municipal Corporation
+W-1267,MP_45,Maharashtra,Constituency_16,Construction of Drinking Water at location 500,Drinking Water,785251.05,2023-07-28,PWD
+W-1268,MP_42,West Bengal,Constituency_4,Construction of Sanitation at location 757,Sanitation,3551295.96,2023-03-03,Municipal Corporation
+W-1269,MP_10,Kerala,Constituency_12,Construction of Health at location 395,Health,11379585.18,2023-07-26,Gram Panchayat
+W-1270,MP_3,Maharashtra,Constituency_6,Construction of Sanitation at location 129,Sanitation,16605395.29,2023-06-22,Municipal Corporation
+W-1271,MP_33,Uttar Pradesh,Constituency_12,Construction of Health at location 392,Health,9547807.56,2023-09-14,Zila Parishad
+W-1272,MP_40,Maharashtra,Constituency_14,Construction of Sanitation at location 455,Sanitation,13502052.24,2023-04-14,PWD
+W-1273,MP_43,West Bengal,Constituency_12,Construction of Sanitation at location 799,Sanitation,16229968.53,2023-04-01,Zila Parishad
+W-1274,MP_30,West Bengal,Constituency_11,Construction of Health at location 304,Health,806986.8,2023-10-18,Zila Parishad
+W-1275,MP_16,West Bengal,Constituency_3,Construction of Sanitation at location 853,Sanitation,11945261.88,2023-05-05,Municipal Corporation
+W-1276,MP_46,West Bengal,Constituency_11,Construction of Drinking Water at location 695,Drinking Water,10789710.59,2023-01-28,Zila Parishad
+W-1277,MP_23,West Bengal,Constituency_18,Construction of Education at location 277,Education,1560619.6,2023-05-13,Gram Panchayat
+W-1278,MP_40,Uttar Pradesh,Constituency_15,Construction of Health at location 406,Health,11804660.06,2023-08-02,Gram Panchayat
+W-1279,MP_3,West Bengal,Constituency_6,Construction of Health at location 184,Health,8336800.4,2023-03-31,Zila Parishad
+W-1280,MP_26,Uttar Pradesh,Constituency_8,Construction of Roads at location 640,Roads,17678973.61,2023-12-06,Municipal Corporation
+W-1281,MP_35,West Bengal,Constituency_9,Construction of Education at location 212,Education,17998634.38,2023-10-20,Zila Parishad
+W-1282,MP_42,Uttar Pradesh,Constituency_17,Construction of Sanitation at location 915,Sanitation,15893483.73,2023-01-11,Zila Parishad
+W-1283,MP_40,Uttar Pradesh,Constituency_5,Construction of Health at location 56,Health,4541823.09,2023-12-26,Gram Panchayat
+W-1284,MP_31,Bihar,Constituency_4,Construction of Drinking Water at location 960,Drinking Water,17360848.98,2023-06-15,Zila Parishad
+W-1285,MP_40,Kerala,Constituency_10,Construction of Education at location 940,Education,3897746.33,2023-04-22,Gram Panchayat
+W-1286,MP_18,Kerala,Constituency_16,Construction of Education at location 972,Education,6620572.19,2023-04-16,Trust
+W-1287,MP_16,Kerala,Constituency_13,Construction of Roads at location 447,Roads,9922026.83,2023-11-28,Municipal Corporation
+W-1288,MP_13,West Bengal,Constituency_8,Construction of Sanitation at location 849,Sanitation,10447893.42,2023-08-17,Zila Parishad
+W-1289,MP_28,Maharashtra,Constituency_6,Construction of Sanitation at location 734,Sanitation,4065336.71,2023-05-11,Zila Parishad
+W-1290,MP_49,West Bengal,Constituency_12,Construction of Education at location 799,Education,16020564.55,2023-12-15,Municipal Corporation
+W-1291,MP_20,Kerala,Constituency_17,Construction of Health at location 717,Health,3464947.06,2023-12-03,PWD
+W-1292,MP_49,West Bengal,Constituency_5,Construction of Health at location 473,Health,3512597.98,2023-07-08,Gram Panchayat
+W-1293,MP_17,Kerala,Constituency_16,Construction of Education at location 628,Education,18256811.49,2023-05-23,Gram Panchayat
+W-1294,MP_34,Uttar Pradesh,Constituency_11,Construction of Roads at location 800,Roads,9580809.56,2023-09-28,Gram Panchayat
+W-1295,MP_39,Bihar,Constituency_11,Construction of Education at location 863,Education,4610238.26,2023-09-30,Trust
+W-1296,MP_41,West Bengal,Constituency_8,Construction of Roads at location 227,Roads,6204070.3,2023-05-19,Municipal Corporation
+W-1297,MP_28,West Bengal,Constituency_6,Construction of Drinking Water at location 550,Drinking Water,12192737.58,2023-04-29,PWD
+W-1298,MP_19,Uttar Pradesh,Constituency_14,Construction of Drinking Water at location 252,Drinking Water,3273977.18,2023-12-21,Gram Panchayat
+W-1299,MP_44,Bihar,Constituency_6,Construction of Education at location 137,Education,12106650.27,2023-07-03,Trust
+W-1300,MP_10,Bihar,Constituency_8,Construction of Education at location 835,Education,16439453.02,2023-06-01,PWD
+W-1301,MP_23,Bihar,Constituency_12,Construction of Health at location 87,Health,13975588.35,2023-06-25,Gram Panchayat
+W-1302,MP_15,Kerala,Constituency_6,Construction of Drinking Water at location 250,Drinking Water,12828643.94,2023-10-29,Trust
+W-1303,MP_22,West Bengal,Constituency_3,Construction of Education at location 552,Education,11431306.28,2023-08-30,Gram Panchayat
+W-1304,MP_9,West Bengal,Constituency_5,Construction of Education at location 752,Education,14907900.2,2023-01-02,Zila Parishad
+W-1305,MP_39,Bihar,Constituency_9,Construction of Drinking Water at location 981,Drinking Water,7276616.51,2023-07-03,Gram Panchayat
+W-1306,MP_42,Kerala,Constituency_1,Construction of Drinking Water at location 405,Drinking Water,16503575.13,2023-12-01,Gram Panchayat
+W-1307,MP_46,Kerala,Constituency_3,Construction of Sanitation at location 655,Sanitation,15356730.43,2023-11-06,PWD
+W-1308,MP_6,Bihar,Constituency_6,Construction of Education at location 448,Education,19437442.69,2023-08-30,Municipal Corporation
+W-1309,MP_35,West Bengal,Constituency_17,Construction of Education at location 916,Education,13786383.76,2023-04-10,PWD
+W-1310,MP_37,Uttar Pradesh,Constituency_14,Construction of Health at location 808,Health,1068526.13,2023-07-06,Municipal Corporation
+W-1311,MP_45,West Bengal,Constituency_7,Construction of Drinking Water at location 776,Drinking Water,18718930.23,2023-03-12,Gram Panchayat
+W-1312,MP_45,Uttar Pradesh,Constituency_11,Construction of Sanitation at location 350,Sanitation,5124317.09,2023-05-02,Zila Parishad
+W-1313,MP_20,Maharashtra,Constituency_10,Construction of Education at location 447,Education,16655518.61,2023-11-19,Gram Panchayat
+W-1314,MP_20,West Bengal,Constituency_1,Construction of Education at location 973,Education,15713690.74,2023-09-08,Gram Panchayat
+W-1315,MP_23,Kerala,Constituency_15,Construction of Roads at location 924,Roads,11525689.37,2023-08-25,Trust
+W-1316,MP_34,West Bengal,Constituency_16,Construction of Drinking Water at location 99,Drinking Water,16687944.17,2023-01-11,PWD
+W-1317,MP_16,Bihar,Constituency_11,Construction of Roads at location 755,Roads,17230124.27,2023-01-18,Municipal Corporation
+W-1318,MP_2,Uttar Pradesh,Constituency_7,Construction of Drinking Water at location 827,Drinking Water,11538397.11,2023-10-10,Zila Parishad
+W-1319,MP_36,West Bengal,Constituency_17,Construction of Sanitation at location 520,Sanitation,2253366.77,2023-11-21,PWD
+W-1320,MP_29,Kerala,Constituency_5,Construction of Education at location 911,Education,14029208.36,2023-08-16,Municipal Corporation
+W-1321,MP_36,Uttar Pradesh,Constituency_6,Construction of Drinking Water at location 918,Drinking Water,13754095.73,2023-08-12,Municipal Corporation
+W-1322,MP_22,Kerala,Constituency_4,Construction of Health at location 948,Health,4984878.2,2023-11-25,Gram Panchayat
+W-1323,MP_20,Bihar,Constituency_5,Construction of Education at location 677,Education,13589781.09,2023-10-05,Municipal Corporation
+W-1324,MP_31,Bihar,Constituency_19,Construction of Sanitation at location 288,Sanitation,8970049.21,2023-11-18,Zila Parishad
+W-1325,MP_11,Kerala,Constituency_1,Construction of Sanitation at location 4,Sanitation,815907.75,2023-11-23,Gram Panchayat
+W-1326,MP_44,Bihar,Constituency_4,Construction of Education at location 410,Education,2318793.21,2023-10-23,Gram Panchayat
+W-1327,MP_42,Uttar Pradesh,Constituency_10,Construction of Roads at location 845,Roads,13218589.39,2023-12-27,Gram Panchayat
+W-1328,MP_12,Bihar,Constituency_2,Construction of Roads at location 588,Roads,766807.09,2023-12-12,Municipal Corporation
+W-1329,MP_24,Maharashtra,Constituency_4,Construction of Education at location 386,Education,16207755.31,2023-06-08,Gram Panchayat
+W-1330,MP_34,Kerala,Constituency_14,Construction of Drinking Water at location 332,Drinking Water,3293988.44,2023-05-30,Gram Panchayat
+W-1331,MP_38,Uttar Pradesh,Constituency_18,Construction of Education at location 663,Education,5803113.91,2023-12-31,Municipal Corporation
+W-1332,MP_23,Uttar Pradesh,Constituency_13,Construction of Sanitation at location 711,Sanitation,3124237.21,2023-02-15,Zila Parishad
+W-1333,MP_14,Kerala,Constituency_8,Construction of Education at location 865,Education,14386672.39,2023-09-02,Zila Parishad
+W-1334,MP_9,Uttar Pradesh,Constituency_5,Construction of Sanitation at location 326,Sanitation,7909592.04,2023-04-05,Municipal Corporation
+W-1335,MP_35,West Bengal,Constituency_16,Construction of Health at location 558,Health,6740532.67,2023-07-12,Zila Parishad
+W-1336,MP_27,Uttar Pradesh,Constituency_5,Construction of Health at location 204,Health,14161924.18,2023-07-31,Gram Panchayat
+W-1337,MP_45,Uttar Pradesh,Constituency_15,Construction of Education at location 211,Education,19287858.98,2023-07-19,Municipal Corporation
+W-1338,MP_11,Uttar Pradesh,Constituency_14,Construction of Drinking Water at location 42,Drinking Water,1310789.72,2023-01-11,Gram Panchayat
+W-1339,MP_7,West Bengal,Constituency_15,Construction of Education at location 359,Education,19933030.3,2023-11-13,Zila Parishad
+W-1340,MP_11,Kerala,Constituency_4,Construction of Roads at location 7,Roads,8539454.69,2023-05-02,Municipal Corporation
+W-1341,MP_33,Maharashtra,Constituency_19,Construction of Health at location 782,Health,1691541.02,2023-11-30,PWD
+W-1342,MP_23,Bihar,Constituency_6,Construction of Roads at location 490,Roads,13150925.03,2023-01-07,Gram Panchayat
+W-1343,MP_1,West Bengal,Constituency_1,Construction of Health at location 949,Health,3671885.89,2023-07-07,PWD
+W-1344,MP_24,Kerala,Constituency_8,Construction of Education at location 292,Education,2045965.55,2023-09-01,Municipal Corporation
+W-1345,MP_39,Uttar Pradesh,Constituency_17,Construction of Drinking Water at location 944,Drinking Water,10298572.1,2023-02-08,PWD
+W-1346,MP_6,Kerala,Constituency_13,Construction of Health at location 712,Health,8405745.09,2023-06-01,PWD
+W-1347,MP_43,Kerala,Constituency_1,Construction of Sanitation at location 271,Sanitation,13057153.3,2023-09-15,Gram Panchayat
+W-1348,MP_4,West Bengal,Constituency_18,Construction of Roads at location 98,Roads,1828125.98,2023-04-03,Zila Parishad
+W-1349,MP_9,Uttar Pradesh,Constituency_17,Construction of Drinking Water at location 429,Drinking Water,1661948.4,2023-05-30,Municipal Corporation
+W-1350,MP_10,Kerala,Constituency_19,Construction of Health at location 29,Health,1497429.01,2023-02-04,Zila Parishad
+W-1351,MP_8,Kerala,Constituency_13,Construction of Sanitation at location 195,Sanitation,11378536.68,2023-01-09,Gram Panchayat
+W-1352,MP_25,Bihar,Constituency_17,Construction of Drinking Water at location 12,Drinking Water,2975416.07,2023-12-11,PWD
+W-1353,MP_13,West Bengal,Constituency_18,Construction of Education at location 846,Education,1996782.21,2023-10-11,Zila Parishad
+W-1354,MP_4,Maharashtra,Constituency_1,Construction of Roads at location 994,Roads,19372153.38,2023-11-19,Zila Parishad
+W-1355,MP_45,Bihar,Constituency_10,Construction of Drinking Water at location 175,Drinking Water,15741834.88,2023-11-15,PWD
+W-1356,MP_43,Maharashtra,Constituency_19,Construction of Education at location 850,Education,14751971.74,2023-03-17,Gram Panchayat
+W-1357,MP_35,Kerala,Constituency_2,Construction of Sanitation at location 638,Sanitation,11586768.98,2023-12-09,Zila Parishad
+W-1358,MP_21,Uttar Pradesh,Constituency_8,Construction of Roads at location 489,Roads,7410355.07,2023-03-06,PWD
+W-1359,MP_23,Kerala,Constituency_7,Construction of Education at location 813,Education,14974292.15,2023-03-29,Zila Parishad
+W-1360,MP_31,West Bengal,Constituency_13,Construction of Sanitation at location 90,Sanitation,12397104.48,2023-10-23,Gram Panchayat
+W-1361,MP_41,Bihar,Constituency_18,Construction of Education at location 249,Education,2280521.65,2023-02-07,Gram Panchayat
+W-1362,MP_35,Bihar,Constituency_13,Construction of Roads at location 996,Roads,940007.98,2023-06-02,Municipal Corporation
+W-1363,MP_42,West Bengal,Constituency_1,Construction of Education at location 481,Education,4373569.25,2023-12-02,Zila Parishad
+W-1364,MP_24,Bihar,Constituency_18,Construction of Health at location 381,Health,12294368.87,2023-11-25,Gram Panchayat
+W-1365,MP_5,West Bengal,Constituency_5,Construction of Health at location 79,Health,17775322.91,2023-05-26,Gram Panchayat
+W-1366,MP_35,Maharashtra,Constituency_11,Construction of Sanitation at location 509,Sanitation,17252679.27,2023-10-25,PWD
+W-1367,MP_26,Kerala,Constituency_14,Construction of Education at location 197,Education,13987285.21,2023-08-11,Zila Parishad
+W-1368,MP_11,West Bengal,Constituency_18,Construction of Health at location 192,Health,5028381.47,2023-11-21,Zila Parishad
+W-1369,MP_14,Maharashtra,Constituency_3,Construction of Roads at location 467,Roads,13010587.05,2023-12-24,Municipal Corporation
+W-1370,MP_28,West Bengal,Constituency_18,Construction of Health at location 595,Health,11145508.9,2023-02-11,PWD
+W-1371,MP_46,Maharashtra,Constituency_17,Construction of Education at location 538,Education,6467919.74,2023-04-25,PWD
+W-1372,MP_30,Kerala,Constituency_7,Construction of Education at location 328,Education,18942119.19,2023-06-28,Zila Parishad
+W-1373,MP_40,West Bengal,Constituency_13,Construction of Education at location 1,Education,4745394.0,2023-08-07,Municipal Corporation
+W-1374,MP_37,Maharashtra,Constituency_4,Construction of Roads at location 699,Roads,9487517.6,2023-07-28,PWD
+W-1375,MP_14,Kerala,Constituency_18,Construction of Drinking Water at location 335,Drinking Water,19247624.08,2023-03-20,Gram Panchayat
+W-1376,MP_13,Kerala,Constituency_17,Construction of Roads at location 546,Roads,7465250.51,2023-03-20,Gram Panchayat
+W-1377,MP_17,West Bengal,Constituency_2,Construction of Sanitation at location 974,Sanitation,12109644.22,2023-03-30,PWD
+W-1378,MP_4,Maharashtra,Constituency_2,Construction of Sanitation at location 935,Sanitation,12122977.26,2023-12-16,Gram Panchayat
+W-1379,MP_2,Maharashtra,Constituency_10,Construction of Roads at location 875,Roads,10503097.32,2023-04-10,Municipal Corporation
+W-1380,MP_4,Maharashtra,Constituency_4,Construction of Sanitation at location 82,Sanitation,7809086.02,2023-10-10,PWD
+W-1381,MP_42,Bihar,Constituency_18,Construction of Roads at location 13,Roads,9317948.34,2023-01-18,PWD
+W-1382,MP_3,West Bengal,Constituency_4,Construction of Drinking Water at location 618,Drinking Water,15214102.54,2023-09-20,Gram Panchayat
+W-1383,MP_6,West Bengal,Constituency_19,Construction of Health at location 984,Health,6502473.43,2023-11-24,Municipal Corporation
+W-1384,MP_20,Kerala,Constituency_11,Construction of Sanitation at location 499,Sanitation,2582613.73,2023-02-11,Municipal Corporation
+W-1385,MP_44,West Bengal,Constituency_19,Construction of Drinking Water at location 803,Drinking Water,4207510.94,2023-04-24,Zila Parishad
+W-1386,MP_10,Bihar,Constituency_4,Construction of Education at location 273,Education,17819731.32,2023-07-06,PWD
+W-1387,MP_17,West Bengal,Constituency_10,Construction of Sanitation at location 652,Sanitation,13267144.3,2023-11-22,PWD
+W-1388,MP_44,Bihar,Constituency_15,Construction of Education at location 794,Education,1340452.12,2023-04-07,Gram Panchayat
+W-1389,MP_3,Kerala,Constituency_15,Construction of Sanitation at location 546,Sanitation,18792250.72,2023-04-07,Municipal Corporation
+W-1390,MP_39,Kerala,Constituency_6,Construction of Drinking Water at location 583,Drinking Water,12131107.97,2023-03-31,Municipal Corporation
+W-1391,MP_41,Uttar Pradesh,Constituency_16,Construction of Education at location 284,Education,4266620.16,2023-07-28,Gram Panchayat
+W-1392,MP_11,Uttar Pradesh,Constituency_1,Construction of Drinking Water at location 537,Drinking Water,7527683.78,2023-04-11,Zila Parishad
+W-1393,MP_2,Maharashtra,Constituency_5,Construction of Roads at location 318,Roads,7185359.81,2023-05-17,Gram Panchayat
+W-1394,MP_45,Kerala,Constituency_10,Construction of Roads at location 274,Roads,3741472.56,2023-02-11,PWD
+W-1395,MP_15,West Bengal,Constituency_13,Construction of Education at location 783,Education,15006151.15,2023-09-04,Gram Panchayat
+W-1396,MP_44,Bihar,Constituency_17,Construction of Roads at location 588,Roads,6587741.73,2023-06-26,Zila Parishad
+W-1397,MP_49,Uttar Pradesh,Constituency_1,Construction of Roads at location 266,Roads,13638246.48,2023-04-28,Zila Parishad
+W-1398,MP_26,West Bengal,Constituency_1,Construction of Roads at location 301,Roads,4712613.09,2023-07-31,PWD
+W-1399,MP_36,Bihar,Constituency_16,Construction of Drinking Water at location 746,Drinking Water,5225897.06,2023-03-28,PWD
+W-1400,MP_36,Uttar Pradesh,Constituency_2,Construction of Education at location 674,Education,13145058.86,2023-02-13,PWD
+W-1401,MP_40,West Bengal,Constituency_19,Construction of Education at location 774,Education,17458168.85,2023-03-25,Gram Panchayat
+W-1402,MP_9,West Bengal,Constituency_5,Construction of Education at location 93,Education,10602504.72,2023-01-17,PWD
+W-1403,MP_46,Uttar Pradesh,Constituency_12,Construction of Drinking Water at location 169,Drinking Water,14658654.6,2023-01-10,Zila Parishad
+W-1404,MP_18,Bihar,Constituency_4,Construction of Sanitation at location 19,Sanitation,2867590.66,2023-05-10,Gram Panchayat
+W-1405,MP_11,Maharashtra,Constituency_8,Construction of Health at location 309,Health,4352340.16,2023-08-16,PWD
+W-1406,MP_20,Kerala,Constituency_7,Construction of Roads at location 129,Roads,1215902.4,2023-10-21,PWD
+W-1407,MP_21,Bihar,Constituency_8,Construction of Sanitation at location 57,Sanitation,9928212.66,2023-02-08,Zila Parishad
+W-1408,MP_32,Bihar,Constituency_10,Construction of Drinking Water at location 794,Drinking Water,2824603.64,2023-01-25,Municipal Corporation
+W-1409,MP_18,Maharashtra,Constituency_2,Construction of Roads at location 229,Roads,12525897.8,2023-08-14,Gram Panchayat
+W-1410,MP_33,Maharashtra,Constituency_4,Construction of Sanitation at location 808,Sanitation,6061513.15,2023-03-30,Gram Panchayat
+W-1411,MP_18,Bihar,Constituency_8,Construction of Roads at location 112,Roads,3709685.84,2023-01-05,PWD
+W-1412,MP_44,Bihar,Constituency_11,Construction of Health at location 594,Health,17283022.52,2023-03-18,Municipal Corporation
+W-1413,MP_37,Uttar Pradesh,Constituency_15,Construction of Sanitation at location 517,Sanitation,14525071.17,2023-11-26,Zila Parishad
+W-1414,MP_1,West Bengal,Constituency_6,Construction of Health at location 11,Health,12524128.57,2023-04-18,Gram Panchayat
+W-1415,MP_13,West Bengal,Constituency_8,Construction of Education at location 144,Education,19723171.36,2023-07-08,PWD
+W-1416,MP_5,Maharashtra,Constituency_12,Construction of Health at location 694,Health,16676533.71,2023-10-11,PWD
+W-1417,MP_8,Maharashtra,Constituency_9,Construction of Sanitation at location 768,Sanitation,4493646.98,2023-11-03,Zila Parishad
+W-1418,MP_25,Bihar,Constituency_4,Construction of Health at location 610,Health,8973353.78,2023-04-11,Gram Panchayat
+W-1419,MP_28,Maharashtra,Constituency_15,Construction of Drinking Water at location 336,Drinking Water,4992539.47,2023-03-17,Municipal Corporation
+W-1420,MP_26,West Bengal,Constituency_7,Construction of Roads at location 446,Roads,16015374.5,2023-10-21,Municipal Corporation
+W-1421,MP_31,Maharashtra,Constituency_8,Construction of Education at location 811,Education,17208289.32,2023-04-08,Municipal Corporation
+W-1422,MP_22,Uttar Pradesh,Constituency_3,Construction of Roads at location 854,Roads,17327712.65,2023-04-24,Municipal Corporation
+W-1423,MP_23,Bihar,Constituency_15,Construction of Health at location 528,Health,8333089.41,2023-06-14,Zila Parishad
+W-1424,MP_4,West Bengal,Constituency_12,Construction of Education at location 546,Education,7189020.9,2023-07-13,PWD
+W-1425,MP_1,West Bengal,Constituency_8,Construction of Health at location 881,Health,12900259.93,2023-08-19,Zila Parishad
+W-1426,MP_33,West Bengal,Constituency_4,Construction of Sanitation at location 846,Sanitation,11584423.11,2023-04-07,Municipal Corporation
+W-1427,MP_23,Uttar Pradesh,Constituency_14,Construction of Health at location 916,Health,17863598.49,2023-07-01,Gram Panchayat
+W-1428,MP_41,Bihar,Constituency_3,Construction of Education at location 153,Education,7476217.88,2023-05-07,Gram Panchayat
+W-1429,MP_49,West Bengal,Constituency_13,Construction of Roads at location 849,Roads,18783975.71,2023-11-18,Municipal Corporation
+W-1430,MP_5,Uttar Pradesh,Constituency_17,Construction of Drinking Water at location 373,Drinking Water,10995291.99,2023-09-03,Zila Parishad
+W-1431,MP_24,Maharashtra,Constituency_19,Construction of Sanitation at location 146,Sanitation,13526063.39,2023-02-26,Zila Parishad
+W-1432,MP_22,Uttar Pradesh,Constituency_3,Construction of Education at location 211,Education,16294585.5,2023-12-31,Municipal Corporation
+W-1433,MP_48,Uttar Pradesh,Constituency_18,Construction of Education at location 732,Education,13259755.96,2023-01-18,Zila Parishad
+W-1434,MP_46,West Bengal,Constituency_9,Construction of Education at location 547,Education,5328817.04,2023-03-23,Zila Parishad
+W-1435,MP_15,Uttar Pradesh,Constituency_4,Construction of Roads at location 1,Roads,6654847.7,2023-05-15,Zila Parishad
+W-1436,MP_7,Bihar,Constituency_4,Construction of Roads at location 479,Roads,7927362.07,2023-09-09,PWD
+W-1437,MP_32,Bihar,Constituency_18,Construction of Education at location 515,Education,13704326.85,2023-08-02,Zila Parishad
+W-1438,MP_19,Maharashtra,Constituency_6,Construction of Sanitation at location 992,Sanitation,10428140.55,2023-08-07,Gram Panchayat
+W-1439,MP_25,West Bengal,Constituency_12,Construction of Sanitation at location 324,Sanitation,16974849.67,2023-10-29,Gram Panchayat
+W-1440,MP_43,Uttar Pradesh,Constituency_15,Construction of Education at location 227,Education,18240001.89,2023-08-04,Gram Panchayat
+W-1441,MP_16,Maharashtra,Constituency_8,Construction of Sanitation at location 547,Sanitation,5583821.1,2023-09-16,PWD
+W-1442,MP_2,West Bengal,Constituency_13,Construction of Roads at location 447,Roads,6794790.97,2023-01-20,Gram Panchayat
+W-1443,MP_49,Bihar,Constituency_15,Construction of Sanitation at location 584,Sanitation,15413136.72,2023-06-14,Municipal Corporation
+W-1444,MP_16,Bihar,Constituency_1,Construction of Education at location 610,Education,10721827.29,2023-06-05,Zila Parishad
+W-1445,MP_47,Bihar,Constituency_10,Construction of Sanitation at location 187,Sanitation,8040580.77,2023-02-07,Municipal Corporation
+W-1446,MP_39,Kerala,Constituency_19,Construction of Health at location 894,Health,15887374.18,2023-01-03,Gram Panchayat
+W-1447,MP_47,Bihar,Constituency_11,Construction of Drinking Water at location 123,Drinking Water,10527426.72,2023-07-12,Municipal Corporation
+W-1448,MP_2,Uttar Pradesh,Constituency_9,Construction of Drinking Water at location 188,Drinking Water,18606832.89,2023-08-18,PWD
+W-1449,MP_26,West Bengal,Constituency_14,Construction of Sanitation at location 981,Sanitation,14448785.06,2023-12-12,Trust
+W-1450,MP_31,West Bengal,Constituency_15,Construction of Sanitation at location 888,Sanitation,9456421.92,2023-07-27,PWD
+W-1451,MP_25,West Bengal,Constituency_14,Construction of Education at location 456,Education,9199910.5,2023-09-21,Zila Parishad
+W-1452,MP_9,Bihar,Constituency_16,Construction of Drinking Water at location 394,Drinking Water,14685321.63,2023-10-12,Trust
+W-1453,MP_33,Uttar Pradesh,Constituency_14,Construction of Roads at location 73,Roads,12128756.7,2023-09-06,Zila Parishad
+W-1454,MP_7,Kerala,Constituency_10,Construction of Drinking Water at location 676,Drinking Water,2959147.76,2023-12-27,PWD
+W-1455,MP_6,Maharashtra,Constituency_3,Construction of Sanitation at location 314,Sanitation,15649428.09,2023-11-22,Zila Parishad
+W-1456,MP_20,Uttar Pradesh,Constituency_16,Construction of Roads at location 961,Roads,8923792.74,2023-07-28,Municipal Corporation
+W-1457,MP_45,West Bengal,Constituency_12,Construction of Drinking Water at location 845,Drinking Water,3312680.41,2023-01-24,Gram Panchayat
+W-1458,MP_1,Maharashtra,Constituency_11,Construction of Drinking Water at location 115,Drinking Water,9235447.3,2023-03-09,Municipal Corporation
+W-1459,MP_26,West Bengal,Constituency_17,Construction of Roads at location 869,Roads,13302972.7,2023-06-25,Zila Parishad
+W-1460,MP_25,West Bengal,Constituency_4,Construction of Drinking Water at location 595,Drinking Water,2590836.69,2023-03-06,Zila Parishad
+W-1461,MP_41,Bihar,Constituency_16,Construction of Drinking Water at location 534,Drinking Water,13703923.14,2023-03-07,Zila Parishad
+W-1462,MP_48,Maharashtra,Constituency_2,Construction of Education at location 865,Education,4912408.02,2023-04-09,Municipal Corporation
+W-1463,MP_12,Uttar Pradesh,Constituency_14,Construction of Education at location 389,Education,2417725.97,2023-12-03,Zila Parishad
+W-1464,MP_25,Maharashtra,Constituency_14,Construction of Drinking Water at location 157,Drinking Water,7818766.24,2023-12-01,Municipal Corporation
+W-1465,MP_25,Kerala,Constituency_16,Construction of Roads at location 998,Roads,8567267.62,2023-07-15,Gram Panchayat
+W-1466,MP_32,Kerala,Constituency_10,Construction of Roads at location 638,Roads,2453022.45,2023-03-08,PWD
+W-1467,MP_39,Maharashtra,Constituency_13,Construction of Health at location 675,Health,1559787.92,2023-11-07,Zila Parishad
+W-1468,MP_46,Bihar,Constituency_13,Construction of Sanitation at location 58,Sanitation,14317379.14,2023-04-16,PWD
+W-1469,MP_43,Kerala,Constituency_6,Construction of Health at location 698,Health,17788611.11,2023-11-01,Zila Parishad
+W-1470,MP_30,Kerala,Constituency_11,Construction of Drinking Water at location 825,Drinking Water,4250754.08,2023-11-25,Trust
+W-1471,MP_42,Bihar,Constituency_18,Construction of Sanitation at location 167,Sanitation,14502329.14,2023-07-07,Zila Parishad
+W-1472,MP_49,Uttar Pradesh,Constituency_5,Construction of Drinking Water at location 133,Drinking Water,14909143.88,2023-01-22,Municipal Corporation
+W-1473,MP_26,Kerala,Constituency_1,Construction of Roads at location 753,Roads,16115952.95,2023-05-14,PWD
+W-1474,MP_22,Kerala,Constituency_14,Construction of Drinking Water at location 935,Drinking Water,12815115.38,2023-05-20,Gram Panchayat
+W-1475,MP_2,West Bengal,Constituency_15,Construction of Roads at location 781,Roads,14353225.39,2023-08-14,Zila Parishad
+W-1476,MP_12,Bihar,Constituency_9,Construction of Sanitation at location 835,Sanitation,6144009.18,2023-05-19,Gram Panchayat
+W-1477,MP_11,West Bengal,Constituency_4,Construction of Drinking Water at location 174,Drinking Water,5160454.76,2023-01-29,PWD
+W-1478,MP_38,West Bengal,Constituency_2,Construction of Education at location 232,Education,19615093.55,2023-10-09,Gram Panchayat
+W-1479,MP_6,Maharashtra,Constituency_10,Construction of Health at location 356,Health,18001880.37,2023-01-28,Zila Parishad
+W-1480,MP_5,Kerala,Constituency_11,Construction of Education at location 347,Education,19316107.73,2023-08-04,Trust
+W-1481,MP_39,West Bengal,Constituency_2,Construction of Sanitation at location 533,Sanitation,758983.47,2023-02-27,Gram Panchayat
+W-1482,MP_33,Maharashtra,Constituency_3,Construction of Roads at location 819,Roads,17511693.99,2023-09-18,PWD
+W-1483,MP_24,West Bengal,Constituency_5,Construction of Roads at location 200,Roads,11164852.52,2023-08-04,Zila Parishad
+W-1484,MP_23,Uttar Pradesh,Constituency_8,Construction of Drinking Water at location 589,Drinking Water,7443312.33,2023-07-07,Gram Panchayat
+W-1485,MP_7,Bihar,Constituency_18,Construction of Health at location 90,Health,6138166.01,2023-03-01,Gram Panchayat
+W-1486,MP_29,Maharashtra,Constituency_14,Construction of Health at location 158,Health,16038800.62,2023-10-02,Zila Parishad
+W-1487,MP_19,Maharashtra,Constituency_17,Construction of Education at location 326,Education,9986413.93,2023-04-30,Municipal Corporation
+W-1488,MP_7,Kerala,Constituency_16,Construction of Education at location 16,Education,6320615.41,2023-01-12,Municipal Corporation
+W-1489,MP_3,Maharashtra,Constituency_6,Construction of Health at location 966,Health,7105292.64,2023-04-13,PWD
+W-1490,MP_32,Bihar,Constituency_10,Construction of Roads at location 910,Roads,5070216.77,2023-08-20,Zila Parishad
+W-1491,MP_8,Kerala,Constituency_3,Construction of Health at location 182,Health,10797327.58,2023-12-28,Municipal Corporation
+W-1492,MP_15,West Bengal,Constituency_5,Construction of Sanitation at location 626,Sanitation,2010930.72,2023-04-17,PWD
+W-1493,MP_28,West Bengal,Constituency_11,Construction of Drinking Water at location 123,Drinking Water,17580693.93,2023-05-16,Municipal Corporation
+W-1494,MP_14,Uttar Pradesh,Constituency_7,Construction of Health at location 75,Health,4456026.93,2023-10-22,Zila Parishad
+W-1495,MP_5,Bihar,Constituency_13,Construction of Health at location 988,Health,9276251.32,2023-11-30,Gram Panchayat
+W-1496,MP_3,Bihar,Constituency_14,Construction of Health at location 612,Health,4354960.91,2023-01-12,Zila Parishad
+W-1497,MP_27,West Bengal,Constituency_6,Construction of Drinking Water at location 856,Drinking Water,2468361.7,2023-08-17,PWD
+W-1498,MP_23,West Bengal,Constituency_7,Construction of Sanitation at location 674,Sanitation,2263170.07,2023-08-22,Zila Parishad
+W-1499,MP_4,Kerala,Constituency_8,Construction of Education at location 100,Education,2544297.07,2023-09-18,Municipal Corporation
+W-1500,MP_38,Uttar Pradesh,Constituency_18,Construction of Health at location 490,Health,8109651.72,2023-12-30,PWD
+W-1501,MP_23,West Bengal,Constituency_3,Construction of Sanitation at location 455,Sanitation,11110457.04,2023-10-17,Zila Parishad
+W-1502,MP_16,West Bengal,Constituency_15,Construction of Education at location 616,Education,8306432.43,2023-03-15,Municipal Corporation
+W-1503,MP_11,Kerala,Constituency_18,Construction of Drinking Water at location 716,Drinking Water,17339357.66,2023-11-06,Zila Parishad
+W-1504,MP_6,Uttar Pradesh,Constituency_15,Construction of Health at location 127,Health,16175267.78,2023-04-14,Zila Parishad
+W-1505,MP_23,Maharashtra,Constituency_9,Construction of Education at location 754,Education,14498476.32,2023-07-18,Trust
+W-1506,MP_46,West Bengal,Constituency_17,Construction of Sanitation at location 219,Sanitation,7663140.05,2023-12-14,Gram Panchayat
+W-1507,MP_10,Kerala,Constituency_5,Construction of Education at location 121,Education,11142118.76,2023-05-21,Zila Parishad
+W-1508,MP_36,Maharashtra,Constituency_11,Construction of Sanitation at location 218,Sanitation,15022639.27,2023-07-25,Zila Parishad
+W-1509,MP_23,Uttar Pradesh,Constituency_11,Construction of Health at location 820,Health,17429959.98,2023-03-21,Municipal Corporation
+W-1510,MP_42,West Bengal,Constituency_7,Construction of Drinking Water at location 232,Drinking Water,18432880.71,2023-08-21,Gram Panchayat
+W-1511,MP_33,West Bengal,Constituency_15,Construction of Health at location 682,Health,12501302.7,2023-05-20,Gram Panchayat
+W-1512,MP_35,Kerala,Constituency_19,Construction of Education at location 62,Education,5689105.15,2023-04-19,Gram Panchayat
+W-1513,MP_49,Bihar,Constituency_10,Construction of Education at location 254,Education,17530541.8,2023-04-24,Zila Parishad
+W-1514,MP_26,Kerala,Constituency_4,Construction of Health at location 444,Health,4195621.34,2023-11-28,Municipal Corporation
+W-1515,MP_34,Uttar Pradesh,Constituency_3,Construction of Roads at location 318,Roads,8051297.94,2023-07-29,Zila Parishad
+W-1516,MP_23,West Bengal,Constituency_5,Construction of Roads at location 314,Roads,17546293.97,2023-07-06,PWD
+W-1517,MP_40,Bihar,Constituency_11,Construction of Roads at location 799,Roads,11257915.37,2023-05-03,PWD
+W-1518,MP_20,Maharashtra,Constituency_6,Construction of Drinking Water at location 113,Drinking Water,13976564.47,2023-02-13,Municipal Corporation
+W-1519,MP_11,Maharashtra,Constituency_10,Construction of Education at location 489,Education,13174065.91,2023-07-09,Municipal Corporation
+W-1520,MP_8,West Bengal,Constituency_16,Construction of Drinking Water at location 692,Drinking Water,8775254.51,2023-06-20,Gram Panchayat
+W-1521,MP_42,Kerala,Constituency_7,Construction of Roads at location 605,Roads,12349870.0,2023-04-04,Zila Parishad
+W-1522,MP_42,Maharashtra,Constituency_19,Construction of Sanitation at location 935,Sanitation,15765548.05,2023-12-10,PWD
+W-1523,MP_4,West Bengal,Constituency_7,Construction of Education at location 29,Education,19215783.84,2023-07-13,Municipal Corporation
+W-1524,MP_41,Kerala,Constituency_2,Construction of Education at location 984,Education,4798538.76,2023-03-02,Zila Parishad
+W-1525,MP_9,Maharashtra,Constituency_7,Construction of Roads at location 737,Roads,13603534.69,2023-05-07,Trust
+W-1526,MP_29,Maharashtra,Constituency_14,Construction of Health at location 997,Health,12076147.41,2023-11-05,PWD
+W-1527,MP_25,Kerala,Constituency_5,Construction of Drinking Water at location 951,Drinking Water,614362.19,2023-06-16,PWD
+W-1528,MP_25,Uttar Pradesh,Constituency_3,Construction of Education at location 353,Education,14921483.34,2023-03-07,Gram Panchayat
+W-1529,MP_27,Maharashtra,Constituency_13,Construction of Roads at location 384,Roads,6382413.71,2023-11-30,PWD
+W-1530,MP_49,Uttar Pradesh,Constituency_8,Construction of Sanitation at location 57,Sanitation,7637551.18,2023-12-09,Zila Parishad
+W-1531,MP_37,West Bengal,Constituency_13,Construction of Roads at location 390,Roads,13424321.79,2023-01-22,PWD
+W-1532,MP_36,West Bengal,Constituency_14,Construction of Drinking Water at location 716,Drinking Water,7240310.24,2023-09-24,Gram Panchayat
+W-1533,MP_10,Maharashtra,Constituency_9,Construction of Health at location 386,Health,4921317.42,2023-08-18,Gram Panchayat
+W-1534,MP_7,Bihar,Constituency_15,Construction of Drinking Water at location 594,Drinking Water,3977464.49,2023-04-15,Gram Panchayat
+W-1535,MP_12,West Bengal,Constituency_4,Construction of Health at location 82,Health,3041200.77,2023-05-09,Municipal Corporation
+W-1536,MP_16,Kerala,Constituency_2,Construction of Roads at location 497,Roads,17355858.25,2023-03-16,Municipal Corporation
+W-1537,MP_42,West Bengal,Constituency_1,Construction of Drinking Water at location 849,Drinking Water,984760.56,2023-06-07,PWD
+W-1538,MP_36,Maharashtra,Constituency_19,Construction of Health at location 168,Health,2421663.6,2023-02-14,Gram Panchayat
+W-1539,MP_37,Kerala,Constituency_19,Construction of Education at location 165,Education,12123246.66,2023-05-05,Gram Panchayat
+W-1540,MP_10,Uttar Pradesh,Constituency_11,Construction of Health at location 37,Health,14321585.67,2023-05-12,Gram Panchayat
+W-1541,MP_1,Maharashtra,Constituency_10,Construction of Drinking Water at location 597,Drinking Water,15078144.0,2023-07-07,Trust
+W-1542,MP_34,West Bengal,Constituency_6,Construction of Roads at location 60,Roads,12164656.25,2023-11-01,Zila Parishad
+W-1543,MP_21,Bihar,Constituency_16,Construction of Health at location 708,Health,3712252.47,2023-07-27,PWD
+W-1544,MP_23,Maharashtra,Constituency_10,Construction of Roads at location 546,Roads,17086313.85,2023-04-20,Zila Parishad
+W-1545,MP_34,Kerala,Constituency_17,Construction of Sanitation at location 910,Sanitation,12743344.61,2023-05-19,Gram Panchayat
+W-1546,MP_6,Kerala,Constituency_5,Construction of Roads at location 971,Roads,16246956.98,2023-01-20,PWD
+W-1547,MP_2,Bihar,Constituency_6,Construction of Drinking Water at location 544,Drinking Water,2926467.05,2023-04-16,PWD
+W-1548,MP_43,West Bengal,Constituency_11,Construction of Health at location 916,Health,12031358.23,2023-10-04,PWD
+W-1549,MP_4,Kerala,Constituency_14,Construction of Drinking Water at location 623,Drinking Water,18213997.09,2023-12-25,Municipal Corporation
+W-1550,MP_41,Maharashtra,Constituency_10,Construction of Health at location 23,Health,8160361.99,2023-02-16,Gram Panchayat
+W-1551,MP_2,West Bengal,Constituency_16,Construction of Drinking Water at location 156,Drinking Water,690697.92,2023-04-15,Trust
+W-1552,MP_35,Uttar Pradesh,Constituency_16,Construction of Drinking Water at location 331,Drinking Water,10458318.2,2023-09-10,Trust
+W-1553,MP_8,Bihar,Constituency_19,Construction of Health at location 136,Health,15375534.1,2023-08-11,Gram Panchayat
+W-1554,MP_20,Kerala,Constituency_11,Construction of Education at location 53,Education,7902187.45,2023-06-24,PWD
+W-1555,MP_11,West Bengal,Constituency_4,Construction of Sanitation at location 381,Sanitation,7953627.74,2023-03-14,PWD
+W-1556,MP_10,Maharashtra,Constituency_2,Construction of Sanitation at location 570,Sanitation,17409466.94,2023-07-20,PWD
+W-1557,MP_32,West Bengal,Constituency_17,Construction of Education at location 264,Education,638382.38,2023-09-01,Municipal Corporation
+W-1558,MP_30,Maharashtra,Constituency_14,Construction of Roads at location 813,Roads,8579376.77,2023-11-14,Municipal Corporation
+W-1559,MP_2,Maharashtra,Constituency_19,Construction of Health at location 33,Health,7377476.84,2023-11-24,PWD
+W-1560,MP_38,Kerala,Constituency_3,Construction of Health at location 722,Health,9384699.5,2023-12-27,Municipal Corporation
+W-1561,MP_30,West Bengal,Constituency_12,Construction of Health at location 933,Health,802215.72,2023-05-11,Gram Panchayat
+W-1562,MP_36,Uttar Pradesh,Constituency_6,Construction of Roads at location 402,Roads,17245664.5,2023-07-10,Zila Parishad
+W-1563,MP_45,Maharashtra,Constituency_9,Construction of Health at location 971,Health,18380741.71,2023-05-20,Gram Panchayat
+W-1564,MP_14,Maharashtra,Constituency_17,Construction of Roads at location 209,Roads,9227614.03,2023-10-08,PWD
+W-1565,MP_15,Bihar,Constituency_16,Construction of Drinking Water at location 943,Drinking Water,9013343.57,2023-06-21,Municipal Corporation
+W-1566,MP_14,Uttar Pradesh,Constituency_4,Construction of Sanitation at location 362,Sanitation,4061190.04,2023-04-03,Zila Parishad
+W-1567,MP_24,Uttar Pradesh,Constituency_19,Construction of Sanitation at location 600,Sanitation,12562410.41,2023-01-11,Zila Parishad
+W-1568,MP_47,Uttar Pradesh,Constituency_18,Construction of Roads at location 582,Roads,6770065.73,2023-04-14,PWD
+W-1569,MP_3,Bihar,Constituency_5,Construction of Drinking Water at location 299,Drinking Water,10583799.65,2023-08-01,Municipal Corporation
+W-1570,MP_26,Uttar Pradesh,Constituency_19,Construction of Roads at location 528,Roads,5923800.99,2023-10-05,Municipal Corporation
+W-1571,MP_9,West Bengal,Constituency_13,Construction of Roads at location 269,Roads,18942641.7,2023-07-05,Zila Parishad
+W-1572,MP_32,Kerala,Constituency_1,Construction of Health at location 83,Health,5165547.82,2023-08-13,Zila Parishad
+W-1573,MP_28,Bihar,Constituency_18,Construction of Sanitation at location 947,Sanitation,12414956.53,2023-03-14,Gram Panchayat
+W-1574,MP_21,Uttar Pradesh,Constituency_19,Construction of Education at location 122,Education,2468479.79,2023-07-30,Gram Panchayat
+W-1575,MP_47,Uttar Pradesh,Constituency_3,Construction of Drinking Water at location 89,Drinking Water,12298889.44,2023-07-17,Municipal Corporation
+W-1576,MP_15,Uttar Pradesh,Constituency_5,Construction of Drinking Water at location 339,Drinking Water,12900821.75,2023-02-25,Municipal Corporation
+W-1577,MP_23,Bihar,Constituency_2,Construction of Sanitation at location 296,Sanitation,3375351.39,2023-01-06,Municipal Corporation
+W-1578,MP_42,Kerala,Constituency_9,Construction of Health at location 625,Health,7191890.22,2023-02-15,Zila Parishad
+W-1579,MP_2,Bihar,Constituency_15,Construction of Health at location 626,Health,6047983.21,2023-10-07,Municipal Corporation
+W-1580,MP_43,Uttar Pradesh,Constituency_1,Construction of Drinking Water at location 878,Drinking Water,8201431.13,2023-03-15,Municipal Corporation
+W-1581,MP_47,Kerala,Constituency_5,Construction of Education at location 882,Education,7422404.76,2023-05-08,PWD
+W-1582,MP_47,Uttar Pradesh,Constituency_1,Construction of Roads at location 38,Roads,1544742.91,2023-01-25,Zila Parishad
+W-1583,MP_25,Maharashtra,Constituency_6,Construction of Roads at location 793,Roads,3633910.31,2023-09-14,Zila Parishad
+W-1584,MP_12,Uttar Pradesh,Constituency_17,Construction of Health at location 916,Health,14421068.2,2023-05-11,Municipal Corporation
+W-1585,MP_30,Kerala,Constituency_16,Construction of Drinking Water at location 65,Drinking Water,19003866.25,2023-03-29,PWD
+W-1586,MP_35,Bihar,Constituency_13,Construction of Sanitation at location 829,Sanitation,19859034.24,2023-02-15,Municipal Corporation
+W-1587,MP_45,Uttar Pradesh,Constituency_17,Construction of Education at location 926,Education,9371540.15,2023-08-15,Zila Parishad
+W-1588,MP_19,Bihar,Constituency_4,Construction of Drinking Water at location 81,Drinking Water,14476012.42,2023-06-22,Municipal Corporation
+W-1589,MP_21,Maharashtra,Constituency_6,Construction of Sanitation at location 649,Sanitation,2561161.78,2023-07-08,Zila Parishad
+W-1590,MP_9,Kerala,Constituency_7,Construction of Education at location 566,Education,15669918.29,2023-04-14,Municipal Corporation
+W-1591,MP_16,Kerala,Constituency_11,Construction of Education at location 849,Education,858429.3,2023-05-03,PWD
+W-1592,MP_3,Kerala,Constituency_4,Construction of Drinking Water at location 216,Drinking Water,1888014.61,2023-07-02,Zila Parishad
+W-1593,MP_43,West Bengal,Constituency_18,Construction of Health at location 67,Health,2175252.57,2023-04-23,Gram Panchayat
+W-1594,MP_47,Uttar Pradesh,Constituency_10,Construction of Drinking Water at location 184,Drinking Water,6081373.99,2023-01-23,Municipal Corporation
+W-1595,MP_36,Kerala,Constituency_1,Construction of Sanitation at location 989,Sanitation,1965287.59,2023-12-12,Zila Parishad
+W-1596,MP_38,Kerala,Constituency_3,Construction of Education at location 541,Education,12351373.99,2023-09-04,Gram Panchayat
+W-1597,MP_12,Maharashtra,Constituency_17,Construction of Education at location 870,Education,16449131.45,2023-06-10,Zila Parishad
+W-1598,MP_24,Kerala,Constituency_10,Construction of Drinking Water at location 553,Drinking Water,9211420.74,2023-03-18,Gram Panchayat
+W-1599,MP_7,Kerala,Constituency_3,Construction of Sanitation at location 701,Sanitation,11604906.57,2023-05-31,Zila Parishad
+W-1600,MP_5,Bihar,Constituency_1,Construction of Drinking Water at location 634,Drinking Water,13788472.25,2023-10-09,Gram Panchayat
+W-1601,MP_31,Bihar,Constituency_18,Construction of Health at location 42,Health,15093036.25,2023-01-12,PWD
+W-1602,MP_24,West Bengal,Constituency_1,Construction of Roads at location 653,Roads,5808690.58,2023-07-18,Zila Parishad
+W-1603,MP_37,Uttar Pradesh,Constituency_10,Construction of Roads at location 793,Roads,15549767.31,2023-09-15,PWD
+W-1604,MP_8,West Bengal,Constituency_4,Construction of Roads at location 735,Roads,4178328.81,2023-05-01,Zila Parishad
+W-1605,MP_32,Kerala,Constituency_8,Construction of Roads at location 166,Roads,1235099.11,2023-07-07,Zila Parishad
+W-1606,MP_48,Uttar Pradesh,Constituency_1,Construction of Education at location 661,Education,525046.3,2023-10-05,PWD
+W-1607,MP_6,Maharashtra,Constituency_12,Construction of Roads at location 951,Roads,14635798.56,2023-01-05,Municipal Corporation
+W-1608,MP_19,Bihar,Constituency_8,Construction of Drinking Water at location 690,Drinking Water,18128682.24,2023-04-05,PWD
+W-1609,MP_25,West Bengal,Constituency_16,Construction of Education at location 912,Education,12951602.68,2023-11-04,Gram Panchayat
+W-1610,MP_35,Kerala,Constituency_3,Construction of Roads at location 377,Roads,13186827.2,2023-08-02,Gram Panchayat
+W-1611,MP_14,Bihar,Constituency_5,Construction of Education at location 23,Education,2538293.81,2023-04-04,Gram Panchayat
+W-1612,MP_23,Kerala,Constituency_17,Construction of Health at location 561,Health,13866090.19,2023-07-20,Gram Panchayat
+W-1613,MP_23,Kerala,Constituency_7,Construction of Sanitation at location 69,Sanitation,6673662.18,2023-03-22,Gram Panchayat
+W-1614,MP_18,Kerala,Constituency_11,Construction of Health at location 154,Health,15111649.43,2023-01-10,Municipal Corporation
+W-1615,MP_11,West Bengal,Constituency_18,Construction of Education at location 497,Education,6471665.28,2023-11-12,Zila Parishad
+W-1616,MP_45,Maharashtra,Constituency_11,Construction of Drinking Water at location 720,Drinking Water,5660665.35,2023-06-13,Municipal Corporation
+W-1617,MP_13,Uttar Pradesh,Constituency_9,Construction of Health at location 814,Health,11846372.7,2023-11-06,PWD
+W-1618,MP_19,Kerala,Constituency_18,Construction of Roads at location 296,Roads,11557139.28,2023-01-22,Municipal Corporation
+W-1619,MP_26,Uttar Pradesh,Constituency_9,Construction of Drinking Water at location 336,Drinking Water,12860071.47,2023-04-05,Zila Parishad
+W-1620,MP_32,Bihar,Constituency_19,Construction of Drinking Water at location 937,Drinking Water,1405456.28,2023-10-08,Gram Panchayat
+W-1621,MP_33,Uttar Pradesh,Constituency_6,Construction of Drinking Water at location 317,Drinking Water,5609682.59,2023-06-23,Zila Parishad
+W-1622,MP_17,West Bengal,Constituency_7,Construction of Drinking Water at location 288,Drinking Water,16887806.46,2023-02-24,Gram Panchayat
+W-1623,MP_7,Bihar,Constituency_5,Construction of Education at location 685,Education,18686500.72,2023-05-21,PWD
+W-1624,MP_19,Kerala,Constituency_1,Construction of Sanitation at location 444,Sanitation,8863304.91,2023-02-02,Zila Parishad
+W-1625,MP_13,Kerala,Constituency_10,Construction of Health at location 325,Health,19818894.89,2023-12-23,Municipal Corporation
+W-1626,MP_2,Maharashtra,Constituency_5,Construction of Roads at location 935,Roads,11552719.05,2023-08-23,PWD
+W-1627,MP_25,Kerala,Constituency_4,Construction of Health at location 114,Health,4520952.96,2023-08-11,Gram Panchayat
+W-1628,MP_2,West Bengal,Constituency_11,Construction of Sanitation at location 896,Sanitation,16727167.85,2023-09-13,Municipal Corporation
+W-1629,MP_42,West Bengal,Constituency_2,Construction of Sanitation at location 232,Sanitation,17697114.05,2023-12-27,Zila Parishad
+W-1630,MP_7,Bihar,Constituency_9,Construction of Drinking Water at location 264,Drinking Water,1123891.97,2023-03-05,Zila Parishad
+W-1631,MP_26,Uttar Pradesh,Constituency_6,Construction of Education at location 474,Education,10495386.11,2023-01-17,PWD
+W-1632,MP_45,Maharashtra,Constituency_3,Construction of Education at location 284,Education,14268133.24,2023-12-25,Municipal Corporation
+W-1633,MP_29,Uttar Pradesh,Constituency_19,Construction of Roads at location 503,Roads,2207723.68,2023-08-03,Gram Panchayat
+W-1634,MP_43,Bihar,Constituency_13,Construction of Sanitation at location 756,Sanitation,13132822.25,2023-12-24,Gram Panchayat
+W-1635,MP_36,Maharashtra,Constituency_14,Construction of Sanitation at location 471,Sanitation,19559747.48,2023-04-19,Municipal Corporation
+W-1636,MP_16,Kerala,Constituency_15,Construction of Drinking Water at location 694,Drinking Water,4585925.17,2023-04-15,Municipal Corporation
+W-1637,MP_47,West Bengal,Constituency_15,Construction of Education at location 870,Education,18318417.56,2023-09-12,Zila Parishad
+W-1638,MP_29,Uttar Pradesh,Constituency_4,Construction of Health at location 133,Health,5860465.34,2023-02-24,Gram Panchayat
+W-1639,MP_43,West Bengal,Constituency_3,Construction of Sanitation at location 561,Sanitation,15270646.49,2023-11-25,Municipal Corporation
+W-1640,MP_29,Uttar Pradesh,Constituency_8,Construction of Roads at location 926,Roads,5843229.72,2023-05-29,Zila Parishad
+W-1641,MP_42,Bihar,Constituency_18,Construction of Education at location 221,Education,18490161.9,2023-09-30,Municipal Corporation
+W-1642,MP_36,Uttar Pradesh,Constituency_13,Construction of Education at location 236,Education,15558685.38,2023-05-08,Municipal Corporation
+W-1643,MP_46,Kerala,Constituency_19,Construction of Drinking Water at location 869,Drinking Water,4938834.45,2023-12-06,PWD
+W-1644,MP_3,Maharashtra,Constituency_14,Construction of Drinking Water at location 856,Drinking Water,10902830.28,2023-01-10,PWD
+W-1645,MP_47,West Bengal,Constituency_5,Construction of Education at location 705,Education,3203724.32,2023-03-17,Gram Panchayat
+W-1646,MP_4,West Bengal,Constituency_8,Construction of Sanitation at location 985,Sanitation,11260660.3,2023-03-27,Trust
+W-1647,MP_11,Maharashtra,Constituency_2,Construction of Drinking Water at location 929,Drinking Water,1848896.71,2023-10-09,PWD
+W-1648,MP_9,Kerala,Constituency_17,Construction of Drinking Water at location 292,Drinking Water,13384184.17,2023-10-19,Zila Parishad
+W-1649,MP_10,Bihar,Constituency_3,Construction of Sanitation at location 700,Sanitation,2712512.74,2023-09-11,Municipal Corporation
+W-1650,MP_2,Bihar,Constituency_4,Construction of Drinking Water at location 245,Drinking Water,10242559.03,2023-11-02,Municipal Corporation
+W-1651,MP_25,Maharashtra,Constituency_16,Construction of Drinking Water at location 407,Drinking Water,2799804.16,2023-03-26,PWD
+W-1652,MP_9,Uttar Pradesh,Constituency_2,Construction of Health at location 258,Health,9768292.94,2023-01-05,Municipal Corporation
+W-1653,MP_6,Kerala,Constituency_10,Construction of Roads at location 901,Roads,6455938.94,2023-07-10,Zila Parishad
+W-1654,MP_10,West Bengal,Constituency_3,Construction of Drinking Water at location 932,Drinking Water,8344746.22,2023-03-11,Municipal Corporation
+W-1655,MP_4,West Bengal,Constituency_1,Construction of Health at location 786,Health,9984636.75,2023-10-09,Municipal Corporation
+W-1656,MP_19,Maharashtra,Constituency_11,Construction of Sanitation at location 885,Sanitation,19824230.31,2023-11-08,PWD
+W-1657,MP_8,Bihar,Constituency_16,Construction of Sanitation at location 925,Sanitation,11556740.35,2023-08-04,PWD
+W-1658,MP_10,Maharashtra,Constituency_7,Construction of Health at location 775,Health,18567681.72,2023-11-08,Municipal Corporation
+W-1659,MP_34,Uttar Pradesh,Constituency_10,Construction of Sanitation at location 547,Sanitation,7322961.54,2023-09-28,Zila Parishad
+W-1660,MP_4,Kerala,Constituency_5,Construction of Drinking Water at location 227,Drinking Water,6897358.85,2023-03-22,Gram Panchayat
+W-1661,MP_36,West Bengal,Constituency_18,Construction of Roads at location 960,Roads,2515871.14,2023-06-03,PWD
+W-1662,MP_39,Bihar,Constituency_10,Construction of Health at location 916,Health,12424149.63,2023-12-23,Gram Panchayat
+W-1663,MP_9,West Bengal,Constituency_17,Construction of Sanitation at location 353,Sanitation,990224.65,2023-09-22,Trust
+W-1664,MP_20,Kerala,Constituency_10,Construction of Drinking Water at location 676,Drinking Water,2319308.18,2023-04-02,Gram Panchayat
+W-1665,MP_5,Maharashtra,Constituency_15,Construction of Health at location 257,Health,15402985.64,2023-10-27,PWD
+W-1666,MP_25,West Bengal,Constituency_3,Construction of Education at location 570,Education,10152164.5,2023-03-04,Gram Panchayat
+W-1667,MP_39,Kerala,Constituency_8,Construction of Sanitation at location 398,Sanitation,8920199.47,2023-09-02,PWD
+W-1668,MP_31,Kerala,Constituency_1,Construction of Health at location 584,Health,2412128.05,2023-11-23,Zila Parishad
+W-1669,MP_25,Maharashtra,Constituency_6,Construction of Roads at location 704,Roads,3085777.82,2023-01-24,PWD
+W-1670,MP_1,Maharashtra,Constituency_19,Construction of Sanitation at location 308,Sanitation,12350341.26,2023-10-13,Municipal Corporation
+W-1671,MP_45,West Bengal,Constituency_13,Construction of Education at location 855,Education,16678539.27,2023-05-20,PWD
+W-1672,MP_9,West Bengal,Constituency_4,Construction of Education at location 676,Education,7477358.95,2023-12-24,Gram Panchayat
+W-1673,MP_7,Kerala,Constituency_6,Construction of Sanitation at location 565,Sanitation,10439601.85,2023-01-18,Zila Parishad
+W-1674,MP_16,Uttar Pradesh,Constituency_11,Construction of Roads at location 131,Roads,11650661.04,2023-08-12,Zila Parishad
+W-1675,MP_11,Kerala,Constituency_13,Construction of Sanitation at location 8,Sanitation,19249243.75,2023-02-01,Municipal Corporation
+W-1676,MP_41,West Bengal,Constituency_13,Construction of Health at location 793,Health,4003356.14,2023-08-22,Municipal Corporation
+W-1677,MP_9,West Bengal,Constituency_13,Construction of Roads at location 826,Roads,19157886.08,2023-03-29,Municipal Corporation
+W-1678,MP_33,West Bengal,Constituency_6,Construction of Health at location 18,Health,9150194.18,2023-09-29,Municipal Corporation
+W-1679,MP_36,Kerala,Constituency_15,Construction of Sanitation at location 347,Sanitation,3166340.35,2023-06-21,Zila Parishad
+W-1680,MP_4,West Bengal,Constituency_2,Construction of Sanitation at location 673,Sanitation,8777610.24,2023-09-16,Municipal Corporation
+W-1681,MP_21,Maharashtra,Constituency_17,Construction of Education at location 178,Education,14395727.44,2023-05-19,Zila Parishad
+W-1682,MP_6,West Bengal,Constituency_5,Construction of Drinking Water at location 490,Drinking Water,9160203.6,2023-01-08,Gram Panchayat
+W-1683,MP_12,Maharashtra,Constituency_2,Construction of Roads at location 920,Roads,2987741.14,2023-07-16,PWD
+W-1684,MP_14,Kerala,Constituency_15,Construction of Drinking Water at location 464,Drinking Water,7454125.08,2023-01-15,Gram Panchayat
+W-1685,MP_4,Uttar Pradesh,Constituency_10,Construction of Sanitation at location 645,Sanitation,5851046.32,2023-09-12,Municipal Corporation
+W-1686,MP_19,Kerala,Constituency_18,Construction of Education at location 329,Education,4819779.46,2023-04-10,Municipal Corporation
+W-1687,MP_24,West Bengal,Constituency_4,Construction of Sanitation at location 955,Sanitation,11085406.8,2023-10-28,PWD
+W-1688,MP_8,Bihar,Constituency_10,Construction of Health at location 217,Health,12797405.72,2023-11-16,Zila Parishad
+W-1689,MP_2,Kerala,Constituency_1,Construction of Drinking Water at location 147,Drinking Water,19632058.32,2023-03-13,Zila Parishad
+W-1690,MP_32,Bihar,Constituency_2,Construction of Sanitation at location 89,Sanitation,5562407.19,2023-11-12,Municipal Corporation
+W-1691,MP_32,Bihar,Constituency_13,Construction of Sanitation at location 132,Sanitation,11293060.27,2023-01-13,Municipal Corporation
+W-1692,MP_25,Uttar Pradesh,Constituency_2,Construction of Sanitation at location 132,Sanitation,19089823.17,2023-05-24,Municipal Corporation
+W-1693,MP_29,Bihar,Constituency_6,Construction of Drinking Water at location 46,Drinking Water,4811038.04,2023-01-28,Municipal Corporation
+W-1694,MP_37,Uttar Pradesh,Constituency_19,Construction of Health at location 269,Health,19750681.87,2023-11-29,PWD
+W-1695,MP_33,Kerala,Constituency_2,Construction of Health at location 682,Health,15918706.62,2023-10-23,Gram Panchayat
+W-1696,MP_35,Uttar Pradesh,Constituency_12,Construction of Roads at location 348,Roads,16653373.84,2023-08-21,Municipal Corporation
+W-1697,MP_34,Kerala,Constituency_12,Construction of Drinking Water at location 560,Drinking Water,14983069.2,2023-04-27,Gram Panchayat
+W-1698,MP_33,Kerala,Constituency_12,Construction of Health at location 684,Health,12656112.55,2023-01-12,PWD
+W-1699,MP_7,Uttar Pradesh,Constituency_9,Construction of Health at location 130,Health,2251602.18,2023-02-12,Zila Parishad
+W-1700,MP_3,Uttar Pradesh,Constituency_5,Construction of Roads at location 175,Roads,12389309.81,2023-12-05,PWD
+W-1701,MP_22,Kerala,Constituency_11,Construction of Sanitation at location 257,Sanitation,2980033.19,2023-06-14,PWD
+W-1702,MP_46,Kerala,Constituency_9,Construction of Health at location 447,Health,16333639.07,2023-12-28,Municipal Corporation
+W-1703,MP_32,West Bengal,Constituency_3,Construction of Drinking Water at location 261,Drinking Water,1626869.84,2023-01-16,Municipal Corporation
+W-1704,MP_40,Bihar,Constituency_12,Construction of Health at location 615,Health,11267136.13,2023-02-19,PWD
+W-1705,MP_7,Kerala,Constituency_16,Construction of Education at location 590,Education,12595628.73,2023-03-19,Zila Parishad
+W-1706,MP_48,Kerala,Constituency_6,Construction of Drinking Water at location 848,Drinking Water,8015711.44,2023-07-22,Zila Parishad
+W-1707,MP_40,Bihar,Constituency_13,Construction of Sanitation at location 817,Sanitation,11683241.91,2023-06-18,PWD
+W-1708,MP_22,Kerala,Constituency_17,Construction of Sanitation at location 183,Sanitation,13951510.89,2023-05-25,Zila Parishad
+W-1709,MP_46,West Bengal,Constituency_14,Construction of Education at location 526,Education,8650984.73,2023-03-26,Trust
+W-1710,MP_42,Bihar,Constituency_13,Construction of Roads at location 801,Roads,6733215.21,2023-04-07,Zila Parishad
+W-1711,MP_39,Bihar,Constituency_12,Construction of Health at location 521,Health,6780571.22,2023-07-10,Municipal Corporation
+W-1712,MP_41,West Bengal,Constituency_12,Construction of Drinking Water at location 562,Drinking Water,4316301.16,2023-09-15,Zila Parishad
+W-1713,MP_49,Maharashtra,Constituency_12,Construction of Sanitation at location 147,Sanitation,17311029.43,2023-08-28,PWD
+W-1714,MP_34,Uttar Pradesh,Constituency_7,Construction of Drinking Water at location 254,Drinking Water,2216117.54,2023-06-29,PWD
+W-1715,MP_31,West Bengal,Constituency_5,Construction of Sanitation at location 540,Sanitation,5921950.59,2023-03-25,PWD
+W-1716,MP_31,Bihar,Constituency_15,Construction of Education at location 201,Education,727075.54,2023-04-17,Gram Panchayat
+W-1717,MP_41,Maharashtra,Constituency_1,Construction of Health at location 612,Health,14548457.19,2023-09-09,Zila Parishad
+W-1718,MP_32,Uttar Pradesh,Constituency_12,Construction of Drinking Water at location 373,Drinking Water,9443830.21,2023-09-30,Municipal Corporation
+W-1719,MP_13,Kerala,Constituency_8,Construction of Health at location 58,Health,5390567.53,2023-03-20,Gram Panchayat
+W-1720,MP_17,Maharashtra,Constituency_14,Construction of Roads at location 595,Roads,2257215.84,2023-09-26,PWD
+W-1721,MP_20,West Bengal,Constituency_4,Construction of Education at location 42,Education,7948181.37,2023-08-07,PWD
+W-1722,MP_9,Bihar,Constituency_19,Construction of Sanitation at location 532,Sanitation,14531389.06,2023-04-16,Zila Parishad
+W-1723,MP_26,Bihar,Constituency_3,Construction of Sanitation at location 862,Sanitation,19838139.49,2023-12-22,Municipal Corporation
+W-1724,MP_24,West Bengal,Constituency_15,Construction of Health at location 592,Health,3971396.32,2023-01-16,PWD
+W-1725,MP_22,Kerala,Constituency_11,Construction of Education at location 832,Education,14945207.41,2023-06-01,Zila Parishad
+W-1726,MP_5,Maharashtra,Constituency_13,Construction of Health at location 352,Health,12437093.85,2023-08-31,Municipal Corporation
+W-1727,MP_34,Uttar Pradesh,Constituency_4,Construction of Health at location 351,Health,2932354.21,2023-04-09,Gram Panchayat
+W-1728,MP_3,Bihar,Constituency_15,Construction of Roads at location 923,Roads,11468986.32,2023-10-31,PWD
+W-1729,MP_11,Maharashtra,Constituency_13,Construction of Drinking Water at location 368,Drinking Water,14341191.91,2023-12-12,PWD
+W-1730,MP_48,Bihar,Constituency_18,Construction of Sanitation at location 27,Sanitation,8395760.88,2023-12-26,Municipal Corporation
+W-1731,MP_39,Kerala,Constituency_2,Construction of Roads at location 938,Roads,12869422.47,2023-08-24,Gram Panchayat
+W-1732,MP_18,Bihar,Constituency_6,Construction of Education at location 206,Education,4769917.48,2023-02-09,Zila Parishad
+W-1733,MP_20,Uttar Pradesh,Constituency_5,Construction of Education at location 421,Education,12011106.86,2023-08-06,Gram Panchayat
+W-1734,MP_9,Maharashtra,Constituency_2,Construction of Education at location 525,Education,6561186.97,2023-03-10,PWD
+W-1735,MP_3,Uttar Pradesh,Constituency_16,Construction of Roads at location 586,Roads,17598429.37,2023-12-17,PWD
+W-1736,MP_13,Kerala,Constituency_1,Construction of Education at location 947,Education,12132062.01,2023-10-15,PWD
+W-1737,MP_43,Kerala,Constituency_4,Construction of Education at location 939,Education,10656160.25,2023-09-25,Zila Parishad
+W-1738,MP_40,West Bengal,Constituency_11,Construction of Health at location 907,Health,10176279.85,2023-12-18,Gram Panchayat
+W-1739,MP_25,Uttar Pradesh,Constituency_14,Construction of Education at location 744,Education,12853938.23,2023-11-12,PWD
+W-1740,MP_23,Maharashtra,Constituency_6,Construction of Sanitation at location 15,Sanitation,6950502.4,2023-09-16,PWD
+W-1741,MP_14,Kerala,Constituency_16,Construction of Sanitation at location 568,Sanitation,19541788.49,2023-04-15,Gram Panchayat
+W-1742,MP_29,Bihar,Constituency_4,Construction of Health at location 44,Health,8380142.03,2023-02-25,PWD
+W-1743,MP_36,West Bengal,Constituency_1,Construction of Roads at location 159,Roads,17007422.62,2023-05-29,PWD
+W-1744,MP_38,West Bengal,Constituency_5,Construction of Education at location 513,Education,11327634.79,2023-10-25,Zila Parishad
+W-1745,MP_27,West Bengal,Constituency_18,Construction of Drinking Water at location 5,Drinking Water,9516054.79,2023-03-23,Municipal Corporation
+W-1746,MP_5,Maharashtra,Constituency_5,Construction of Sanitation at location 864,Sanitation,12009508.35,2023-04-27,Municipal Corporation
+W-1747,MP_16,West Bengal,Constituency_1,Construction of Education at location 368,Education,4953974.75,2023-08-06,Municipal Corporation
+W-1748,MP_27,Bihar,Constituency_10,Construction of Education at location 25,Education,14331294.17,2023-10-21,Municipal Corporation
+W-1749,MP_42,Kerala,Constituency_8,Construction of Sanitation at location 204,Sanitation,10114067.54,2023-01-08,Municipal Corporation
+W-1750,MP_7,Maharashtra,Constituency_7,Construction of Education at location 493,Education,7113050.9,2023-05-18,Municipal Corporation
+W-1751,MP_4,Maharashtra,Constituency_17,Construction of Education at location 426,Education,6233066.08,2023-09-16,Gram Panchayat
+W-1752,MP_49,Uttar Pradesh,Constituency_17,Construction of Drinking Water at location 647,Drinking Water,17983144.74,2023-01-29,Zila Parishad
+W-1753,MP_20,Maharashtra,Constituency_16,Construction of Drinking Water at location 389,Drinking Water,18530922.42,2023-07-29,Zila Parishad
+W-1754,MP_47,Bihar,Constituency_13,Construction of Health at location 617,Health,14463229.54,2023-06-09,Municipal Corporation
+W-1755,MP_33,Uttar Pradesh,Constituency_17,Construction of Drinking Water at location 746,Drinking Water,14845031.87,2023-02-05,Gram Panchayat
+W-1756,MP_33,Kerala,Constituency_16,Construction of Health at location 230,Health,16396014.52,2023-04-17,Zila Parishad
+W-1757,MP_17,Kerala,Constituency_15,Construction of Health at location 16,Health,7584827.27,2023-11-05,Municipal Corporation
+W-1758,MP_2,Maharashtra,Constituency_6,Construction of Education at location 295,Education,4687334.94,2023-04-28,PWD
+W-1759,MP_3,Bihar,Constituency_6,Construction of Sanitation at location 812,Sanitation,19191639.33,2023-10-14,Zila Parishad
+W-1760,MP_13,Bihar,Constituency_10,Construction of Health at location 559,Health,16728639.86,2023-12-25,Gram Panchayat
+W-1761,MP_29,Bihar,Constituency_13,Construction of Education at location 75,Education,9096674.7,2023-10-16,Zila Parishad
+W-1762,MP_23,Uttar Pradesh,Constituency_5,Construction of Drinking Water at location 618,Drinking Water,19111730.05,2023-11-28,Gram Panchayat
+W-1763,MP_21,Bihar,Constituency_18,Construction of Drinking Water at location 591,Drinking Water,1909298.33,2023-07-31,PWD
+W-1764,MP_11,West Bengal,Constituency_1,Construction of Drinking Water at location 65,Drinking Water,7912927.77,2023-06-21,PWD
+W-1765,MP_21,West Bengal,Constituency_11,Construction of Sanitation at location 530,Sanitation,16181956.69,2023-11-10,PWD
+W-1766,MP_30,Kerala,Constituency_14,Construction of Drinking Water at location 661,Drinking Water,1573235.32,2023-11-14,Municipal Corporation
+W-1767,MP_39,Bihar,Constituency_19,Construction of Drinking Water at location 8,Drinking Water,5302279.32,2023-02-14,PWD
+W-1768,MP_48,Uttar Pradesh,Constituency_15,Construction of Roads at location 525,Roads,16157842.87,2023-06-12,Zila Parishad
+W-1769,MP_3,Bihar,Constituency_10,Construction of Sanitation at location 259,Sanitation,12258574.89,2023-07-24,Municipal Corporation
+W-1770,MP_29,West Bengal,Constituency_7,Construction of Sanitation at location 933,Sanitation,10470311.48,2023-10-06,Gram Panchayat
+W-1771,MP_21,West Bengal,Constituency_6,Construction of Roads at location 842,Roads,5619729.49,2023-02-05,PWD
+W-1772,MP_19,West Bengal,Constituency_19,Construction of Sanitation at location 595,Sanitation,13165882.41,2023-11-29,Zila Parishad
+W-1773,MP_14,Kerala,Constituency_4,Construction of Health at location 892,Health,19265827.6,2023-01-13,Gram Panchayat
+W-1774,MP_21,West Bengal,Constituency_14,Construction of Drinking Water at location 3,Drinking Water,5003362.46,2023-06-28,Zila Parishad
+W-1775,MP_10,Uttar Pradesh,Constituency_14,Construction of Sanitation at location 530,Sanitation,17263478.18,2023-03-27,Municipal Corporation
+W-1776,MP_5,Uttar Pradesh,Constituency_16,Construction of Sanitation at location 378,Sanitation,16510122.97,2023-09-09,Municipal Corporation
+W-1777,MP_18,Kerala,Constituency_19,Construction of Education at location 485,Education,6579664.11,2023-11-25,Gram Panchayat
+W-1778,MP_13,Bihar,Constituency_14,Construction of Roads at location 199,Roads,7231006.85,2023-11-28,Gram Panchayat
+W-1779,MP_9,Maharashtra,Constituency_9,Construction of Health at location 119,Health,14779931.75,2023-02-10,Municipal Corporation
+W-1780,MP_34,Bihar,Constituency_11,Construction of Roads at location 629,Roads,15979800.29,2023-04-30,Municipal Corporation
+W-1781,MP_28,Kerala,Constituency_13,Construction of Drinking Water at location 916,Drinking Water,2239527.9,2023-04-15,Gram Panchayat
+W-1782,MP_1,Kerala,Constituency_6,Construction of Health at location 761,Health,8587348.15,2023-09-18,Zila Parishad
+W-1783,MP_43,Bihar,Constituency_18,Construction of Roads at location 932,Roads,1125222.58,2023-05-22,Municipal Corporation
+W-1784,MP_42,Maharashtra,Constituency_4,Construction of Health at location 79,Health,14570300.71,2023-04-06,Zila Parishad
+W-1785,MP_39,Bihar,Constituency_15,Construction of Health at location 705,Health,19912570.75,2023-01-05,Zila Parishad
+W-1786,MP_1,Uttar Pradesh,Constituency_12,Construction of Sanitation at location 81,Sanitation,7669331.9,2023-12-27,Municipal Corporation
+W-1787,MP_45,Kerala,Constituency_8,Construction of Sanitation at location 869,Sanitation,16217321.84,2023-09-19,Municipal Corporation
+W-1788,MP_32,Maharashtra,Constituency_6,Construction of Drinking Water at location 461,Drinking Water,1634271.3,2023-08-03,PWD
+W-1789,MP_16,Kerala,Constituency_19,Construction of Sanitation at location 474,Sanitation,16175751.82,2023-01-31,PWD
+W-1790,MP_13,Bihar,Constituency_16,Construction of Drinking Water at location 733,Drinking Water,16702988.57,2023-10-09,PWD
+W-1791,MP_3,Kerala,Constituency_6,Construction of Drinking Water at location 569,Drinking Water,12795162.27,2023-11-06,Municipal Corporation
+W-1792,MP_22,Bihar,Constituency_14,Construction of Health at location 273,Health,1076068.39,2023-09-09,PWD
+W-1793,MP_1,Uttar Pradesh,Constituency_15,Construction of Roads at location 560,Roads,11571650.65,2023-04-18,PWD
+W-1794,MP_45,Kerala,Constituency_16,Construction of Roads at location 908,Roads,2054901.87,2023-12-15,PWD
+W-1795,MP_26,Maharashtra,Constituency_15,Construction of Health at location 874,Health,9135578.85,2023-04-02,Municipal Corporation
+W-1796,MP_2,Maharashtra,Constituency_10,Construction of Health at location 924,Health,14452366.12,2023-04-27,PWD
+W-1797,MP_35,Kerala,Constituency_2,Construction of Drinking Water at location 757,Drinking Water,12512751.3,2023-10-14,Gram Panchayat
+W-1798,MP_30,West Bengal,Constituency_3,Construction of Roads at location 42,Roads,18169127.07,2023-01-29,Municipal Corporation
+W-1799,MP_14,Bihar,Constituency_16,Construction of Education at location 635,Education,17381169.35,2023-03-24,Zila Parishad
+W-1800,MP_17,West Bengal,Constituency_4,Construction of Education at location 930,Education,12679646.4,2023-09-24,Municipal Corporation
+W-1801,MP_16,Uttar Pradesh,Constituency_2,Construction of Roads at location 909,Roads,11797904.68,2023-03-28,Municipal Corporation
+W-1802,MP_17,Uttar Pradesh,Constituency_6,Construction of Health at location 321,Health,6342056.78,2023-03-08,Municipal Corporation
+W-1803,MP_13,Uttar Pradesh,Constituency_16,Construction of Health at location 179,Health,9582518.81,2023-05-13,PWD
+W-1804,MP_8,Maharashtra,Constituency_18,Construction of Education at location 719,Education,13249684.29,2023-06-22,Gram Panchayat
+W-1805,MP_39,Uttar Pradesh,Constituency_19,Construction of Health at location 674,Health,11776628.0,2023-10-10,Zila Parishad
+W-1806,MP_17,Maharashtra,Constituency_19,Construction of Health at location 288,Health,9992738.0,2023-05-04,Zila Parishad
+W-1807,MP_23,Bihar,Constituency_13,Construction of Roads at location 702,Roads,9908859.03,2023-07-01,Gram Panchayat
+W-1808,MP_2,West Bengal,Constituency_14,Construction of Roads at location 18,Roads,12445559.76,2023-09-13,PWD
+W-1809,MP_14,West Bengal,Constituency_2,Construction of Roads at location 28,Roads,19873280.43,2023-11-16,Zila Parishad
+W-1810,MP_26,Uttar Pradesh,Constituency_7,Construction of Sanitation at location 438,Sanitation,18530144.95,2023-05-16,Zila Parishad
+W-1811,MP_39,Uttar Pradesh,Constituency_18,Construction of Sanitation at location 806,Sanitation,10053669.19,2023-02-21,Municipal Corporation
+W-1812,MP_22,Bihar,Constituency_16,Construction of Education at location 760,Education,8659712.4,2023-06-26,Municipal Corporation
+W-1813,MP_15,Kerala,Constituency_15,Construction of Drinking Water at location 967,Drinking Water,12719551.82,2023-03-16,Zila Parishad
+W-1814,MP_13,Uttar Pradesh,Constituency_9,Construction of Drinking Water at location 917,Drinking Water,862129.02,2023-03-06,Municipal Corporation
+W-1815,MP_42,West Bengal,Constituency_8,Construction of Sanitation at location 756,Sanitation,14596569.65,2023-06-18,Zila Parishad
+W-1816,MP_37,Kerala,Constituency_6,Construction of Health at location 161,Health,2279274.41,2023-01-29,Gram Panchayat
+W-1817,MP_1,West Bengal,Constituency_13,Construction of Health at location 276,Health,7964489.01,2023-06-29,Gram Panchayat
+W-1818,MP_42,Maharashtra,Constituency_12,Construction of Sanitation at location 991,Sanitation,7060005.67,2023-10-27,Trust
+W-1819,MP_42,Kerala,Constituency_12,Construction of Drinking Water at location 828,Drinking Water,729419.34,2023-01-09,Municipal Corporation
+W-1820,MP_44,Maharashtra,Constituency_3,Construction of Sanitation at location 105,Sanitation,7526262.18,2023-09-07,PWD
+W-1821,MP_28,Bihar,Constituency_1,Construction of Drinking Water at location 570,Drinking Water,9389396.75,2023-12-01,Zila Parishad
+W-1822,MP_13,West Bengal,Constituency_11,Construction of Health at location 450,Health,19576254.98,2023-02-22,Zila Parishad
+W-1823,MP_14,West Bengal,Constituency_2,Construction of Roads at location 338,Roads,5095898.73,2023-11-03,Gram Panchayat
+W-1824,MP_8,West Bengal,Constituency_2,Construction of Health at location 245,Health,15908244.54,2023-09-12,Zila Parishad
+W-1825,MP_21,Maharashtra,Constituency_15,Construction of Drinking Water at location 478,Drinking Water,11809258.62,2023-11-12,Zila Parishad
+W-1826,MP_20,Bihar,Constituency_12,Construction of Drinking Water at location 606,Drinking Water,3270201.38,2023-10-24,PWD
+W-1827,MP_40,Uttar Pradesh,Constituency_14,Construction of Roads at location 508,Roads,1910795.94,2023-01-25,PWD
+W-1828,MP_40,West Bengal,Constituency_3,Construction of Roads at location 673,Roads,7914702.75,2023-03-19,Gram Panchayat
+W-1829,MP_47,Uttar Pradesh,Constituency_11,Construction of Education at location 526,Education,10504853.75,2023-07-13,Gram Panchayat
+W-1830,MP_32,West Bengal,Constituency_12,Construction of Sanitation at location 231,Sanitation,16282185.16,2023-07-20,Zila Parishad
+W-1831,MP_49,Maharashtra,Constituency_12,Construction of Drinking Water at location 843,Drinking Water,16447015.78,2023-12-17,Municipal Corporation
+W-1832,MP_24,Kerala,Constituency_4,Construction of Health at location 36,Health,14107042.14,2023-02-14,PWD
+W-1833,MP_30,West Bengal,Constituency_10,Construction of Sanitation at location 766,Sanitation,7249164.25,2023-02-07,PWD
+W-1834,MP_36,West Bengal,Constituency_11,Construction of Sanitation at location 912,Sanitation,15311455.76,2023-05-02,Gram Panchayat
+W-1835,MP_12,Maharashtra,Constituency_18,Construction of Education at location 109,Education,6881381.0,2023-12-11,Gram Panchayat
+W-1836,MP_40,Maharashtra,Constituency_7,Construction of Education at location 439,Education,3992826.04,2023-04-21,PWD
+W-1837,MP_28,West Bengal,Constituency_17,Construction of Education at location 795,Education,5404504.27,2023-09-06,PWD
+W-1838,MP_49,Bihar,Constituency_10,Construction of Health at location 656,Health,14363127.92,2023-12-23,Municipal Corporation
+W-1839,MP_46,Uttar Pradesh,Constituency_9,Construction of Sanitation at location 720,Sanitation,5833305.88,2023-03-04,Municipal Corporation
+W-1840,MP_44,Kerala,Constituency_9,Construction of Health at location 685,Health,18854534.82,2023-10-09,PWD
+W-1841,MP_21,West Bengal,Constituency_6,Construction of Health at location 294,Health,19085666.16,2023-12-26,Gram Panchayat
+W-1842,MP_38,West Bengal,Constituency_5,Construction of Health at location 203,Health,3831773.89,2023-09-01,Municipal Corporation
+W-1843,MP_36,Uttar Pradesh,Constituency_7,Construction of Health at location 503,Health,14345572.28,2023-01-27,Trust
+W-1844,MP_41,Bihar,Constituency_13,Construction of Roads at location 393,Roads,8964386.1,2023-07-10,PWD
+W-1845,MP_43,Uttar Pradesh,Constituency_14,Construction of Health at location 46,Health,2983754.7,2023-08-24,Gram Panchayat
+W-1846,MP_35,Maharashtra,Constituency_6,Construction of Health at location 743,Health,11480338.42,2023-09-19,PWD
+W-1847,MP_45,Bihar,Constituency_8,Construction of Drinking Water at location 498,Drinking Water,18269494.96,2023-07-12,Municipal Corporation
+W-1848,MP_37,West Bengal,Constituency_5,Construction of Education at location 92,Education,8245542.43,2023-11-04,Zila Parishad
+W-1849,MP_18,Bihar,Constituency_12,Construction of Sanitation at location 16,Sanitation,13808614.16,2023-07-16,Municipal Corporation
+W-1850,MP_16,Kerala,Constituency_8,Construction of Drinking Water at location 28,Drinking Water,1946102.56,2023-12-08,Municipal Corporation
+W-1851,MP_15,Uttar Pradesh,Constituency_15,Construction of Drinking Water at location 24,Drinking Water,14747419.96,2023-01-26,Gram Panchayat
+W-1852,MP_22,Bihar,Constituency_9,Construction of Roads at location 27,Roads,1934234.34,2023-12-15,Municipal Corporation
+W-1853,MP_39,Maharashtra,Constituency_13,Construction of Roads at location 465,Roads,8060279.93,2023-12-08,PWD
+W-1854,MP_32,Kerala,Constituency_12,Construction of Health at location 823,Health,3093472.45,2023-08-05,Municipal Corporation
+W-1855,MP_46,Kerala,Constituency_7,Construction of Drinking Water at location 739,Drinking Water,15120181.13,2023-12-13,Trust
+W-1856,MP_20,Bihar,Constituency_10,Construction of Drinking Water at location 10,Drinking Water,17099528.05,2023-05-03,Municipal Corporation
+W-1857,MP_25,Kerala,Constituency_11,Construction of Roads at location 947,Roads,15634961.35,2023-09-26,Gram Panchayat
+W-1858,MP_6,Kerala,Constituency_19,Construction of Health at location 444,Health,3906642.79,2023-12-25,Gram Panchayat
+W-1859,MP_19,Maharashtra,Constituency_14,Construction of Sanitation at location 597,Sanitation,4127664.2,2023-09-30,Gram Panchayat
+W-1860,MP_32,Maharashtra,Constituency_2,Construction of Roads at location 240,Roads,542589.84,2023-10-20,Zila Parishad
+W-1861,MP_9,Bihar,Constituency_3,Construction of Education at location 715,Education,12835568.73,2023-10-25,Gram Panchayat
+W-1862,MP_1,Kerala,Constituency_11,Construction of Sanitation at location 106,Sanitation,13593431.61,2023-11-17,Zila Parishad
+W-1863,MP_16,Bihar,Constituency_12,Construction of Education at location 194,Education,13065131.16,2023-11-04,Municipal Corporation
+W-1864,MP_20,Kerala,Constituency_8,Construction of Drinking Water at location 994,Drinking Water,1576743.72,2023-01-04,Gram Panchayat
+W-1865,MP_14,Maharashtra,Constituency_19,Construction of Sanitation at location 399,Sanitation,19252502.06,2023-01-03,Municipal Corporation
+W-1866,MP_5,Maharashtra,Constituency_19,Construction of Health at location 592,Health,13701492.3,2023-09-20,Municipal Corporation
+W-1867,MP_32,Kerala,Constituency_17,Construction of Health at location 79,Health,12319137.2,2023-10-02,Gram Panchayat
+W-1868,MP_18,Kerala,Constituency_16,Construction of Roads at location 135,Roads,15014568.44,2023-11-28,Gram Panchayat
+W-1869,MP_16,West Bengal,Constituency_6,Construction of Health at location 472,Health,15240399.34,2023-06-21,PWD
+W-1870,MP_49,Uttar Pradesh,Constituency_9,Construction of Drinking Water at location 512,Drinking Water,2993149.45,2023-12-04,Zila Parishad
+W-1871,MP_44,Uttar Pradesh,Constituency_9,Construction of Sanitation at location 357,Sanitation,4010351.88,2023-11-27,Zila Parishad
+W-1872,MP_14,Uttar Pradesh,Constituency_12,Construction of Drinking Water at location 670,Drinking Water,6834070.14,2023-01-30,PWD
+W-1873,MP_35,Bihar,Constituency_6,Construction of Education at location 100,Education,6285990.31,2023-02-24,PWD
+W-1874,MP_9,Bihar,Constituency_14,Construction of Education at location 599,Education,7120131.34,2023-11-27,Municipal Corporation
+W-1875,MP_19,Uttar Pradesh,Constituency_11,Construction of Health at location 641,Health,14196724.78,2023-07-16,PWD
+W-1876,MP_28,Bihar,Constituency_6,Construction of Drinking Water at location 470,Drinking Water,8093043.67,2023-09-04,PWD
+W-1877,MP_36,Uttar Pradesh,Constituency_14,Construction of Roads at location 789,Roads,6354396.36,2023-11-16,Gram Panchayat
+W-1878,MP_15,West Bengal,Constituency_9,Construction of Health at location 761,Health,16796005.45,2023-04-15,Zila Parishad
+W-1879,MP_3,West Bengal,Constituency_3,Construction of Drinking Water at location 153,Drinking Water,10497417.41,2023-04-17,Zila Parishad
+W-1880,MP_23,Bihar,Constituency_18,Construction of Health at location 372,Health,9947219.78,2023-04-23,Municipal Corporation
+W-1881,MP_28,West Bengal,Constituency_13,Construction of Health at location 468,Health,15618657.2,2023-08-24,Gram Panchayat
+W-1882,MP_32,Maharashtra,Constituency_15,Construction of Roads at location 530,Roads,3100934.11,2023-06-22,Municipal Corporation
+W-1883,MP_28,Maharashtra,Constituency_17,Construction of Sanitation at location 790,Sanitation,1151358.63,2023-09-28,Municipal Corporation
+W-1884,MP_44,West Bengal,Constituency_4,Construction of Education at location 962,Education,9152447.75,2023-08-06,Municipal Corporation
+W-1885,MP_40,Maharashtra,Constituency_4,Construction of Education at location 994,Education,9282606.49,2023-01-19,Municipal Corporation
+W-1886,MP_14,Kerala,Constituency_4,Construction of Health at location 408,Health,7383973.25,2023-01-06,PWD
+W-1887,MP_3,West Bengal,Constituency_4,Construction of Sanitation at location 140,Sanitation,17593802.93,2023-10-27,Gram Panchayat
+W-1888,MP_21,West Bengal,Constituency_19,Construction of Education at location 382,Education,16792942.27,2023-09-02,Municipal Corporation
+W-1889,MP_26,Uttar Pradesh,Constituency_2,Construction of Drinking Water at location 824,Drinking Water,19726499.19,2023-12-18,Zila Parishad
+W-1890,MP_41,Uttar Pradesh,Constituency_7,Construction of Sanitation at location 272,Sanitation,14920726.47,2023-10-03,Municipal Corporation
+W-1891,MP_36,Kerala,Constituency_17,Construction of Health at location 963,Health,10221031.99,2023-12-18,Municipal Corporation
+W-1892,MP_10,Maharashtra,Constituency_12,Construction of Drinking Water at location 298,Drinking Water,7760138.75,2023-09-01,Municipal Corporation
+W-1893,MP_24,Kerala,Constituency_8,Construction of Education at location 367,Education,18418603.9,2023-06-07,Zila Parishad
+W-1894,MP_24,Kerala,Constituency_18,Construction of Drinking Water at location 340,Drinking Water,12325926.62,2023-09-18,Gram Panchayat
+W-1895,MP_20,Uttar Pradesh,Constituency_12,Construction of Drinking Water at location 674,Drinking Water,16813578.69,2023-07-11,Gram Panchayat
+W-1896,MP_28,Bihar,Constituency_6,Construction of Drinking Water at location 685,Drinking Water,18884054.02,2023-07-19,Gram Panchayat
+W-1897,MP_37,West Bengal,Constituency_15,Construction of Education at location 214,Education,13583698.57,2023-03-23,Zila Parishad
+W-1898,MP_21,Uttar Pradesh,Constituency_11,Construction of Education at location 702,Education,17118177.03,2023-02-15,Gram Panchayat
+W-1899,MP_49,Kerala,Constituency_8,Construction of Education at location 492,Education,9047489.12,2023-11-11,PWD
+W-1900,MP_27,Bihar,Constituency_16,Construction of Sanitation at location 765,Sanitation,12282670.45,2023-10-18,PWD
+W-1901,MP_15,Bihar,Constituency_18,Construction of Health at location 854,Health,18140793.22,2023-05-30,Gram Panchayat
+W-1902,MP_2,Maharashtra,Constituency_1,Construction of Health at location 334,Health,1258468.34,2023-02-01,Municipal Corporation
+W-1903,MP_27,Kerala,Constituency_10,Construction of Roads at location 658,Roads,12240985.69,2023-02-04,Gram Panchayat
+W-1904,MP_3,Maharashtra,Constituency_2,Construction of Roads at location 78,Roads,1038820.74,2023-07-25,PWD
+W-1905,MP_10,Bihar,Constituency_16,Construction of Health at location 918,Health,17496528.5,2023-01-16,PWD
+W-1906,MP_27,Maharashtra,Constituency_15,Construction of Health at location 444,Health,2655556.61,2023-08-03,Municipal Corporation
+W-1907,MP_14,West Bengal,Constituency_1,Construction of Roads at location 117,Roads,18473684.7,2023-08-29,Zila Parishad
+W-1908,MP_44,West Bengal,Constituency_18,Construction of Drinking Water at location 770,Drinking Water,7921450.3,2023-09-30,Zila Parishad
+W-1909,MP_19,Maharashtra,Constituency_2,Construction of Sanitation at location 972,Sanitation,19816602.11,2023-04-05,Municipal Corporation
+W-1910,MP_8,Kerala,Constituency_7,Construction of Drinking Water at location 169,Drinking Water,1540305.39,2023-07-17,Gram Panchayat
+W-1911,MP_24,Bihar,Constituency_6,Construction of Roads at location 193,Roads,6454938.9,2023-04-19,Municipal Corporation
+W-1912,MP_33,Kerala,Constituency_8,Construction of Sanitation at location 452,Sanitation,651313.14,2023-09-08,Gram Panchayat
+W-1913,MP_27,Bihar,Constituency_5,Construction of Education at location 389,Education,19215612.14,2023-02-03,Municipal Corporation
+W-1914,MP_9,Bihar,Constituency_7,Construction of Sanitation at location 244,Sanitation,13138258.96,2023-08-20,Gram Panchayat
+W-1915,MP_28,Uttar Pradesh,Constituency_9,Construction of Drinking Water at location 95,Drinking Water,13825057.48,2023-01-17,Zila Parishad
+W-1916,MP_17,Uttar Pradesh,Constituency_13,Construction of Health at location 614,Health,16663493.68,2023-01-13,Zila Parishad
+W-1917,MP_21,Uttar Pradesh,Constituency_18,Construction of Education at location 138,Education,11167048.86,2023-08-21,PWD
+W-1918,MP_15,Maharashtra,Constituency_11,Construction of Health at location 303,Health,16890449.66,2023-08-02,Trust
+W-1919,MP_29,Bihar,Constituency_19,Construction of Health at location 110,Health,7825150.34,2023-11-19,Municipal Corporation
+W-1920,MP_15,Bihar,Constituency_11,Construction of Roads at location 721,Roads,2357422.87,2023-06-21,Zila Parishad
+W-1921,MP_7,Bihar,Constituency_4,Construction of Drinking Water at location 186,Drinking Water,9287156.79,2023-01-12,Zila Parishad
+W-1922,MP_48,Kerala,Constituency_14,Construction of Roads at location 527,Roads,17288144.41,2023-02-06,PWD
+W-1923,MP_44,Uttar Pradesh,Constituency_1,Construction of Sanitation at location 686,Sanitation,10650278.7,2023-02-27,PWD
+W-1924,MP_35,Bihar,Constituency_14,Construction of Health at location 954,Health,954098.05,2023-01-30,PWD
+W-1925,MP_29,Uttar Pradesh,Constituency_8,Construction of Sanitation at location 365,Sanitation,7055113.47,2023-05-30,PWD
+W-1926,MP_36,Maharashtra,Constituency_13,Construction of Education at location 73,Education,18786183.8,2023-07-16,PWD
+W-1927,MP_30,Maharashtra,Constituency_7,Construction of Drinking Water at location 992,Drinking Water,11259696.03,2023-03-28,Municipal Corporation
+W-1928,MP_42,Uttar Pradesh,Constituency_8,Construction of Education at location 710,Education,938600.43,2023-01-01,PWD
+W-1929,MP_47,West Bengal,Constituency_10,Construction of Drinking Water at location 420,Drinking Water,6080631.81,2023-09-09,Gram Panchayat
+W-1930,MP_15,Maharashtra,Constituency_9,Construction of Health at location 236,Health,19972922.83,2023-06-08,Zila Parishad
+W-1931,MP_41,Kerala,Constituency_13,Construction of Education at location 257,Education,18157044.81,2023-07-04,Municipal Corporation
+W-1932,MP_34,Bihar,Constituency_2,Construction of Drinking Water at location 351,Drinking Water,15097394.77,2023-01-09,Zila Parishad
+W-1933,MP_23,Kerala,Constituency_9,Construction of Sanitation at location 543,Sanitation,18579909.34,2023-01-19,Municipal Corporation
+W-1934,MP_23,Kerala,Constituency_18,Construction of Roads at location 98,Roads,17197219.24,2023-10-17,Municipal Corporation
+W-1935,MP_12,Kerala,Constituency_4,Construction of Drinking Water at location 506,Drinking Water,15335492.93,2023-07-08,Municipal Corporation
+W-1936,MP_11,West Bengal,Constituency_6,Construction of Drinking Water at location 487,Drinking Water,14128278.66,2023-06-30,Gram Panchayat
+W-1937,MP_1,Uttar Pradesh,Constituency_17,Construction of Education at location 948,Education,1246995.6,2023-09-14,Gram Panchayat
+W-1938,MP_33,Kerala,Constituency_1,Construction of Roads at location 705,Roads,16299014.07,2023-12-02,PWD
+W-1939,MP_39,West Bengal,Constituency_8,Construction of Roads at location 592,Roads,14280332.07,2023-05-25,Trust
+W-1940,MP_26,Bihar,Constituency_16,Construction of Health at location 23,Health,6452445.77,2023-11-14,Zila Parishad
+W-1941,MP_49,Uttar Pradesh,Constituency_13,Construction of Roads at location 356,Roads,14788992.28,2023-01-14,Zila Parishad
+W-1942,MP_29,Kerala,Constituency_6,Construction of Education at location 859,Education,14451410.63,2023-10-12,Zila Parishad
+W-1943,MP_36,Bihar,Constituency_16,Construction of Sanitation at location 112,Sanitation,13306092.78,2023-11-04,PWD
+W-1944,MP_18,Bihar,Constituency_10,Construction of Drinking Water at location 679,Drinking Water,2451261.1,2023-12-16,Zila Parishad
+W-1945,MP_15,Maharashtra,Constituency_15,Construction of Roads at location 688,Roads,1729156.22,2023-03-04,Municipal Corporation
+W-1946,MP_24,Uttar Pradesh,Constituency_13,Construction of Health at location 971,Health,5823733.91,2023-03-11,Zila Parishad
+W-1947,MP_3,Kerala,Constituency_16,Construction of Roads at location 869,Roads,12676286.08,2023-02-27,Zila Parishad
+W-1948,MP_46,Uttar Pradesh,Constituency_7,Construction of Education at location 521,Education,5254862.44,2023-06-10,Zila Parishad
+W-1949,MP_3,Maharashtra,Constituency_13,Construction of Health at location 516,Health,2871554.06,2023-09-20,Gram Panchayat
+W-1950,MP_12,West Bengal,Constituency_19,Construction of Health at location 726,Health,8587905.0,2023-06-07,Municipal Corporation
+W-1951,MP_38,Uttar Pradesh,Constituency_2,Construction of Sanitation at location 25,Sanitation,6272478.75,2023-08-10,Municipal Corporation
+W-1952,MP_26,Kerala,Constituency_4,Construction of Drinking Water at location 365,Drinking Water,17862776.39,2023-06-08,Zila Parishad
+W-1953,MP_48,West Bengal,Constituency_18,Construction of Sanitation at location 427,Sanitation,2792288.6,2023-05-24,Gram Panchayat
+W-1954,MP_27,Bihar,Constituency_5,Construction of Roads at location 68,Roads,11188341.27,2023-07-06,Municipal Corporation
+W-1955,MP_2,West Bengal,Constituency_12,Construction of Roads at location 837,Roads,9623463.32,2023-03-25,Zila Parishad
+W-1956,MP_4,Kerala,Constituency_7,Construction of Sanitation at location 907,Sanitation,16835905.81,2023-05-05,PWD
+W-1957,MP_5,Uttar Pradesh,Constituency_3,Construction of Roads at location 399,Roads,10809374.15,2023-12-12,Municipal Corporation
+W-1958,MP_9,Maharashtra,Constituency_11,Construction of Education at location 173,Education,1880886.68,2023-05-10,Municipal Corporation
+W-1959,MP_22,Uttar Pradesh,Constituency_11,Construction of Education at location 626,Education,19175230.09,2023-06-08,Municipal Corporation
+W-1960,MP_7,West Bengal,Constituency_2,Construction of Drinking Water at location 544,Drinking Water,16965909.44,2023-02-08,Gram Panchayat
+W-1961,MP_10,Bihar,Constituency_7,Construction of Health at location 457,Health,10442544.1,2023-10-29,PWD
+W-1962,MP_43,West Bengal,Constituency_18,Construction of Health at location 515,Health,11449729.68,2023-07-29,Municipal Corporation
+W-1963,MP_24,West Bengal,Constituency_12,Construction of Drinking Water at location 360,Drinking Water,13586693.72,2023-11-25,Municipal Corporation
+W-1964,MP_33,Bihar,Constituency_19,Construction of Sanitation at location 117,Sanitation,11210399.79,2023-02-22,PWD
+W-1965,MP_10,Kerala,Constituency_11,Construction of Roads at location 36,Roads,7328693.41,2023-08-11,Municipal Corporation
+W-1966,MP_21,Uttar Pradesh,Constituency_19,Construction of Drinking Water at location 257,Drinking Water,15578886.34,2023-07-31,Zila Parishad
+W-1967,MP_6,West Bengal,Constituency_11,Construction of Sanitation at location 190,Sanitation,19491841.38,2023-08-13,Zila Parishad
+W-1968,MP_2,Uttar Pradesh,Constituency_10,Construction of Roads at location 635,Roads,7279598.96,2023-02-07,PWD
+W-1969,MP_3,Kerala,Constituency_1,Construction of Sanitation at location 345,Sanitation,19171780.94,2023-09-07,Municipal Corporation
+W-1970,MP_47,Maharashtra,Constituency_7,Construction of Drinking Water at location 342,Drinking Water,11882778.88,2023-08-30,Zila Parishad
+W-1971,MP_38,Uttar Pradesh,Constituency_6,Construction of Drinking Water at location 38,Drinking Water,17648637.55,2023-12-25,Municipal Corporation
+W-1972,MP_8,West Bengal,Constituency_1,Construction of Health at location 85,Health,11224774.11,2023-08-02,Gram Panchayat
+W-1973,MP_7,Maharashtra,Constituency_5,Construction of Roads at location 506,Roads,18854551.75,2023-05-14,Zila Parishad
+W-1974,MP_17,Maharashtra,Constituency_8,Construction of Sanitation at location 649,Sanitation,7360624.49,2023-03-04,Municipal Corporation
+W-1975,MP_26,Bihar,Constituency_15,Construction of Roads at location 990,Roads,1967808.7,2023-02-07,Zila Parishad
+W-1976,MP_17,Uttar Pradesh,Constituency_8,Construction of Roads at location 958,Roads,12491216.47,2023-02-10,PWD
+W-1977,MP_8,Kerala,Constituency_2,Construction of Health at location 74,Health,1532971.67,2023-09-20,Municipal Corporation
+W-1978,MP_1,Maharashtra,Constituency_1,Construction of Sanitation at location 670,Sanitation,14026834.39,2023-08-12,Gram Panchayat
+W-1979,MP_1,Kerala,Constituency_12,Construction of Roads at location 10,Roads,12407533.64,2023-10-30,Zila Parishad
+W-1980,MP_11,Maharashtra,Constituency_9,Construction of Education at location 898,Education,14708525.31,2023-05-23,PWD
+W-1981,MP_42,West Bengal,Constituency_10,Construction of Education at location 888,Education,14188093.91,2023-08-06,Zila Parishad
+W-1982,MP_34,West Bengal,Constituency_12,Construction of Education at location 84,Education,19194467.75,2023-07-11,PWD
+W-1983,MP_23,Kerala,Constituency_3,Construction of Sanitation at location 74,Sanitation,18185998.71,2023-01-05,Municipal Corporation
+W-1984,MP_29,Uttar Pradesh,Constituency_18,Construction of Roads at location 52,Roads,17706732.43,2023-06-24,Municipal Corporation
+W-1985,MP_23,West Bengal,Constituency_5,Construction of Education at location 961,Education,17361922.28,2023-06-10,Trust
+W-1986,MP_11,Uttar Pradesh,Constituency_18,Construction of Roads at location 147,Roads,11167693.69,2023-07-01,PWD
+W-1987,MP_8,Bihar,Constituency_9,Construction of Health at location 15,Health,16696374.84,2023-08-14,Zila Parishad
+W-1988,MP_6,Maharashtra,Constituency_3,Construction of Roads at location 789,Roads,787115.89,2023-12-02,Gram Panchayat
+W-1989,MP_49,Maharashtra,Constituency_11,Construction of Roads at location 74,Roads,7945973.58,2023-07-18,Gram Panchayat
+W-1990,MP_36,Maharashtra,Constituency_18,Construction of Health at location 915,Health,11742997.29,2023-08-31,Zila Parishad
+W-1991,MP_48,Uttar Pradesh,Constituency_17,Construction of Education at location 34,Education,14442538.39,2023-08-28,Zila Parishad
+W-1992,MP_23,Bihar,Constituency_1,Construction of Drinking Water at location 638,Drinking Water,13210102.02,2023-09-24,Zila Parishad
+W-1993,MP_6,Uttar Pradesh,Constituency_8,Construction of Sanitation at location 66,Sanitation,3496648.97,2023-10-06,Gram Panchayat
+W-1994,MP_36,Bihar,Constituency_2,Construction of Health at location 189,Health,6360271.77,2023-06-27,Gram Panchayat
+W-1995,MP_6,West Bengal,Constituency_7,Construction of Drinking Water at location 886,Drinking Water,3165553.95,2023-01-01,PWD
+W-1996,MP_15,Uttar Pradesh,Constituency_9,Construction of Drinking Water at location 231,Drinking Water,7979834.42,2023-01-22,Zila Parishad
+W-1997,MP_2,Bihar,Constituency_5,Construction of Education at location 824,Education,14144273.94,2023-07-31,PWD
+W-1998,MP_47,Maharashtra,Constituency_14,Construction of Health at location 427,Health,4142754.01,2023-07-23,Gram Panchayat
+W-1999,MP_30,West Bengal,Constituency_19,Construction of Sanitation at location 249,Sanitation,7528030.22,2023-06-30,Gram Panchayat
+W-9999,MP_19,Uttar Pradesh,Constituency_7,Construction of Education at location 459,Education,7007317.92,2023-03-29,PWD

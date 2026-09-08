@@ -1,0 +1,20 @@
+{
+  "model_version": "isolation_forest_v1",
+  "trained_at": "2026-09-08T07:29:53.444179Z",
+  "feature_list": [
+    "cost_overrun_ratio",
+    "underutilization_ratio",
+    "delay_days",
+    "sanction_amount_log",
+    "num_payments",
+    "max_vendor_share",
+    "duplicate_similarity_max"
+  ],
+  "contamination": 0.05,
+  "random_state": 42,
+  "dataset_row_count": 1001,
+  "normalization_bounds": {
+    "min": -0.1915925718657453,
+    "max": 0.11018745476029734
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "run_id": "2f50f737-74e5-4065-b12b-6bded3032526",
+  "generated_at": "2026-09-08T07:29:50.460124Z",
+  "total_rows_ingested": {
+    "recommended": 1001,
+    "sanctioned": 904,
+    "payments": 509
+  },
+  "rows_rejected": {
+    "count": 0,
+    "reasons": {}
+  },
+  "unmatched_records": {
+    "count": 0
+  },
+  "join_coverage_pct": 110.73,
+  "fields_with_high_nullness": [
+    {
+      "field": "amount_spent",
+      "null_pct": 49.15
+    },
+    {
+      "field": "num_payments",
+      "null_pct": 49.15
+    },
+    {
+      "field": "last_payment_date",
+      "null_pct": 49.15
+    },
+    {
+      "field": "max_vendor_share",
+      "null_pct": 49.15
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+cost_overrun:
+  ratio_threshold: 1.2            # [SOURCE default 20%, CONFIGURABLE] 20% over sanction
+  tolerance_band: 0.05            # [IMPROVEMENT, CONFIGURABLE] ±5% grace band near 1.0
+under_utilization:
+  age_threshold_days: 180         # [SOURCE concept, CONFIGURABLE]
+  ratio_threshold: 0.9            # [SOURCE concept, CONFIGURABLE]
+delay:
+  threshold_days: 365             # [VERIFIED general norm, CONFIGURABLE]
+duplicate_detection:
+  similarity_threshold: 85        # [CONFIGURABLE] rapidfuzz token-sort score, 0-100
+trust_compliance:
+  lifetime_cap_per_society: 5000000      # [VERIFIED] ₹50 lakh 
+  mp_annual_aggregate_cap: 10000000      # [VERIFIED] ₹1 crore 
+  source_pdf_variant_annual_cap: 5000000 # [DISCREPANCY] ₹50 lakh - Source PDF's figure, kept as a selectable alternative
+payment_anomalies:
+  vendor_concentration_threshold: 0.9    # [CONFIGURABLE]
+  single_payment_share_threshold: 0.5    # [CONFIGURABLE]
+ml:
+  contamination: 0.05             # [ASSUMPTION, CONFIGURABLE]
+  random_state: 42                # [CONFIGURABLE]
+  n_estimators: 200               # [CONFIGURABLE]
+risk_scoring:
+  weights: {cost: 25, delay: 25, ml: 25, compliance: 25, under_utilization: 15}
+  category_bounds: {low: 24, medium: 49, high: 74}
+data_quality:
+  max_single_work_amount_sanity_ceiling: 5000000000   # [ASSUMPTION, CONFIGURABLE] ₹500 crore

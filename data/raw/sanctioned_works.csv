@@ -1,0 +1,905 @@
+unique_work_number,sanction_amount,sanction_date,work_status,implementing_agency,district
+W-1000,6335434.55,2022-06-14,In Progress,PWD,District_8
+W-1003,1096182.79,2023-11-05,In Progress,PWD,District_5
+W-1004,17262815.92,2023-02-27,In Progress,Gram Panchayat,District_2
+W-1005,17353360.55,2023-04-17,In Progress,Gram Panchayat,District_9
+W-1006,12629564.08,2022-11-07,In Progress,PWD,District_2
+W-1007,1126952.61,2023-08-28,Completed,Gram Panchayat,District_9
+W-1008,16117012.19,2023-07-04,Delayed,PWD,District_7
+W-1009,7958017.21,2023-10-22,Completed,Gram Panchayat,District_7
+W-1010,5102453.38,2023-03-05,Completed,PWD,District_6
+W-1011,8457878.43,2023-09-06,Completed,Zila Parishad,District_1
+W-1012,6872781.13,2023-09-04,Delayed,Municipal Corporation,District_1
+W-1013,11412063.74,2023-06-16,Completed,Gram Panchayat,District_8
+W-1014,7830503.36,2023-09-02,Completed,Municipal Corporation,District_5
+W-1015,6268132.51,2024-02-28,Completed,Zila Parishad,District_3
+W-1017,11051712.17,2023-12-16,Delayed,Municipal Corporation,District_3
+W-1019,15595605.19,2023-10-05,In Progress,Municipal Corporation,District_1
+W-1020,7975872.57,2023-10-08,Completed,Municipal Corporation,District_1
+W-1022,10592429.96,2023-04-25,Delayed,Zila Parishad,District_6
+W-1024,17182997.26,2022-03-21,In Progress,Municipal Corporation,District_5
+W-1025,15000000.0,2023-06-13,In Progress,Trust,District_7
+W-1026,11910876.9,2023-10-20,Not Started,PWD,District_7
+W-1027,19110855.87,2023-08-07,Completed,Gram Panchayat,District_4
+W-1029,12554911.81,2022-08-12,In Progress,Gram Panchayat,District_2
+W-1030,6772088.97,2023-05-22,Not Started,Gram Panchayat,District_3
+W-1032,12865794.42,2023-07-12,Completed,Gram Panchayat,District_3
+W-1033,2970347.89,2024-02-18,In Progress,Gram Panchayat,District_5
+W-1034,12575880.72,2023-02-03,In Progress,Zila Parishad,District_2
+W-1035,2617760.08,2023-02-10,Delayed,Zila Parishad,District_6
+W-1036,8916541.38,2023-08-12,In Progress,Gram Panchayat,District_7
+W-1037,20160959.14,2023-07-24,Completed,Municipal Corporation,District_6
+W-1038,3697048.95,2023-01-25,Delayed,Gram Panchayat,District_8
+W-1039,6156764.09,2022-08-17,In Progress,Gram Panchayat,District_6
+W-1040,15277111.0,2023-12-13,Completed,Municipal Corporation,District_8
+W-1041,15377864.74,2023-01-20,Completed,PWD,District_9
+W-1042,4129436.05,2023-09-03,Not Started,PWD,District_9
+W-1043,15687108.81,2023-10-05,In Progress,Municipal Corporation,District_2
+W-1044,9116456.23,2024-01-31,Not Started,Zila Parishad,District_2
+W-1045,18416701.49,2022-10-23,In Progress,PWD,District_3
+W-1046,4329640.22,2023-02-11,Completed,Gram Panchayat,District_3
+W-1047,2098741.9,2023-02-12,In Progress,Municipal Corporation,District_5
+W-1048,1550502.19,2023-02-27,Delayed,Municipal Corporation,District_6
+W-1049,1260815.75,2023-06-19,Not Started,Municipal Corporation,District_7
+W-1050,860634.99,2023-05-03,Completed,Gram Panchayat,District_6
+W-1051,11421208.51,2023-11-11,In Progress,Municipal Corporation,District_2
+W-1052,4859651.79,2023-06-03,Delayed,Municipal Corporation,District_9
+W-1053,19298548.86,2023-11-03,Completed,PWD,District_3
+W-1054,19405375.86,2024-02-23,Not Started,Gram Panchayat,District_8
+W-1055,10275257.12,2023-07-16,In Progress,Municipal Corporation,District_4
+W-1056,16365601.47,2024-02-06,Not Started,Gram Panchayat,District_8
+W-1057,3496163.16,2023-11-26,In Progress,Gram Panchayat,District_8
+W-1058,16477918.23,2023-08-20,Not Started,Municipal Corporation,District_6
+W-1059,18651050.13,2023-02-20,Completed,Municipal Corporation,District_7
+W-1060,6996809.83,2024-01-05,Delayed,Zila Parishad,District_6
+W-1061,11565529.81,2023-05-10,Not Started,PWD,District_4
+W-1062,18522084.7,2023-06-30,Not Started,PWD,District_8
+W-1063,8669813.35,2023-10-24,Not Started,Gram Panchayat,District_9
+W-1064,4358662.26,2023-06-21,Completed,PWD,District_8
+W-1065,3029515.52,2023-11-27,Completed,Municipal Corporation,District_2
+W-1066,3736690.67,2024-03-08,Completed,PWD,District_2
+W-1067,15730447.95,2023-11-28,In Progress,Municipal Corporation,District_1
+W-1069,2726181.45,2024-02-08,Delayed,PWD,District_9
+W-1070,2003896.44,2023-12-24,Completed,PWD,District_4
+W-1071,7138869.86,2023-10-06,Delayed,PWD,District_2
+W-1072,10773039.66,2023-07-09,In Progress,PWD,District_8
+W-1073,15000000.0,2024-01-19,In Progress,Trust,District_2
+W-1074,14378954.61,2023-10-18,In Progress,Zila Parishad,District_9
+W-1075,8445736.14,2023-03-15,Not Started,PWD,District_1
+W-1076,17826044.15,2023-11-05,Completed,Gram Panchayat,District_8
+W-1077,530447.09,2023-09-07,Not Started,Gram Panchayat,District_9
+W-1078,18430232.01,2023-04-20,Delayed,PWD,District_9
+W-1080,4633812.33,2023-07-24,In Progress,Municipal Corporation,District_7
+W-1081,18555725.7,2023-07-16,Not Started,Zila Parishad,District_8
+W-1083,9407452.06,2024-01-18,In Progress,Municipal Corporation,District_2
+W-1085,5970995.29,2022-03-15,In Progress,PWD,District_9
+W-1086,4543398.12,2023-05-26,Completed,Municipal Corporation,District_7
+W-1087,12774200.93,2023-05-23,Delayed,Municipal Corporation,District_6
+W-1088,2180281.48,2024-03-08,Not Started,Gram Panchayat,District_8
+W-1089,8796175.59,2023-11-03,In Progress,Zila Parishad,District_9
+W-1090,12442705.03,2024-01-18,Completed,PWD,District_1
+W-1091,14661874.98,2023-04-27,Completed,PWD,District_1
+W-1092,15700046.69,2023-11-02,Not Started,Gram Panchayat,District_5
+W-1093,9165523.38,2022-03-17,In Progress,Zila Parishad,District_8
+W-1095,6473296.42,2023-04-03,In Progress,Gram Panchayat,District_4
+W-1097,7942695.3,2023-04-06,In Progress,Gram Panchayat,District_8
+W-1098,17795144.06,2023-02-22,Not Started,PWD,District_8
+W-1099,11997782.71,2023-10-26,Completed,PWD,District_5
+W-1100,9521317.0,2023-06-12,Delayed,Municipal Corporation,District_8
+W-1101,2364087.31,2023-08-22,In Progress,Gram Panchayat,District_6
+W-1102,2226349.83,2023-06-01,In Progress,PWD,District_1
+W-1104,11135359.74,2023-08-31,Delayed,PWD,District_4
+W-1105,17395419.94,2023-03-30,Completed,Municipal Corporation,District_6
+W-1106,19131022.16,2024-01-30,In Progress,Gram Panchayat,District_6
+W-1107,10507246.36,2023-03-21,Completed,Zila Parishad,District_8
+W-1108,18772361.08,2023-08-01,Not Started,PWD,District_6
+W-1109,2406281.02,2023-12-07,In Progress,Gram Panchayat,District_2
+W-1110,20901187.23,2023-07-03,Delayed,PWD,District_2
+W-1111,18539001.39,2023-09-21,Not Started,Gram Panchayat,District_9
+W-1112,1468553.72,2023-12-29,Not Started,PWD,District_1
+W-1113,3518878.69,2023-04-19,Completed,Gram Panchayat,District_5
+W-1114,7115955.02,2023-05-23,Delayed,Gram Panchayat,District_2
+W-1115,19365910.7,2023-07-29,Delayed,Municipal Corporation,District_6
+W-1116,12929244.99,2023-05-24,Completed,Gram Panchayat,District_1
+W-1117,7429210.49,2023-06-30,Not Started,Municipal Corporation,District_9
+W-1118,15000000.0,2023-08-29,Not Started,Trust,District_5
+W-1119,8454751.43,2022-10-14,In Progress,Zila Parishad,District_3
+W-1121,2561995.75,2022-10-28,In Progress,Municipal Corporation,District_3
+W-1122,17151461.98,2023-05-28,Completed,Municipal Corporation,District_4
+W-1123,16844024.1,2023-01-17,In Progress,Gram Panchayat,District_8
+W-1124,17208933.78,2023-07-02,In Progress,Zila Parishad,District_9
+W-1125,3285854.63,2023-10-11,Delayed,Gram Panchayat,District_2
+W-1126,11547023.68,2023-03-29,In Progress,PWD,District_7
+W-1127,10802476.3,2023-05-27,Not Started,Gram Panchayat,District_7
+W-1128,11427611.74,2023-08-07,In Progress,PWD,District_1
+W-1129,7645703.19,2023-12-19,Not Started,Municipal Corporation,District_6
+W-1130,15688858.14,2023-06-17,Completed,Zila Parishad,District_9
+W-1131,18340660.14,2023-11-12,In Progress,Municipal Corporation,District_4
+W-1132,16926913.06,2024-01-01,Not Started,PWD,District_5
+W-1133,16547069.23,2023-09-20,Not Started,Zila Parishad,District_5
+W-1134,19817902.77,2023-08-28,Completed,PWD,District_5
+W-1135,12213341.77,2023-02-24,Delayed,Gram Panchayat,District_4
+W-1136,4585310.27,2023-08-17,Completed,PWD,District_4
+W-1137,2030427.28,2023-04-25,Delayed,Zila Parishad,District_2
+W-1138,16865212.9,2023-07-15,Not Started,Municipal Corporation,District_5
+W-1139,14756753.84,2023-12-08,Completed,PWD,District_6
+W-1140,12179847.56,2023-09-09,In Progress,Zila Parishad,District_2
+W-1141,20823212.11,2023-05-11,Delayed,Gram Panchayat,District_4
+W-1142,4943946.43,2023-10-23,Delayed,Zila Parishad,District_8
+W-1143,12111056.33,2023-03-17,Delayed,PWD,District_8
+W-1145,5984584.59,2023-04-09,Not Started,PWD,District_1
+W-1146,9682681.33,2024-01-06,In Progress,Gram Panchayat,District_8
+W-1147,13095824.51,2023-08-31,Not Started,Municipal Corporation,District_9
+W-1148,7330867.91,2023-10-28,In Progress,Gram Panchayat,District_2
+W-1149,13951697.46,2023-08-05,Delayed,Municipal Corporation,District_3
+W-1150,18749838.67,2023-11-30,In Progress,PWD,District_8
+W-1151,17874241.88,2023-04-17,In Progress,Zila Parishad,District_9
+W-1152,15000000.0,2023-02-24,Delayed,Trust,District_5
+W-1153,9096828.21,2023-06-17,Delayed,Zila Parishad,District_9
+W-1154,12483519.07,2023-12-04,In Progress,Zila Parishad,District_2
+W-1155,1890962.45,2022-05-17,In Progress,PWD,District_4
+W-1156,12769230.92,2024-03-04,Not Started,Gram Panchayat,District_6
+W-1157,8320930.2,2023-04-18,In Progress,Zila Parishad,District_6
+W-1158,1584249.18,2022-12-26,In Progress,PWD,District_3
+W-1159,8092836.62,2023-09-18,Delayed,Municipal Corporation,District_7
+W-1161,3370287.3,2023-05-08,Completed,Zila Parishad,District_8
+W-1162,10819947.71,2023-06-05,Not Started,Gram Panchayat,District_2
+W-1163,3858782.2,2024-01-31,Delayed,Municipal Corporation,District_1
+W-1164,18403211.57,2023-07-15,Delayed,PWD,District_8
+W-1165,4005782.64,2023-09-20,Not Started,PWD,District_6
+W-1166,7122250.87,2023-11-17,Not Started,Zila Parishad,District_8
+W-1167,12140638.61,2023-05-26,Delayed,PWD,District_9
+W-1168,1186497.77,2023-06-19,Delayed,PWD,District_3
+W-1169,18993163.97,2022-07-15,In Progress,Municipal Corporation,District_9
+W-1170,1981584.29,2023-08-12,In Progress,Municipal Corporation,District_3
+W-1171,5279349.59,2023-10-25,Completed,PWD,District_2
+W-1172,15335440.41,2024-01-30,Delayed,Municipal Corporation,District_4
+W-1174,6200509.54,2024-01-04,In Progress,Gram Panchayat,District_8
+W-1175,8690923.56,2023-04-24,Not Started,Municipal Corporation,District_2
+W-1176,3180020.49,2023-10-02,Delayed,Zila Parishad,District_4
+W-1177,13548657.82,2023-06-18,Completed,Gram Panchayat,District_7
+W-1178,18987558.26,2023-06-12,Not Started,Zila Parishad,District_9
+W-1179,13316055.9,2023-11-27,Completed,Zila Parishad,District_3
+W-1180,10306673.8,2023-04-14,Delayed,Gram Panchayat,District_8
+W-1181,7618348.23,2023-12-21,Not Started,Municipal Corporation,District_9
+W-1182,4983732.41,2023-07-21,Delayed,PWD,District_2
+W-1183,694120.91,2023-04-11,Not Started,Gram Panchayat,District_4
+W-1184,16479422.77,2023-04-19,Completed,PWD,District_6
+W-1185,18833931.77,2023-04-03,In Progress,PWD,District_1
+W-1186,13766941.43,2024-01-17,Not Started,Municipal Corporation,District_7
+W-1187,15000000.0,2023-06-30,Not Started,Trust,District_1
+W-1188,13790009.29,2022-07-15,In Progress,PWD,District_3
+W-1189,17001550.35,2023-09-04,Delayed,Gram Panchayat,District_7
+W-1190,12785063.26,2023-06-12,Not Started,Municipal Corporation,District_4
+W-1191,9361271.21,2022-07-05,In Progress,Gram Panchayat,District_9
+W-1192,2407553.92,2023-11-18,Delayed,PWD,District_3
+W-1194,2979474.4,2023-06-15,Delayed,Gram Panchayat,District_2
+W-1195,9321625.29,2023-09-17,Not Started,PWD,District_4
+W-1196,16967162.42,2023-11-06,Not Started,Gram Panchayat,District_3
+W-1197,11900352.53,2024-01-01,Delayed,Gram Panchayat,District_4
+W-1198,7755987.74,2023-10-24,Completed,Zila Parishad,District_6
+W-1199,9678938.84,2023-06-21,Completed,Municipal Corporation,District_6
+W-1200,8965898.8,2023-08-20,Not Started,Gram Panchayat,District_3
+W-1201,1556709.76,2023-04-06,In Progress,Zila Parishad,District_1
+W-1202,6127033.96,2024-01-30,In Progress,Municipal Corporation,District_6
+W-1203,15108236.08,2022-10-30,In Progress,Zila Parishad,District_1
+W-1205,14606613.85,2023-02-28,Delayed,PWD,District_2
+W-1206,9001680.26,2023-12-25,Completed,Gram Panchayat,District_8
+W-1207,4120764.87,2023-09-12,Delayed,PWD,District_5
+W-1208,14945354.56,2023-04-09,In Progress,Gram Panchayat,District_2
+W-1210,7195934.19,2023-07-05,In Progress,Zila Parishad,District_9
+W-1211,3517336.34,2023-07-16,Not Started,Gram Panchayat,District_7
+W-1212,2729868.81,2023-12-01,Delayed,PWD,District_9
+W-1213,16106503.47,2023-09-11,In Progress,Gram Panchayat,District_9
+W-1214,6897223.53,2023-02-02,Completed,Zila Parishad,District_2
+W-1215,4715315.71,2023-02-26,In Progress,Municipal Corporation,District_1
+W-1216,7869902.49,2023-08-13,Delayed,PWD,District_6
+W-1217,14528518.35,2023-04-09,Not Started,Gram Panchayat,District_9
+W-1218,12068545.96,2023-10-06,Not Started,Gram Panchayat,District_3
+W-1219,11925937.23,2023-08-20,Not Started,Municipal Corporation,District_2
+W-1220,15818532.04,2023-04-28,Delayed,Zila Parishad,District_1
+W-1221,15245221.81,2023-09-13,Completed,Zila Parishad,District_1
+W-1222,10509916.86,2022-09-24,In Progress,PWD,District_2
+W-1223,17043493.53,2023-07-13,Delayed,PWD,District_6
+W-1224,8642930.12,2023-08-23,In Progress,Zila Parishad,District_3
+W-1225,20943043.49,2023-12-24,Delayed,Municipal Corporation,District_2
+W-1227,5879633.07,2023-06-16,Delayed,Gram Panchayat,District_5
+W-1228,7063180.97,2024-01-06,In Progress,PWD,District_2
+W-1229,4241110.05,2023-12-19,Completed,Gram Panchayat,District_5
+W-1230,9822241.8,2023-06-26,Not Started,Municipal Corporation,District_9
+W-1231,4307744.38,2023-10-19,In Progress,Gram Panchayat,District_5
+W-1232,15125404.78,2023-08-10,Completed,Gram Panchayat,District_5
+W-1233,4237965.93,2023-08-20,Not Started,PWD,District_5
+W-1234,11775385.37,2024-01-12,Completed,Municipal Corporation,District_6
+W-1235,861341.17,2023-08-08,In Progress,Zila Parishad,District_6
+W-1236,9712544.41,2023-10-15,Not Started,Municipal Corporation,District_5
+W-1237,6738376.21,2023-05-14,Completed,Municipal Corporation,District_7
+W-1238,15658105.8,2024-03-19,In Progress,PWD,District_1
+W-1239,1502192.63,2023-07-23,Delayed,Zila Parishad,District_8
+W-1240,13108033.41,2022-01-03,In Progress,Municipal Corporation,District_9
+W-1241,8924139.54,2023-10-24,In Progress,Gram Panchayat,District_1
+W-1242,14853331.41,2023-08-25,In Progress,Zila Parishad,District_3
+W-1243,2462457.57,2023-02-23,In Progress,Gram Panchayat,District_9
+W-1244,13997989.12,2023-09-12,Not Started,Municipal Corporation,District_3
+W-1246,17211793.16,2023-10-20,Not Started,PWD,District_6
+W-1247,12910532.12,2023-12-12,Completed,PWD,District_8
+W-1248,19496980.62,2023-12-31,Not Started,PWD,District_2
+W-1249,4075434.33,2022-07-28,In Progress,Municipal Corporation,District_1
+W-1250,12016082.37,2024-02-13,In Progress,Municipal Corporation,District_2
+W-1251,4970907.79,2023-12-04,Completed,Municipal Corporation,District_8
+W-1252,9984298.06,2023-09-13,In Progress,Gram Panchayat,District_1
+W-1253,9170558.67,2023-12-19,Not Started,Municipal Corporation,District_6
+W-1254,16535814.0,2023-08-01,Not Started,Municipal Corporation,District_9
+W-1255,8015195.22,2023-08-02,In Progress,Zila Parishad,District_4
+W-1257,744909.91,2023-12-25,Delayed,Municipal Corporation,District_7
+W-1258,15401947.0,2023-06-25,Delayed,PWD,District_1
+W-1259,6421484.64,2023-03-25,Not Started,PWD,District_3
+W-1260,13245885.31,2023-09-26,Completed,PWD,District_9
+W-1261,2567213.67,2023-05-27,Completed,PWD,District_1
+W-1263,15000000.0,2023-07-29,Not Started,Trust,District_6
+W-1264,18464386.02,2023-07-21,Delayed,Gram Panchayat,District_8
+W-1265,10421121.65,2023-11-09,Delayed,Municipal Corporation,District_2
+W-1266,7694767.36,2024-02-09,In Progress,Municipal Corporation,District_4
+W-1267,823296.96,2023-09-19,Completed,PWD,District_5
+W-1268,3702423.26,2023-03-25,Delayed,Municipal Corporation,District_5
+W-1269,11112844.89,2023-09-23,In Progress,Gram Panchayat,District_2
+W-1270,17119196.36,2023-07-14,In Progress,Municipal Corporation,District_3
+W-1271,10289603.67,2023-10-14,Delayed,Zila Parishad,District_5
+W-1273,16460960.9,2023-05-15,Completed,Zila Parishad,District_4
+W-1275,12275720.96,2023-07-14,In Progress,Municipal Corporation,District_3
+W-1276,10666835.99,2023-03-29,In Progress,Zila Parishad,District_7
+W-1277,1607013.37,2023-08-19,Not Started,Gram Panchayat,District_2
+W-1278,11024911.33,2023-09-26,Delayed,Gram Panchayat,District_1
+W-1279,8893351.77,2023-05-16,In Progress,Zila Parishad,District_8
+W-1280,18021155.16,2024-02-15,Not Started,Municipal Corporation,District_8
+W-1281,17872678.2,2023-12-25,In Progress,Zila Parishad,District_5
+W-1282,15033219.61,2023-03-19,In Progress,Zila Parishad,District_1
+W-1283,4205436.58,2024-02-29,Completed,Gram Panchayat,District_3
+W-1284,15967060.74,2023-09-19,Not Started,Zila Parishad,District_6
+W-1285,3866240.11,2023-07-05,Completed,Gram Panchayat,District_6
+W-1286,15000000.0,2023-06-03,Delayed,Trust,District_9
+W-1287,9162022.84,2024-02-16,Delayed,Municipal Corporation,District_2
+W-1288,10426212.92,2023-10-25,Delayed,Zila Parishad,District_9
+W-1289,4149774.55,2023-06-11,Not Started,Zila Parishad,District_6
+W-1290,14499371.4,2024-03-22,Completed,Municipal Corporation,District_3
+W-1291,3256707.42,2023-12-27,Delayed,PWD,District_2
+W-1292,3521676.05,2023-10-07,Completed,Gram Panchayat,District_7
+W-1293,16614585.77,2023-07-24,Completed,Gram Panchayat,District_5
+W-1294,8985149.74,2022-10-29,In Progress,Gram Panchayat,District_3
+W-1295,15000000.0,2022-11-28,In Progress,Trust,District_3
+W-1296,6412363.16,2022-06-28,In Progress,Municipal Corporation,District_6
+W-1297,11650074.63,2023-08-02,In Progress,PWD,District_8
+W-1298,3117512.85,2024-01-27,Delayed,Gram Panchayat,District_7
+W-1299,15000000.0,2022-06-21,In Progress,Trust,District_4
+W-1300,17373891.83,2023-08-29,Completed,PWD,District_9
+W-1301,14617660.16,2022-08-27,In Progress,Gram Panchayat,District_4
+W-1302,15000000.0,2023-11-12,Delayed,Trust,District_1
+W-1303,12177887.35,2023-11-19,Completed,Gram Panchayat,District_2
+W-1306,16049924.19,2024-02-28,Completed,Gram Panchayat,District_1
+W-1307,14752553.32,2022-11-11,In Progress,PWD,District_6
+W-1308,20778091.04,2023-09-22,Delayed,Municipal Corporation,District_5
+W-1309,14654018.81,2023-06-02,Completed,PWD,District_3
+W-1310,1051255.09,2023-07-19,Completed,Municipal Corporation,District_6
+W-1311,17916635.36,2023-05-17,In Progress,Gram Panchayat,District_9
+W-1312,5124806.27,2023-06-03,Not Started,Zila Parishad,District_2
+W-1313,16070396.28,2023-12-02,Not Started,Gram Panchayat,District_5
+W-1314,16214976.27,2023-12-02,Completed,Gram Panchayat,District_6
+W-1315,15000000.0,2023-11-16,In Progress,Trust,District_5
+W-1316,15471257.99,2023-01-27,Delayed,PWD,District_4
+W-1317,15546060.66,2023-02-12,Not Started,Municipal Corporation,District_2
+W-1318,11249295.58,2023-12-21,Delayed,Zila Parishad,District_4
+W-1319,2420426.18,2024-01-16,Delayed,PWD,District_1
+W-1320,14231217.4,2023-11-10,Not Started,Municipal Corporation,District_4
+W-1322,5358861.75,2024-02-12,Delayed,Gram Panchayat,District_6
+W-1323,12312399.65,2023-11-17,Not Started,Municipal Corporation,District_2
+W-1324,8665578.23,2024-02-01,Delayed,Zila Parishad,District_3
+W-1325,879534.42,2023-04-27,In Progress,Gram Panchayat,District_8
+W-1326,2237324.44,2024-01-07,Completed,Gram Panchayat,District_8
+W-1327,12458081.57,2024-03-25,In Progress,Gram Panchayat,District_6
+W-1329,17473206.02,2023-07-02,Completed,Gram Panchayat,District_3
+W-1330,3443429.34,2023-07-14,Completed,Gram Panchayat,District_2
+W-1331,5600960.65,2024-03-17,Not Started,Municipal Corporation,District_4
+W-1333,13374476.36,2023-12-03,Delayed,Zila Parishad,District_4
+W-1334,7735422.42,2023-07-12,Delayed,Municipal Corporation,District_3
+W-1335,6609366.92,2023-07-22,In Progress,Zila Parishad,District_6
+W-1336,13952151.27,2022-10-17,In Progress,Gram Panchayat,District_3
+W-1337,18508921.3,2023-08-23,Completed,Municipal Corporation,District_4
+W-1338,1284355.49,2023-03-25,Completed,Gram Panchayat,District_7
+W-1339,19369410.24,2022-10-30,In Progress,Zila Parishad,District_4
+W-1340,9034768.41,2023-08-06,Not Started,Municipal Corporation,District_6
+W-1341,1675214.09,2024-02-14,Completed,PWD,District_6
+W-1342,12310628.86,2023-02-26,Delayed,Gram Panchayat,District_5
+W-1343,3817438.29,2023-08-28,Not Started,PWD,District_4
+W-1344,1902077.02,2023-11-27,Completed,Municipal Corporation,District_3
+W-1345,10250866.8,2023-03-11,In Progress,PWD,District_5
+W-1346,8695324.16,2023-07-10,Completed,PWD,District_1
+W-1347,12083340.99,2023-11-17,In Progress,Gram Panchayat,District_7
+W-1348,1815737.24,2023-04-18,Completed,Zila Parishad,District_4
+W-1349,1589940.85,2023-07-20,Not Started,Municipal Corporation,District_3
+W-1350,1632920.97,2023-05-01,Delayed,Zila Parishad,District_3
+W-1351,10463719.82,2023-03-30,Completed,Gram Panchayat,District_3
+W-1352,2824174.15,2024-03-07,Not Started,PWD,District_8
+W-1354,18656793.0,2023-12-22,Completed,Zila Parishad,District_8
+W-1355,16631014.98,2023-03-24,In Progress,PWD,District_2
+W-1356,14374675.95,2023-05-24,Delayed,Gram Panchayat,District_1
+W-1358,7386349.28,2023-06-10,In Progress,PWD,District_7
+W-1360,11944127.86,2022-12-23,In Progress,Gram Panchayat,District_9
+W-1361,2481879.96,2023-04-23,Not Started,Gram Panchayat,District_9
+W-1362,905430.29,2023-09-08,Not Started,Municipal Corporation,District_1
+W-1363,4317583.35,2024-01-14,Completed,Zila Parishad,District_9
+W-1364,12709614.94,2024-01-13,Delayed,Gram Panchayat,District_9
+W-1365,19542010.18,2023-06-08,Not Started,Gram Panchayat,District_9
+W-1366,16757773.49,2022-10-11,In Progress,PWD,District_5
+W-1367,12954232.79,2023-10-14,Completed,Zila Parishad,District_7
+W-1368,5051921.52,2023-01-17,In Progress,Zila Parishad,District_3
+W-1370,11941813.02,2023-02-27,Completed,PWD,District_8
+W-1372,20090939.42,2022-11-08,In Progress,Zila Parishad,District_6
+W-1374,9884833.63,2023-08-09,Delayed,PWD,District_2
+W-1375,18220081.25,2023-05-04,In Progress,Gram Panchayat,District_1
+W-1376,7376660.21,2023-06-19,Not Started,Gram Panchayat,District_4
+W-1377,11893388.37,2023-07-02,Completed,PWD,District_6
+W-1378,11540112.48,2024-03-03,Not Started,Gram Panchayat,District_7
+W-1379,9805302.19,2023-05-23,In Progress,Municipal Corporation,District_5
+W-1380,7394422.74,2023-11-16,Delayed,PWD,District_8
+W-1381,9645170.04,2023-03-11,Not Started,PWD,District_7
+W-1382,16390160.35,2023-12-03,In Progress,Gram Panchayat,District_2
+W-1383,6551352.04,2023-12-27,In Progress,Municipal Corporation,District_3
+W-1384,2478095.5,2023-03-10,In Progress,Municipal Corporation,District_6
+W-1385,3852276.28,2022-09-15,In Progress,Zila Parishad,District_8
+W-1386,17832947.81,2023-09-24,Completed,PWD,District_1
+W-1387,12353763.14,2023-12-02,In Progress,PWD,District_2
+W-1388,1237457.97,2023-06-19,In Progress,Gram Panchayat,District_7
+W-1389,20017283.41,2023-04-19,Not Started,Municipal Corporation,District_3
+W-1390,11238910.39,2023-06-08,Not Started,Municipal Corporation,District_4
+W-1391,3993691.85,2023-10-03,Not Started,Gram Panchayat,District_8
+W-1393,7854794.38,2023-07-15,Not Started,Gram Panchayat,District_1
+W-1394,3517929.89,2023-05-13,Completed,PWD,District_8
+W-1395,15580634.81,2023-12-11,Completed,Gram Panchayat,District_9
+W-1396,7046870.14,2023-08-23,Delayed,Zila Parishad,District_3
+W-1397,13540607.41,2023-06-05,Delayed,Zila Parishad,District_8
+W-1398,5143473.01,2023-09-04,In Progress,PWD,District_7
+W-1399,5278846.33,2023-05-24,Not Started,PWD,District_5
+W-1402,11035797.95,2022-01-02,In Progress,PWD,District_5
+W-1403,15572099.88,2023-03-22,Not Started,Zila Parishad,District_6
+W-1404,2690960.48,2023-05-25,Not Started,Gram Panchayat,District_5
+W-1405,4591213.56,2023-09-02,Completed,PWD,District_2
+W-1406,1301553.58,2023-12-13,In Progress,PWD,District_2
+W-1407,10424927.55,2023-04-14,Delayed,Zila Parishad,District_8
+W-1409,12106096.57,2023-09-10,Completed,Gram Panchayat,District_5
+W-1410,5699597.08,2023-04-27,Delayed,Gram Panchayat,District_2
+W-1412,18778234.55,2023-04-03,Delayed,Municipal Corporation,District_2
+W-1413,15527216.41,2024-01-24,Not Started,Zila Parishad,District_9
+W-1415,17833727.66,2023-08-17,Delayed,PWD,District_7
+W-1416,16494005.8,2024-01-05,In Progress,PWD,District_9
+W-1417,4323164.41,2023-12-20,In Progress,Zila Parishad,District_7
+W-1418,9405634.81,2023-05-08,Completed,Gram Panchayat,District_8
+W-1419,4661054.87,2023-03-27,Delayed,Municipal Corporation,District_2
+W-1421,17490746.63,2023-07-16,Not Started,Municipal Corporation,District_8
+W-1422,15980139.49,2023-06-21,Delayed,Municipal Corporation,District_4
+W-1423,8929501.59,2023-07-30,In Progress,Zila Parishad,District_7
+W-1424,6943487.96,2023-09-02,In Progress,PWD,District_7
+W-1425,11666599.59,2023-10-16,Completed,Zila Parishad,District_5
+W-1426,11531096.29,2023-05-22,In Progress,Municipal Corporation,District_3
+W-1427,18148807.19,2023-07-31,Completed,Gram Panchayat,District_8
+W-1429,19197959.54,2022-12-25,In Progress,Municipal Corporation,District_5
+W-1430,10109024.75,2023-10-18,Completed,Zila Parishad,District_3
+W-1431,14262292.51,2023-04-06,Completed,Zila Parishad,District_4
+W-1432,17111265.1,2024-02-27,Not Started,Municipal Corporation,District_8
+W-1433,14235619.97,2023-04-19,In Progress,Zila Parishad,District_6
+W-1434,5688458.47,2023-04-05,Delayed,Zila Parishad,District_9
+W-1435,6935895.34,2023-05-29,Delayed,Zila Parishad,District_6
+W-1436,7236246.26,2023-10-22,In Progress,PWD,District_1
+W-1437,13659239.21,2023-10-26,Completed,Zila Parishad,District_5
+W-1438,11203130.51,2023-08-20,Delayed,Gram Panchayat,District_4
+W-1439,15898184.27,2023-11-24,Completed,Gram Panchayat,District_8
+W-1440,17237389.2,2023-08-26,Delayed,Gram Panchayat,District_6
+W-1441,5219930.95,2023-12-05,Delayed,PWD,District_9
+W-1442,6868146.84,2023-02-23,Completed,Gram Panchayat,District_7
+W-1443,13977794.09,2023-06-28,Completed,Municipal Corporation,District_6
+W-1444,9878473.7,2023-09-02,Completed,Zila Parishad,District_2
+W-1445,8579257.53,2023-04-10,Not Started,Municipal Corporation,District_7
+W-1446,14376943.74,2023-01-23,Not Started,Gram Panchayat,District_6
+W-1447,11543286.72,2022-07-14,In Progress,Municipal Corporation,District_4
+W-1448,18227105.93,2022-10-07,In Progress,PWD,District_5
+W-1449,15000000.0,2024-03-02,Delayed,Trust,District_5
+W-1451,8747751.75,2023-10-21,Completed,Zila Parishad,District_6
+W-1452,15000000.0,2023-11-27,Delayed,Trust,District_9
+W-1453,11985004.35,2023-12-14,Delayed,Zila Parishad,District_6
+W-1454,3112573.05,2024-01-30,Not Started,PWD,District_5
+W-1457,3128682.72,2023-03-02,Not Started,Gram Panchayat,District_8
+W-1458,8316194.11,2022-06-01,In Progress,Municipal Corporation,District_2
+W-1459,12566217.71,2023-09-13,Completed,Zila Parishad,District_7
+W-1460,2665156.89,2023-06-11,Completed,Zila Parishad,District_6
+W-1461,13062857.37,2023-05-02,Completed,Zila Parishad,District_2
+W-1462,5205733.64,2023-06-08,Not Started,Municipal Corporation,District_5
+W-1463,2260468.02,2024-01-24,Completed,Zila Parishad,District_7
+W-1464,7186320.48,2024-02-05,Not Started,Municipal Corporation,District_2
+W-1465,9279746.18,2023-09-14,Delayed,Gram Panchayat,District_2
+W-1466,2307683.56,2023-03-20,Completed,PWD,District_9
+W-1468,13918801.38,2023-06-07,In Progress,PWD,District_2
+W-1469,16894900.84,2022-12-11,In Progress,Zila Parishad,District_3
+W-1470,15000000.0,2023-12-23,Delayed,Trust,District_2
+W-1471,13832871.87,2022-12-11,In Progress,Zila Parishad,District_3
+W-1473,16419372.48,2023-08-19,Delayed,PWD,District_7
+W-1474,12703646.57,2023-06-21,Completed,Gram Panchayat,District_6
+W-1475,13159648.52,2022-10-30,In Progress,Zila Parishad,District_9
+W-1476,6357107.66,2023-05-29,In Progress,Gram Panchayat,District_7
+W-1477,4857843.29,2022-03-04,In Progress,PWD,District_6
+W-1478,17777210.45,2023-11-12,In Progress,Gram Panchayat,District_2
+W-1479,17431110.61,2023-03-18,Not Started,Zila Parishad,District_1
+W-1480,15000000.0,2022-12-02,In Progress,Trust,District_9
+W-1481,758826.81,2023-03-28,In Progress,Gram Panchayat,District_3
+W-1482,16053988.97,2023-10-22,In Progress,PWD,District_9
+W-1483,10711326.55,2023-10-28,Completed,Zila Parishad,District_5
+W-1484,6842846.31,2023-08-21,Delayed,Gram Panchayat,District_9
+W-1485,6384119.73,2023-06-08,In Progress,Gram Panchayat,District_1
+W-1486,16007725.41,2024-01-01,Not Started,Zila Parishad,District_1
+W-1487,10941775.82,2023-07-16,Not Started,Municipal Corporation,District_6
+W-1488,6165568.79,2023-03-05,Completed,Municipal Corporation,District_1
+W-1489,7697983.15,2023-07-01,Completed,PWD,District_5
+W-1490,5520215.12,2022-11-26,In Progress,Zila Parishad,District_8
+W-1491,11525417.21,2024-03-09,Not Started,Municipal Corporation,District_9
+W-1493,16157533.01,2023-07-19,In Progress,Municipal Corporation,District_3
+W-1494,4131678.29,2023-11-15,Delayed,Zila Parishad,District_3
+W-1495,8452383.56,2024-01-13,Completed,Gram Panchayat,District_7
+W-1496,4361712.97,2023-02-13,In Progress,Zila Parishad,District_6
+W-1497,2684334.05,2023-10-05,In Progress,PWD,District_8
+W-1498,2255787.98,2023-09-28,Delayed,Zila Parishad,District_8
+W-1499,2476390.39,2023-12-08,Completed,Municipal Corporation,District_5
+W-1500,7305109.3,2024-02-05,Not Started,PWD,District_5
+W-1501,10921925.2,2023-12-13,Completed,Zila Parishad,District_8
+W-1502,8578036.73,2023-04-21,Completed,Municipal Corporation,District_7
+W-1503,18824898.64,2023-11-17,Completed,Zila Parishad,District_9
+W-1504,16866299.05,2023-04-24,Delayed,Zila Parishad,District_1
+W-1505,15000000.0,2023-08-21,In Progress,Trust,District_2
+W-1506,8258783.84,2024-01-09,In Progress,Gram Panchayat,District_3
+W-1507,11013617.73,2023-07-15,Completed,Zila Parishad,District_5
+W-1508,15811161.15,2022-08-24,In Progress,Zila Parishad,District_9
+W-1509,17765516.6,2023-05-25,Not Started,Municipal Corporation,District_6
+W-1510,19717586.91,2022-08-31,In Progress,Gram Panchayat,District_7
+W-1511,11774597.97,2023-06-12,Completed,Gram Panchayat,District_8
+W-1512,5220484.73,2023-07-23,Not Started,Gram Panchayat,District_9
+W-1514,4132514.31,2024-01-15,Completed,Municipal Corporation,District_9
+W-1515,7537423.08,2023-11-05,In Progress,Zila Parishad,District_4
+W-1516,15865488.51,2023-08-06,Not Started,PWD,District_4
+W-1517,10345305.95,2023-07-22,Not Started,PWD,District_2
+W-1518,13328183.78,2023-04-22,In Progress,Municipal Corporation,District_3
+W-1519,12165102.18,2023-08-04,Completed,Municipal Corporation,District_4
+W-1520,8013208.28,2023-07-11,Not Started,Gram Panchayat,District_6
+W-1521,11139506.75,2023-05-07,Not Started,Zila Parishad,District_5
+W-1522,14475536.93,2024-02-28,In Progress,PWD,District_7
+W-1523,21131831.18,2023-08-28,Not Started,Municipal Corporation,District_2
+W-1524,4961032.08,2023-06-02,Not Started,Zila Parishad,District_5
+W-1525,15000000.0,2023-05-26,Completed,Trust,District_5
+W-1526,12261965.8,2023-11-16,Delayed,PWD,District_1
+W-1529,6360558.45,2024-02-10,Not Started,PWD,District_5
+W-1530,7268493.48,2024-03-01,Delayed,Zila Parishad,District_1
+W-1531,13428883.82,2023-04-20,Delayed,PWD,District_9
+W-1532,7112906.47,2023-12-13,Completed,Gram Panchayat,District_1
+W-1533,5309853.04,2023-11-05,Not Started,Gram Panchayat,District_7
+W-1534,3779539.5,2023-06-06,In Progress,Gram Panchayat,District_6
+W-1535,3268263.43,2023-06-01,Delayed,Municipal Corporation,District_2
+W-1536,17458510.1,2023-05-01,In Progress,Municipal Corporation,District_8
+W-1538,2285214.09,2023-03-17,Not Started,Gram Panchayat,District_9
+W-1540,15577438.76,2023-08-17,Not Started,Gram Panchayat,District_2
+W-1541,15000000.0,2023-09-23,Completed,Trust,District_7
+W-1542,11642030.01,2023-12-17,Completed,Zila Parishad,District_9
+W-1543,3352180.72,2023-09-16,In Progress,PWD,District_4
+W-1544,16515482.71,2023-06-29,Completed,Zila Parishad,District_4
+W-1545,12573223.34,2023-07-28,Not Started,Gram Panchayat,District_1
+W-1546,15387707.2,2021-12-26,In Progress,PWD,District_2
+W-1547,3179047.15,2023-07-06,Completed,PWD,District_6
+W-1548,12066134.71,2023-11-08,Not Started,PWD,District_6
+W-1549,17583817.45,2024-03-13,In Progress,Municipal Corporation,District_6
+W-1550,7592874.5,2023-03-13,Completed,Gram Panchayat,District_3
+W-1551,15000000.0,,In Progress,Trust,District_9
+W-1552,15000000.0,2023-10-09,In Progress,Trust,District_1
+W-1553,14548266.74,2023-11-14,Not Started,Gram Panchayat,District_9
+W-1554,8551485.26,2023-07-07,Not Started,PWD,District_5
+W-1555,8173370.41,2023-05-10,Completed,PWD,District_5
+W-1556,15920572.41,2023-10-21,Delayed,PWD,District_5
+W-1557,656418.69,2023-09-26,Completed,Municipal Corporation,District_2
+W-1558,8711609.07,2024-01-08,Completed,Municipal Corporation,District_2
+W-1559,7087111.44,2024-01-29,Completed,PWD,District_4
+W-1560,8519053.79,2024-03-10,Completed,Municipal Corporation,District_1
+W-1561,752722.43,2023-06-15,Completed,Gram Panchayat,District_5
+W-1562,17222698.75,2023-09-12,In Progress,Zila Parishad,District_1
+W-1563,18982250.46,2023-07-31,Completed,Gram Panchayat,District_4
+W-1564,9197710.83,2023-11-05,In Progress,PWD,District_3
+W-1565,8720981.43,2023-08-24,In Progress,Municipal Corporation,District_9
+W-1566,4254742.71,2023-07-11,Delayed,Zila Parishad,District_7
+W-1567,13805069.44,2023-03-02,Delayed,Zila Parishad,District_2
+W-1568,6351960.71,2023-07-06,Not Started,PWD,District_5
+W-1569,10217374.25,2023-10-17,Completed,Municipal Corporation,District_7
+W-1570,5666313.93,2024-01-04,In Progress,Municipal Corporation,District_6
+W-1571,19214005.25,2023-09-16,Completed,Zila Parishad,District_9
+W-1572,5252659.34,2023-10-25,In Progress,Zila Parishad,District_5
+W-1573,12311299.87,2023-05-21,Delayed,Gram Panchayat,District_6
+W-1574,2325568.87,2023-10-29,Completed,Gram Panchayat,District_3
+W-1575,12932098.02,2023-10-23,Delayed,Municipal Corporation,District_9
+W-1576,13971804.97,2023-05-23,Completed,Municipal Corporation,District_9
+W-1577,3110328.47,2023-03-31,Not Started,Municipal Corporation,District_7
+W-1578,7109030.64,2023-03-29,Completed,Zila Parishad,District_6
+W-1580,7453265.56,2023-05-19,Completed,Municipal Corporation,District_9
+W-1581,6863176.93,2023-06-22,In Progress,PWD,District_6
+W-1582,1553237.74,2023-03-08,Completed,Zila Parishad,District_1
+W-1583,3745244.01,2023-11-11,In Progress,Zila Parishad,District_5
+W-1584,13068987.96,2022-10-13,In Progress,Municipal Corporation,District_1
+W-1585,19413193.96,2023-04-24,Not Started,PWD,District_6
+W-1586,18939561.26,2023-02-28,Not Started,Municipal Corporation,District_9
+W-1587,9891346.71,2023-10-06,In Progress,Zila Parishad,District_6
+W-1588,15068062.9,2023-09-02,Delayed,Municipal Corporation,District_9
+W-1589,2356010.79,2023-09-27,Completed,Zila Parishad,District_8
+W-1590,16257342.35,2023-04-25,Completed,Municipal Corporation,District_3
+W-1591,783849.09,2023-07-24,Not Started,PWD,District_5
+W-1593,2257944.95,2023-07-20,Completed,Gram Panchayat,District_5
+W-1594,5729106.85,2023-03-31,Not Started,Municipal Corporation,District_3
+W-1595,1902264.99,2024-01-23,Completed,Zila Parishad,District_9
+W-1596,11907927.3,2023-01-17,In Progress,Gram Panchayat,District_9
+W-1598,9626815.35,2023-04-30,Completed,Gram Panchayat,District_4
+W-1599,11845327.25,2023-08-04,Completed,Zila Parishad,District_8
+W-1600,13958009.63,2024-01-16,Delayed,Gram Panchayat,District_5
+W-1601,15110572.01,2023-04-21,Delayed,PWD,District_7
+W-1602,5488727.44,2023-10-24,Delayed,Zila Parishad,District_2
+W-1603,15422165.04,2023-12-03,Delayed,PWD,District_8
+W-1604,4239857.09,2023-08-04,In Progress,Zila Parishad,District_2
+W-1605,1265313.74,2023-10-08,Delayed,Zila Parishad,District_8
+W-1606,523915.34,2023-10-31,Delayed,PWD,District_4
+W-1607,15768439.92,2023-04-06,Delayed,Municipal Corporation,District_1
+W-1608,19389134.45,2023-06-10,Not Started,PWD,District_5
+W-1610,14244879.2,2023-11-01,Delayed,Gram Panchayat,District_9
+W-1611,2296589.45,2023-05-10,Delayed,Gram Panchayat,District_3
+W-1612,12888400.52,2023-09-17,Completed,Gram Panchayat,District_6
+W-1613,6864264.71,2023-04-19,Delayed,Gram Panchayat,District_9
+W-1614,14407142.18,2022-03-02,In Progress,Municipal Corporation,District_8
+W-1615,6780171.22,2024-02-03,Not Started,Zila Parishad,District_7
+W-1616,5944593.26,2023-06-27,In Progress,Municipal Corporation,District_9
+W-1618,10623613.32,2023-03-10,Not Started,Municipal Corporation,District_3
+W-1619,13443861.92,2023-06-12,Delayed,Zila Parishad,District_8
+W-1621,5676410.06,2023-09-10,Delayed,Zila Parishad,District_9
+W-1622,16900941.11,2023-05-31,Completed,Gram Panchayat,District_9
+W-1623,19203948.88,2023-06-24,Not Started,PWD,District_3
+W-1624,8337556.71,2023-04-04,In Progress,Zila Parishad,District_5
+W-1625,18855507.52,2024-01-19,Completed,Municipal Corporation,District_9
+W-1626,11647419.54,2023-09-18,In Progress,PWD,District_8
+W-1627,4667321.88,2023-10-22,In Progress,Gram Panchayat,District_9
+W-1628,18108120.63,2023-09-29,In Progress,Municipal Corporation,District_3
+W-1629,15978777.7,2024-03-25,Completed,Zila Parishad,District_5
+W-1630,1148810.92,2023-03-17,Completed,Zila Parishad,District_4
+W-1631,11172649.02,2023-04-13,Not Started,PWD,District_6
+W-1632,14026827.76,2024-01-18,Completed,Municipal Corporation,District_9
+W-1633,2169270.07,2023-10-07,Completed,Gram Panchayat,District_1
+W-1634,11918173.61,2024-02-03,Completed,Gram Panchayat,District_7
+W-1636,4256535.23,2023-06-19,In Progress,Municipal Corporation,District_6
+W-1637,17037266.35,2023-12-01,Not Started,Zila Parishad,District_7
+W-1639,16201319.04,2024-02-21,Not Started,Municipal Corporation,District_5
+W-1640,6382113.71,2023-07-18,Not Started,Zila Parishad,District_3
+W-1641,16872078.7,2023-12-04,In Progress,Municipal Corporation,District_4
+W-1642,14849217.34,2023-06-17,In Progress,Municipal Corporation,District_1
+W-1643,4503703.54,2024-02-23,Not Started,PWD,District_9
+W-1645,3335642.44,2022-03-16,In Progress,Gram Panchayat,District_1
+W-1646,15000000.0,2023-05-27,Completed,Trust,District_6
+W-1647,1756436.71,2023-11-28,Not Started,PWD,District_1
+W-1648,12185083.97,2024-01-06,In Progress,Zila Parishad,District_9
+W-1649,2977396.18,2023-12-19,Delayed,Municipal Corporation,District_8
+W-1650,9255299.7,2023-12-24,Delayed,Municipal Corporation,District_3
+W-1651,2709168.89,2023-04-29,Not Started,PWD,District_3
+W-1652,8915590.76,2023-04-10,Completed,Municipal Corporation,District_3
+W-1653,6122299.19,2023-10-16,Delayed,Zila Parishad,District_3
+W-1654,8311517.68,2023-05-12,Completed,Municipal Corporation,District_4
+W-1655,9561591.96,2023-12-14,Not Started,Municipal Corporation,District_3
+W-1656,21553401.06,2023-12-04,In Progress,PWD,District_7
+W-1657,12552695.94,2023-09-17,In Progress,PWD,District_1
+W-1658,18120057.18,2023-11-29,Delayed,Municipal Corporation,District_2
+W-1659,6774914.52,2023-12-05,In Progress,Zila Parishad,District_5
+W-1660,6775617.25,2023-06-05,Completed,Gram Panchayat,District_5
+W-1661,2573086.06,2023-06-19,Delayed,PWD,District_4
+W-1662,13208083.07,2024-02-24,Completed,Gram Panchayat,District_3
+W-1663,15000000.0,2023-10-07,Delayed,Trust,District_8
+W-1664,2472471.84,2022-06-27,In Progress,Gram Panchayat,District_5
+W-1665,15151761.4,2024-01-24,In Progress,PWD,District_6
+W-1666,9555367.03,2023-04-06,In Progress,Gram Panchayat,District_7
+W-1667,9706900.03,2023-09-15,In Progress,PWD,District_4
+W-1668,2194686.12,2023-12-18,Delayed,Zila Parishad,District_7
+W-1669,3163646.85,2023-02-08,Delayed,PWD,District_5
+W-1670,11840919.01,2023-11-21,Delayed,Municipal Corporation,District_7
+W-1671,18264759.52,2023-06-20,Completed,PWD,District_2
+W-1672,8160543.8,2024-02-19,In Progress,Gram Panchayat,District_3
+W-1673,10114043.9,2022-04-03,In Progress,Zila Parishad,District_4
+W-1674,10512452.07,2023-09-16,Delayed,Zila Parishad,District_8
+W-1675,18609456.3,2023-02-13,Delayed,Municipal Corporation,District_1
+W-1676,4391648.03,2023-10-16,Completed,Municipal Corporation,District_5
+W-1677,19869038.56,2023-07-03,In Progress,Municipal Corporation,District_7
+W-1678,9525189.51,2023-12-06,Completed,Municipal Corporation,District_3
+W-1679,3441339.1,2023-09-16,Completed,Zila Parishad,District_9
+W-1680,9527197.92,2023-11-18,Not Started,Municipal Corporation,District_1
+W-1681,13383757.97,2023-08-05,Completed,Zila Parishad,District_5
+W-1682,9383555.78,2022-04-23,In Progress,Gram Panchayat,District_7
+W-1683,2889342.28,2023-08-01,Not Started,PWD,District_4
+W-1684,7943432.87,2023-04-21,Not Started,Gram Panchayat,District_1
+W-1685,5498404.52,2023-09-25,In Progress,Municipal Corporation,District_7
+W-1686,4470726.16,2023-06-21,Completed,Municipal Corporation,District_9
+W-1687,10790104.61,2023-11-15,Not Started,PWD,District_6
+W-1689,17727742.77,2023-04-20,Completed,Zila Parishad,District_5
+W-1690,6001390.0,2023-12-13,Completed,Municipal Corporation,District_4
+W-1691,12257953.94,2023-02-28,In Progress,Municipal Corporation,District_8
+W-1692,18754199.68,2023-08-24,Delayed,Municipal Corporation,District_2
+W-1693,4536016.26,2023-04-02,Delayed,Municipal Corporation,District_3
+W-1694,19106501.19,2023-12-25,Delayed,PWD,District_1
+W-1696,17146802.46,2023-10-26,Completed,Municipal Corporation,District_8
+W-1697,13579515.32,2023-06-08,Delayed,Gram Panchayat,District_2
+W-1698,12291536.5,2023-02-14,Completed,PWD,District_2
+W-1699,2215017.69,2023-03-28,In Progress,Zila Parishad,District_8
+W-1700,11580466.64,2023-05-09,In Progress,PWD,District_3
+W-1701,3222975.26,2023-07-10,Not Started,PWD,District_9
+W-1702,16852576.44,2024-02-28,Delayed,Municipal Corporation,District_5
+W-1703,1569437.35,2023-03-18,Delayed,Municipal Corporation,District_5
+W-1704,11075251.41,2023-03-20,Delayed,PWD,District_3
+W-1705,12812732.92,2023-04-17,Delayed,Zila Parishad,District_7
+W-1706,7634344.69,2023-10-27,Delayed,Zila Parishad,District_8
+W-1707,10708081.52,2023-07-22,Completed,PWD,District_7
+W-1708,15331480.34,2023-07-19,Not Started,Zila Parishad,District_5
+W-1709,15000000.0,2022-03-29,In Progress,Trust,District_8
+W-1710,6069687.56,2023-06-13,Completed,Zila Parishad,District_1
+W-1711,6817492.76,2023-10-14,In Progress,Municipal Corporation,District_8
+W-1713,18446782.82,2023-10-01,Completed,PWD,District_9
+W-1714,2329490.23,2022-10-15,In Progress,PWD,District_4
+W-1715,5336061.45,2023-06-29,Completed,PWD,District_6
+W-1716,731670.77,2023-07-20,In Progress,Gram Panchayat,District_7
+W-1717,13857137.27,2023-10-16,Delayed,Zila Parishad,District_6
+W-1718,9142354.51,2023-12-12,Delayed,Municipal Corporation,District_3
+W-1719,5530759.56,2023-06-16,Completed,Gram Panchayat,District_1
+W-1720,2398485.23,2023-10-11,Not Started,PWD,District_6
+W-1721,7738485.51,2023-09-23,Not Started,PWD,District_7
+W-1722,15119670.63,2023-07-15,Completed,Zila Parishad,District_6
+W-1723,20025124.44,2024-02-17,In Progress,Municipal Corporation,District_9
+W-1724,4313227.63,2023-02-07,Not Started,PWD,District_7
+W-1725,13585539.9,2022-05-29,In Progress,Zila Parishad,District_5
+W-1726,11447287.55,2023-09-27,Delayed,Municipal Corporation,District_5
+W-1727,2809954.08,2023-07-07,Completed,Gram Panchayat,District_9
+W-1728,12473129.47,2024-01-07,In Progress,PWD,District_7
+W-1729,14441925.9,2024-01-07,In Progress,PWD,District_6
+W-1730,7608845.64,2024-03-13,In Progress,Municipal Corporation,District_7
+W-1731,12017734.13,2023-11-09,In Progress,Gram Panchayat,District_2
+W-1732,5107578.47,2023-04-01,Completed,Zila Parishad,District_9
+W-1733,10823858.58,2023-08-28,Not Started,Gram Panchayat,District_1
+W-1734,6521556.38,2023-05-05,In Progress,PWD,District_8
+W-1735,19121912.1,2024-03-13,In Progress,PWD,District_4
+W-1736,13128819.92,2023-11-28,Completed,PWD,District_9
+W-1737,9847017.63,2023-11-14,Delayed,Zila Parishad,District_8
+W-1738,10870393.69,2024-01-09,Delayed,Gram Panchayat,District_8
+W-1739,13550144.86,2023-12-20,Delayed,PWD,District_5
+W-1740,6317661.15,2023-10-12,Completed,PWD,District_8
+W-1741,17680301.66,2023-05-11,Completed,Gram Panchayat,District_7
+W-1742,8462002.2,2023-03-19,Completed,PWD,District_9
+W-1743,15779350.33,2023-08-08,Delayed,PWD,District_4
+W-1746,12427442.53,2023-06-18,Completed,Municipal Corporation,District_9
+W-1747,4536099.15,2023-11-13,Delayed,Municipal Corporation,District_4
+W-1749,9930897.61,2023-03-09,Delayed,Municipal Corporation,District_7
+W-1751,5998862.71,2023-12-15,In Progress,Gram Panchayat,District_6
+W-1752,17135794.42,2023-02-09,Completed,Zila Parishad,District_9
+W-1753,17755006.64,2023-10-03,Completed,Zila Parishad,District_9
+W-1754,15309841.88,2023-08-09,In Progress,Municipal Corporation,District_7
+W-1755,14128556.52,2023-02-18,Completed,Gram Panchayat,District_9
+W-1756,15011663.44,2023-06-16,In Progress,Zila Parishad,District_8
+W-1757,7904034.3,2024-02-10,Delayed,Municipal Corporation,District_3
+W-1758,5109696.14,2022-10-01,In Progress,PWD,District_7
+W-1759,19952455.23,2024-01-13,Not Started,Zila Parishad,District_1
+W-1760,16597102.48,2024-04-02,Delayed,Gram Panchayat,District_1
+W-1761,8248481.01,2023-11-03,Not Started,Zila Parishad,District_4
+W-1762,18492301.95,2024-02-12,In Progress,Gram Panchayat,District_2
+W-1763,1970866.86,2023-08-30,In Progress,PWD,District_5
+W-1764,7371214.47,2023-07-18,Not Started,PWD,District_2
+W-1765,15714692.98,2024-01-26,In Progress,PWD,District_9
+W-1766,1421944.49,2024-02-07,Completed,Municipal Corporation,District_7
+W-1767,5814148.89,2023-03-22,In Progress,PWD,District_4
+W-1768,14695826.93,2023-09-10,Not Started,Zila Parishad,District_5
+W-1769,12218349.72,2023-09-06,In Progress,Municipal Corporation,District_7
+W-1770,9894207.26,2023-12-02,In Progress,Gram Panchayat,District_1
+W-1772,14345685.77,2023-12-10,Not Started,Zila Parishad,District_1
+W-1773,18327366.09,2023-04-10,Delayed,Gram Panchayat,District_1
+W-1774,5312604.83,2023-07-08,Completed,Zila Parishad,District_2
+W-1775,17196889.69,2023-06-02,Completed,Municipal Corporation,District_1
+W-1776,15291267.54,2023-09-24,Not Started,Municipal Corporation,District_2
+W-1777,6481218.36,2024-02-14,Not Started,Gram Panchayat,District_6
+W-1778,7339773.19,2023-03-26,In Progress,Gram Panchayat,District_6
+W-1779,15176196.67,2023-02-27,Delayed,Municipal Corporation,District_5
+W-1780,15202445.38,2023-06-18,Delayed,Municipal Corporation,District_1
+W-1781,2016081.9,2023-05-26,Delayed,Gram Panchayat,District_9
+W-1782,9061664.3,2023-02-17,In Progress,Zila Parishad,District_9
+W-1784,16011158.01,2022-07-05,In Progress,Zila Parishad,District_3
+W-1785,21465826.54,2023-01-27,In Progress,Zila Parishad,District_8
+W-1786,8288983.25,2024-03-16,Delayed,Municipal Corporation,District_5
+W-1787,15983219.79,2023-11-04,Completed,Municipal Corporation,District_2
+W-1788,1710887.46,2023-09-14,Delayed,PWD,District_3
+W-1789,15255252.65,2023-05-07,Delayed,PWD,District_8
+W-1791,11562574.58,2024-01-10,Delayed,Municipal Corporation,District_9
+W-1792,1085369.95,2023-10-20,Completed,PWD,District_2
+W-1793,10421710.12,2023-07-18,Not Started,PWD,District_2
+W-1794,1968329.84,2024-01-06,Completed,PWD,District_7
+W-1795,9604608.44,2023-06-24,Delayed,Municipal Corporation,District_3
+W-1796,13885061.87,2023-07-06,In Progress,PWD,District_6
+W-1797,12771328.72,2023-11-16,Not Started,Gram Panchayat,District_7
+W-1798,19613604.78,2022-01-17,In Progress,Municipal Corporation,District_7
+W-1800,12020625.89,2023-11-28,In Progress,Municipal Corporation,District_6
+W-1801,12689431.29,2023-05-03,Completed,Municipal Corporation,District_8
+W-1802,6493443.33,2023-04-29,Not Started,Municipal Corporation,District_8
+W-1803,9538687.92,2023-06-27,Delayed,PWD,District_9
+W-1804,13893377.06,2023-07-14,Not Started,Gram Panchayat,District_5
+W-1805,11984917.82,2023-10-21,Not Started,Zila Parishad,District_6
+W-1806,9758556.6,2023-07-04,Completed,Zila Parishad,District_2
+W-1807,9932446.32,2023-08-02,Completed,Gram Panchayat,District_8
+W-1809,19635308.61,2024-01-05,Delayed,Zila Parishad,District_8
+W-1810,19567161.07,2023-06-14,Not Started,Zila Parishad,District_8
+W-1811,9508994.8,2023-03-18,Completed,Municipal Corporation,District_5
+W-1812,9306892.07,2023-09-07,Delayed,Municipal Corporation,District_3
+W-1813,12817704.5,2023-05-03,In Progress,Zila Parishad,District_6
+W-1814,855390.75,2023-05-02,Completed,Municipal Corporation,District_9
+W-1815,14532627.97,2023-09-23,Completed,Zila Parishad,District_3
+W-1816,2159971.62,2023-02-10,Delayed,Gram Panchayat,District_7
+W-1817,7922691.62,2023-08-24,Completed,Gram Panchayat,District_2
+W-1818,15000000.0,2023-11-30,Completed,Trust,District_7
+W-1819,683358.71,2023-02-09,Completed,Municipal Corporation,District_1
+W-1820,7946369.02,2023-10-28,Completed,PWD,District_6
+W-1821,8655145.91,2024-01-04,Completed,Zila Parishad,District_5
+W-1822,18222994.56,2023-03-31,Not Started,Zila Parishad,District_6
+W-1823,5011701.36,2024-02-10,Completed,Gram Panchayat,District_6
+W-1824,15123157.92,2023-01-17,In Progress,Zila Parishad,District_8
+W-1826,3580915.59,2024-01-05,In Progress,PWD,District_6
+W-1827,2013748.01,2023-03-01,Not Started,PWD,District_1
+W-1828,7658718.46,2023-06-14,Completed,Gram Panchayat,District_7
+W-1829,9558628.27,2023-08-03,In Progress,Gram Panchayat,District_3
+W-1830,15738487.94,2023-10-11,Delayed,Zila Parishad,District_5
+W-1831,16809437.54,2024-02-07,Not Started,Municipal Corporation,District_6
+W-1833,7738814.99,2023-02-20,Completed,PWD,District_4
+W-1834,14596889.08,2023-07-06,Not Started,Gram Panchayat,District_7
+W-1835,6392600.4,2024-03-06,Completed,Gram Panchayat,District_9
+W-1836,4012021.69,2023-05-19,Not Started,PWD,District_8
+W-1837,5312301.39,2023-10-14,Completed,PWD,District_3
+W-1838,14255586.32,2024-02-15,In Progress,Municipal Corporation,District_2
+W-1839,5444962.19,2023-04-08,Not Started,Municipal Corporation,District_9
+W-1840,20263193.33,2023-11-14,Delayed,PWD,District_8
+W-1842,3762396.36,2023-01-11,In Progress,Municipal Corporation,District_2
+W-1843,15000000.0,,In Progress,Trust,District_3
+W-1844,8518937.78,2023-08-04,Not Started,PWD,District_6
+W-1845,2911456.81,2023-10-05,In Progress,Gram Panchayat,District_5
+W-1846,10915554.33,2023-11-25,Not Started,PWD,District_5
+W-1847,18813001.24,2023-09-02,Not Started,Municipal Corporation,District_4
+W-1848,8959830.47,2024-01-16,In Progress,Zila Parishad,District_9
+W-1849,14513112.99,2023-09-17,Not Started,Municipal Corporation,District_1
+W-1850,1930069.38,2023-03-11,In Progress,Municipal Corporation,District_1
+W-1851,15426521.44,2023-02-14,Delayed,Gram Panchayat,District_5
+W-1852,1909911.06,2023-12-31,Delayed,Municipal Corporation,District_8
+W-1853,8541780.69,2024-01-31,In Progress,PWD,District_9
+W-1855,15000000.0,2024-03-20,In Progress,Trust,District_3
+W-1856,16948148.71,2023-06-08,Delayed,Municipal Corporation,District_1
+W-1857,14681774.73,2023-10-22,Delayed,Gram Panchayat,District_2
+W-1858,4080603.41,2024-03-29,Delayed,Gram Panchayat,District_8
+W-1859,3902186.84,2023-12-12,Not Started,Gram Panchayat,District_5
+W-1860,488960.67,2023-12-16,Delayed,Zila Parishad,District_6
+W-1861,13390392.97,2024-01-01,Not Started,Gram Panchayat,District_2
+W-1862,14310205.19,2024-01-25,In Progress,Zila Parishad,District_8
+W-1863,12427947.03,2023-12-18,Not Started,Municipal Corporation,District_3
+W-1864,1639012.88,2023-01-22,Delayed,Gram Panchayat,District_5
+W-1865,21048411.25,2023-01-28,In Progress,Municipal Corporation,District_6
+W-1866,12478300.87,2023-11-15,Completed,Municipal Corporation,District_1
+W-1867,11373070.3,2023-10-28,In Progress,Gram Panchayat,District_5
+W-1868,14863598.19,2023-12-10,In Progress,Gram Panchayat,District_8
+W-1869,15946358.85,2023-09-04,Completed,PWD,District_4
+W-1870,3093703.14,2024-03-10,Delayed,Zila Parishad,District_1
+W-1871,3771705.61,2024-02-04,In Progress,Zila Parishad,District_5
+W-1873,6875937.37,2023-04-06,In Progress,PWD,District_1
+W-1874,6908873.82,2022-12-21,In Progress,Municipal Corporation,District_5
+W-1875,13671604.88,2023-09-29,Delayed,PWD,District_9
+W-1876,8365553.77,2023-12-03,Delayed,PWD,District_2
+W-1877,6870497.19,2024-01-04,In Progress,Gram Panchayat,District_4
+W-1878,16855951.44,2023-05-09,Not Started,Zila Parishad,District_8
+W-1879,10277505.12,2023-06-15,Completed,Zila Parishad,District_7
+W-1880,10628520.24,2023-05-04,Completed,Municipal Corporation,District_7
+W-1881,14866542.28,2023-10-24,Completed,Gram Panchayat,District_6
+W-1882,2872794.28,2023-09-21,In Progress,Municipal Corporation,District_6
+W-1884,8984448.76,2023-09-18,In Progress,Municipal Corporation,District_1
+W-1885,9829449.1,2023-02-04,In Progress,Municipal Corporation,District_7
+W-1886,7250890.62,2023-04-04,Delayed,PWD,District_3
+W-1887,18486876.63,2023-11-21,Delayed,Gram Panchayat,District_1
+W-1888,16820977.0,2023-11-08,In Progress,Municipal Corporation,District_5
+W-1889,18213093.42,2024-01-19,In Progress,Zila Parishad,District_5
+W-1890,15911584.28,2023-10-31,Not Started,Municipal Corporation,District_3
+W-1891,9325016.05,2024-01-10,Delayed,Municipal Corporation,District_4
+W-1892,7980727.13,2023-09-26,Not Started,Municipal Corporation,District_8
+W-1893,17142035.63,2023-08-17,Completed,Zila Parishad,District_7
+W-1894,11113264.18,2023-11-12,Delayed,Gram Panchayat,District_5
+W-1895,15308737.11,2023-08-06,In Progress,Gram Panchayat,District_6
+W-1896,20001888.96,2023-08-29,Not Started,Gram Panchayat,District_7
+W-1898,18493594.06,2023-05-16,In Progress,Gram Panchayat,District_6
+W-1899,8519205.41,2024-01-14,Completed,PWD,District_3
+W-1900,11224231.8,2023-12-28,In Progress,PWD,District_7
+W-1901,19422060.45,2023-07-21,Not Started,Gram Panchayat,District_7
+W-1902,1203691.26,2023-04-15,Completed,Municipal Corporation,District_6
+W-1903,12583563.6,2023-04-07,Completed,Gram Panchayat,District_8
+W-1904,1126848.19,2023-09-01,Delayed,PWD,District_2
+W-1905,16150791.97,2023-01-26,Completed,PWD,District_2
+W-1906,2703239.57,2023-10-23,In Progress,Municipal Corporation,District_4
+W-1907,16866971.08,2023-10-15,Delayed,Zila Parishad,District_6
+W-1909,18841165.58,2023-05-07,Not Started,Municipal Corporation,District_4
+W-1910,1445384.6,2023-09-22,Not Started,Gram Panchayat,District_8
+W-1911,6493988.09,2023-05-10,In Progress,Municipal Corporation,District_4
+W-1912,629164.5,2023-11-16,Completed,Gram Panchayat,District_7
+W-1913,20490145.42,2023-05-11,Completed,Municipal Corporation,District_4
+W-1914,12631516.18,2022-08-22,In Progress,Gram Panchayat,District_7
+W-1915,13029759.04,2023-02-05,In Progress,Zila Parishad,District_9
+W-1916,16855598.41,2023-02-06,Not Started,Zila Parishad,District_4
+W-1918,15000000.0,2023-09-13,Not Started,Trust,District_1
+W-1919,8380055.49,2024-01-04,Completed,Municipal Corporation,District_6
+W-1920,2181136.06,2023-08-14,In Progress,Zila Parishad,District_8
+W-1921,8438314.68,2023-04-11,In Progress,Zila Parishad,District_9
+W-1922,16655002.61,2023-04-28,Completed,PWD,District_4
+W-1923,10195851.01,2023-05-30,Not Started,PWD,District_3
+W-1924,980727.66,2023-04-18,Delayed,PWD,District_4
+W-1925,7474169.79,2023-08-11,Completed,PWD,District_8
+W-1926,18356794.43,2022-07-20,In Progress,PWD,District_2
+W-1927,11915421.69,2023-05-12,In Progress,Municipal Corporation,District_3
+W-1928,988925.66,2023-02-17,Completed,PWD,District_2
+W-1929,6178430.46,2023-12-10,In Progress,Gram Panchayat,District_8
+W-1930,18837562.02,2023-07-28,In Progress,Zila Parishad,District_5
+W-1932,13945152.06,2023-02-12,Completed,Zila Parishad,District_8
+W-1933,17212167.25,2023-04-23,In Progress,Municipal Corporation,District_8
+W-1934,17407207.05,2023-11-09,Completed,Municipal Corporation,District_4
+W-1936,14717651.46,2023-07-28,Completed,Gram Panchayat,District_1
+W-1937,1132966.15,2023-10-08,Delayed,Gram Panchayat,District_3
+W-1938,17747204.42,2023-12-17,Not Started,PWD,District_4
+W-1939,15000000.0,2023-08-23,In Progress,Trust,District_3
+W-1940,5929391.64,2024-01-19,Delayed,Zila Parishad,District_5
+W-1941,15555215.92,2023-03-08,In Progress,Zila Parishad,District_9
+W-1942,15796795.5,2022-11-25,In Progress,Zila Parishad,District_4
+W-1943,12477091.4,2024-02-08,Not Started,PWD,District_8
+W-1944,2619737.38,2024-02-28,Delayed,Zila Parishad,District_2
+W-1945,1664915.13,2022-05-23,In Progress,Municipal Corporation,District_6
+W-1946,5258633.9,2023-03-21,Completed,Zila Parishad,District_2
+W-1947,13444783.81,2023-05-06,Completed,Zila Parishad,District_2
+W-1948,5359648.74,2023-07-23,Not Started,Zila Parishad,District_4
+W-1950,8078047.84,2022-07-26,In Progress,Municipal Corporation,District_3
+W-1951,6051097.78,2023-10-07,Not Started,Municipal Corporation,District_7
+W-1952,16537134.4,2023-09-01,Completed,Zila Parishad,District_5
+W-1953,2985709.75,2023-06-05,Delayed,Gram Panchayat,District_8
+W-1954,10646243.9,2023-10-11,Completed,Municipal Corporation,District_5
+W-1955,8859925.17,2023-06-14,In Progress,Zila Parishad,District_1
+W-1956,15167954.04,2023-05-21,Not Started,PWD,District_9
+W-1957,11439723.01,2024-02-28,Completed,Municipal Corporation,District_7
+W-1958,1946998.06,2023-08-09,Delayed,Municipal Corporation,District_1
+W-1960,17340556.97,2023-02-20,Completed,Gram Panchayat,District_3
+W-1961,9434475.13,2023-12-03,In Progress,PWD,District_3
+W-1962,11366789.21,2023-08-13,Not Started,Municipal Corporation,District_1
+W-1964,11821444.59,2023-03-09,Not Started,PWD,District_3
+W-1965,8031442.94,2023-09-07,Not Started,Municipal Corporation,District_9
+W-1966,16576120.04,2022-11-12,In Progress,Zila Parishad,District_1
+W-1967,19800856.57,2023-10-23,Delayed,Zila Parishad,District_4
+W-1968,7722973.99,2023-02-26,Completed,PWD,District_9
+W-1969,18219573.93,2023-11-28,Completed,Municipal Corporation,District_5
+W-1970,11995041.26,2023-09-15,Completed,Zila Parishad,District_2
+W-1972,11950109.09,2022-08-25,In Progress,Gram Panchayat,District_7
+W-1973,20181953.11,2022-07-03,In Progress,Zila Parishad,District_7
+W-1974,7014332.39,2023-04-13,Not Started,Municipal Corporation,District_5
+W-1976,11410858.36,2023-04-14,Delayed,PWD,District_1
+W-1977,1420573.14,2023-10-24,Delayed,Municipal Corporation,District_1
+W-1978,14198270.67,2023-10-14,Delayed,Gram Panchayat,District_3
+W-1979,11582735.32,2024-02-02,Not Started,Zila Parishad,District_3
+W-1980,13866890.95,2023-07-10,In Progress,PWD,District_7
+W-1981,15477407.48,2023-09-03,Not Started,Zila Parishad,District_5
+W-1982,17340864.45,2023-09-11,Not Started,PWD,District_6
+W-1983,19893117.01,2023-01-22,Delayed,Municipal Corporation,District_5
+W-1984,18374233.01,2023-07-10,Delayed,Municipal Corporation,District_3
+W-1985,15000000.0,,Not Started,Trust,District_9
+W-1986,10523480.38,2023-08-10,Delayed,PWD,District_9
+W-1987,17834696.87,2023-10-25,Completed,Zila Parishad,District_9
+W-1988,785472.53,2023-12-26,Completed,Gram Panchayat,District_4
+W-1989,7157281.83,2023-10-16,Delayed,Gram Panchayat,District_3
+W-1990,12868535.79,2023-10-18,Not Started,Zila Parishad,District_2
+W-1991,15822944.62,2023-11-06,Completed,Zila Parishad,District_2
+W-1992,14231323.94,2023-10-24,Not Started,Zila Parishad,District_5
+W-1993,3151241.26,2023-11-25,Delayed,Gram Panchayat,District_8
+W-1994,6652736.95,2023-07-21,Completed,Gram Panchayat,District_4
+W-1995,3136388.3,2023-04-04,Completed,PWD,District_6
+W-1998,4504838.75,2023-09-24,Not Started,Gram Panchayat,District_5
+W-1999,7479977.39,2022-10-05,In Progress,Gram Panchayat,District_8
+W-9999,6335434.55,2022-06-14,In Progress,PWD,District_8
