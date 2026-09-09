@@ -1,10 +1,42 @@
+import os
+import threading
+import time
 import streamlit as st
 import requests
 import pandas as pd
 import plotly.express as px
 import json
 
-API_URL = "http://localhost:8000"
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
+
+# Auto-launcher for FastAPI backend if not currently reachable (e.g. Streamlit Cloud)
+def ensure_backend_running():
+    try:
+        r = requests.get(f"{API_URL}/health", timeout=2)
+        if r.status_code == 200:
+            return
+    except Exception:
+        pass
+    
+    def run_server():
+        try:
+            import uvicorn
+            import sys
+            # Ensure repository root is in python path
+            root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+            if root_dir not in sys.path:
+                sys.path.insert(0, root_dir)
+            from backend.main import app as fastapi_app
+            uvicorn.run(fastapi_app, host="127.0.0.1", port=8000, log_level="warning")
+        except Exception as err:
+            print("Auto-backend launch warning:", err)
+
+    t = threading.Thread(target=run_server, daemon=True)
+    t.start()
+    time.sleep(2)
+
+ensure_backend_running()
+
 
 st.set_page_config(
     page_title="MPLADS Risk Intelligence System",
