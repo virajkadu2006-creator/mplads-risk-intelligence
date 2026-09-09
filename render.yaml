@@ -2,7 +2,7 @@ services:
   - type: web
     name: mplads-risk-intelligence
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install -r requirements-frontend.txt
     startCommand: bash start.sh
     envVars:
       - key: PORT

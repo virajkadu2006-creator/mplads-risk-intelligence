@@ -1,0 +1,15 @@
+pandas
+scikit-learn
+fastapi
+uvicorn
+gunicorn
+SQLAlchemy
+pydantic
+joblib
+rapidfuzz
+pytest
+python-dotenv
+pyarrow
+streamlit
+plotly
+requests

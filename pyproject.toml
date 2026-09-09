@@ -2,6 +2,3 @@
 name = "mplads-risk-intelligence"
 version = "0.1.0"
 description = "MPLADS Risk Intelligence System"
-
-[tool.vercel]
-entrypoint = "api/index.py"
