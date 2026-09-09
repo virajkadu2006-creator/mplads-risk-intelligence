@@ -26,9 +26,9 @@ if not DATABASE_URL:
                 shutil.copyfile(ORIGINAL_DB_PATH, tmp_db_path)
             DATABASE_URL = f"sqlite:///{tmp_db_path}"
         except Exception:
-            DATABASE_URL = f"sqlite:///{ORIGINAL_DB_PATH}"
+            DATABASE_URL = f"sqlite:///{ORIGINAL_DB_PATH}?mode=ro&uri=true"
     elif os.path.exists(ORIGINAL_DB_PATH):
-        DATABASE_URL = f"sqlite:///{ORIGINAL_DB_PATH}"
+        DATABASE_URL = f"sqlite:///{ORIGINAL_DB_PATH}?mode=ro&uri=true"
     else:
         DATABASE_URL = "sqlite:///./mplads.db"
 
