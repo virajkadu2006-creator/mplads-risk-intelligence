@@ -1,30 +1,54 @@
+import os
+import uuid
+import io
+import csv
+import shutil
+from datetime import datetime
 from fastapi import FastAPI, Depends, Query, HTTPException, Response
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker, Session
-import os
-import uuid
-import io
-import csv
-from datetime import datetime
 
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./mplads.db")
+# Absolute path resolution for DB
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ORIGINAL_DB_PATH = os.path.join(BASE_DIR, "mplads.db")
+
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+if not DATABASE_URL:
+    # On Vercel / serverless environments, root filesystem is read-only.
+    # Copy mplads.db to /tmp/mplads.db if /tmp exists and is writable.
+    tmp_db_path = "/tmp/mplads.db"
+    if os.path.exists("/tmp") and os.path.exists(ORIGINAL_DB_PATH):
+        try:
+            if not os.path.exists(tmp_db_path):
+                shutil.copyfile(ORIGINAL_DB_PATH, tmp_db_path)
+            DATABASE_URL = f"sqlite:///{tmp_db_path}"
+        except Exception:
+            DATABASE_URL = f"sqlite:///{ORIGINAL_DB_PATH}"
+    elif os.path.exists(ORIGINAL_DB_PATH):
+        DATABASE_URL = f"sqlite:///{ORIGINAL_DB_PATH}"
+    else:
+        DATABASE_URL = "sqlite:///./mplads.db"
 
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 # Create investigation_notes table if not exists
-with engine.begin() as conn:
-    conn.execute(text("""
-        CREATE TABLE IF NOT EXISTS investigation_notes (
-            note_id TEXT PRIMARY KEY,
-            project_id TEXT NOT NULL,
-            note_text TEXT NOT NULL,
-            created_by TEXT DEFAULT 'Auditor',
-            created_at TEXT NOT NULL
-        )
-    """))
+try:
+    with engine.begin() as conn:
+        conn.execute(text("""
+            CREATE TABLE IF NOT EXISTS investigation_notes (
+                note_id TEXT PRIMARY KEY,
+                project_id TEXT NOT NULL,
+                note_text TEXT NOT NULL,
+                created_by TEXT DEFAULT 'Auditor',
+                created_at TEXT NOT NULL
+            )
+        """))
+except Exception as e:
+    print(f"Warning: Failed to initialize investigation_notes table: {e}")
 
 app = FastAPI(title="MPLADS Risk Intelligence API")
 
@@ -46,6 +70,15 @@ def get_db():
 class NoteCreate(BaseModel):
     note_text: str
     created_by: str = "Auditor"
+
+@app.get("/")
+def root():
+    return {
+        "status": "online",
+        "service": "MPLADS Risk Intelligence API",
+        "docs_url": "/docs",
+        "health_check": "/health"
+    }
 
 @app.get("/health")
 def health_check():
