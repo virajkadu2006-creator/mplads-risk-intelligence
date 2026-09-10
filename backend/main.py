@@ -11,8 +11,22 @@ from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker, Session
 
 # Absolute path resolution for DB
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ORIGINAL_DB_PATH = os.path.join(BASE_DIR, "mplads.db")
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+db_candidates = [
+    os.path.join(parent_dir, "mplads.db"),
+    os.path.join(current_dir, "mplads.db"),
+    os.path.join(os.getcwd(), "mplads.db"),
+    "/var/task/mplads.db",
+    "/var/task/backend/mplads.db",
+    "/var/task/api/mplads.db"
+]
+
+ORIGINAL_DB_PATH = None
+for candidate in db_candidates:
+    if os.path.exists(candidate):
+        ORIGINAL_DB_PATH = candidate
+        break
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 
@@ -21,14 +35,14 @@ if not DATABASE_URL:
     # Always use /tmp/mplads.db for SQLite in serverless environment to avoid write permission errors.
     tmp_db_path = "/tmp/mplads.db"
     if os.path.exists("/tmp"):
-        if os.path.exists(ORIGINAL_DB_PATH):
+        if ORIGINAL_DB_PATH and os.path.exists(ORIGINAL_DB_PATH):
             try:
                 if not os.path.exists(tmp_db_path):
                     shutil.copyfile(ORIGINAL_DB_PATH, tmp_db_path)
             except Exception as e:
                 print(f"Warning: Could not copy DB to /tmp: {e}")
         DATABASE_URL = f"sqlite:///{tmp_db_path}"
-    elif os.path.exists(ORIGINAL_DB_PATH):
+    elif ORIGINAL_DB_PATH:
         DATABASE_URL = f"sqlite:///{ORIGINAL_DB_PATH}?mode=ro&uri=true"
     else:
         DATABASE_URL = "sqlite:///./mplads.db"
