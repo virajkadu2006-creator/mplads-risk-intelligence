@@ -18,15 +18,16 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 
 if not DATABASE_URL:
     # On Vercel / serverless environments, root filesystem is read-only.
-    # Copy mplads.db to /tmp/mplads.db if /tmp exists and is writable.
+    # Always use /tmp/mplads.db for SQLite in serverless environment to avoid write permission errors.
     tmp_db_path = "/tmp/mplads.db"
-    if os.path.exists("/tmp") and os.path.exists(ORIGINAL_DB_PATH):
-        try:
-            if not os.path.exists(tmp_db_path):
-                shutil.copyfile(ORIGINAL_DB_PATH, tmp_db_path)
-            DATABASE_URL = f"sqlite:///{tmp_db_path}"
-        except Exception:
-            DATABASE_URL = f"sqlite:///{ORIGINAL_DB_PATH}?mode=ro&uri=true"
+    if os.path.exists("/tmp"):
+        if os.path.exists(ORIGINAL_DB_PATH):
+            try:
+                if not os.path.exists(tmp_db_path):
+                    shutil.copyfile(ORIGINAL_DB_PATH, tmp_db_path)
+            except Exception as e:
+                print(f"Warning: Could not copy DB to /tmp: {e}")
+        DATABASE_URL = f"sqlite:///{tmp_db_path}"
     elif os.path.exists(ORIGINAL_DB_PATH):
         DATABASE_URL = f"sqlite:///{ORIGINAL_DB_PATH}?mode=ro&uri=true"
     else:
