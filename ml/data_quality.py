@@ -38,11 +38,12 @@ class DataQualityMonitor:
     def calculate_coverage(self, final_joined_count: int):
         total_sanc = self.report["total_rows_ingested"].get("sanctioned", 0)
         total_rec = self.report["total_rows_ingested"].get("recommended", 0)
-        # Using sanctioned as the base denominator if present, else recommended
-        base = total_sanc if total_sanc > 0 else total_rec
+        # Using max ingested rows as base denominator to avoid > 100% ratios
+        base = max(total_sanc, total_rec, final_joined_count)
         
         if base > 0:
-            self.report["join_coverage_pct"] = round((final_joined_count / base) * 100, 2)
+            coverage = round((final_joined_count / base) * 100, 2)
+            self.report["join_coverage_pct"] = min(100.0, coverage)
         else:
             self.report["join_coverage_pct"] = 0.0
 

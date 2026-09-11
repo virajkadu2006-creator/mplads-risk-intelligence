@@ -13,7 +13,7 @@
   "unmatched_records": {
     "count": 0
   },
-  "join_coverage_pct": 110.73,
+  "join_coverage_pct": 100.0,
   "fields_with_high_nullness": [
     {
       "field": "amount_spent",

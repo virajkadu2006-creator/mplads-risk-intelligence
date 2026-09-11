@@ -185,7 +185,10 @@ if st.session_state.page == "Overview":
         rc = kpis.get("risk_counts", {})
         high_crit = rc.get("High", 0) + rc.get("Critical", 0)
         c4.metric("High/Critical Risk", f"{high_crit}", delta=f"{rc.get('Critical', 0)} Critical", delta_color="inverse")
-        c5.metric("Data Quality Score", f"{dq.get('join_coverage_pct', 0)}% Valid")
+        raw_cov = float(dq.get('join_coverage_pct', 0))
+        capped_cov = min(100.0, raw_cov)
+        cov_str = f"{capped_cov:.1f}%" if capped_cov % 1 != 0 else f"{int(capped_cov)}%"
+        c5.metric("Data Quality Score", f"{cov_str} Valid")
         
         st.markdown("---")
         col_pie, col_bar = st.columns([1, 1])
@@ -219,6 +222,25 @@ if st.session_state.page == "Overview":
 elif st.session_state.page == "Risk Monitor":
     st.markdown("<div class='main-header'>🔍 Risk Monitor (Global Ranked Projects)</div>", unsafe_allow_html=True)
     
+    with st.expander("ℹ️ How is the Composite Risk Score Calculated? (Click to expand)"):
+        st.markdown("""
+        **The Composite Risk Score (0 – 100)** is calculated using 5 weighted analytical risk indicators:
+        
+        | Risk Component | Max Weight | Calculation Logic & Description |
+        | :--- | :--- | :--- |
+        | **💰 Cost Overrun** | **25 pts** | Based on expenditure vs sanction ratio (`amount_spent / sanction_amount`). Overruns above 1.0 scale up to 25 pts for a 2.0x overrun. |
+        | **⏱️ Timeline Delay** | **25 pts** | Based on project duration exceeding the 1-year (365-day) norm. Delays up to 730 days scale linearly to 25 pts. |
+        | **🤖 ML Anomaly Score** | **25 pts** | Unsupervised Isolation Forest model score [0 to 25 pts] detecting multivariate outliers across 7 scaled features. |
+        | **⚖️ Compliance & Trust** | **25 pts** | Triggered if MP annual trust/society aggregate cap (>₹1 Crore) is breached or exact duplicate works exist. |
+        | **📉 Under-Utilization** | **+15 pts** | Applied as an added penalty if project age > 180 days with < 10% fund utilization. |
+        
+        *Total score is clipped to a maximum of 100 points. Risk levels are categorized into:*
+        - 🟢 **Low Risk**: 0 – 24 pts
+        - 🟡 **Medium Risk**: 25 – 49 pts
+        - 🟠 **High Risk**: 50 – 74 pts
+        - 🔴 **Critical Risk**: 75 – 100 pts
+        """)
+
     filters_data = fetch_api("/filters") or {"states": [], "categories": [], "risk_levels": ["Critical", "High", "Medium", "Low"]}
     
     fc1, fc2, fc3, fc4 = st.columns(4)
@@ -239,6 +261,9 @@ elif st.session_state.page == "Risk Monitor":
         data = projects_res["data"]
         df = pd.DataFrame(data)
         
+        # Derive explicit MP Number column (e.g., MP #19 from MP_19)
+        df["mp_number"] = df["mp_name"].apply(lambda name: f"MP #{str(name).split('_')[-1]}" if name and '_' in str(name) else (f"MP #{name}" if name else "N/A"))
+        
         c_head1, c_head2 = st.columns([3, 1])
         c_head1.caption(f"Showing {len(df)} matching projects (sorted by Risk Score desc)")
         
@@ -252,7 +277,7 @@ elif st.session_state.page == "Risk Monitor":
         )
         
         display_df = df[[
-            "project_id", "risk_score", "risk_category", "mp_name", 
+            "project_id", "risk_score", "risk_category", "mp_number", "mp_name", 
             "state", "district", "work_name", "sanction_amount", "amount_spent", "delay_days"
         ]].copy()
         
@@ -260,7 +285,8 @@ elif st.session_state.page == "Risk Monitor":
             "project_id": "Work ID",
             "risk_score": "Score",
             "risk_category": "Risk Level",
-            "mp_name": "MP",
+            "mp_number": "MP Number",
+            "mp_name": "MP Name",
             "state": "State",
             "district": "District",
             "work_name": "Project Name",
