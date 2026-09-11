@@ -9,6 +9,37 @@ import json
 
 API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
 
+# ---------------------------------------------------------------------------
+# Load MP name + constituency lookup directly from raw CSV (always up to date)
+# This bypasses any stale backend DB and ensures real names are always shown.
+# ---------------------------------------------------------------------------
+@st.cache_data(ttl=3600)
+def load_name_lookup():
+    """Returns dict: unique_work_number -> {mp_name, constituency}"""
+    try:
+        csv_path = os.path.join(os.path.dirname(__file__), "..", "data", "raw", "recommended_works.csv")
+        csv_path = os.path.abspath(csv_path)
+        df = pd.read_csv(csv_path, usecols=["unique_work_number", "mp_name", "constituency"])
+        # Build project_id -> names dict (project_id == unique_work_number in the DB)
+        return {
+            row["unique_work_number"]: {
+                "mp_name": row["mp_name"],
+                "constituency": row["constituency"]
+            }
+            for _, row in df.iterrows()
+        }
+    except Exception:
+        return {}
+
+def apply_name_lookup(df, lookup):
+    """Replace mp_name and constituency in a dataframe using the CSV lookup."""
+    if lookup and "project_id" in df.columns:
+        df = df.copy()
+        df["mp_name"] = df["project_id"].map(lambda pid: lookup.get(pid, {}).get("mp_name") or df.loc[df["project_id"]==pid, "mp_name"].values[0] if pid in lookup else df.loc[df["project_id"]==pid, "mp_name"].values[0])
+        df["constituency"] = df["project_id"].map(lambda pid: lookup.get(pid, {}).get("constituency") or "")
+    return df
+
+
 # Auto-launcher for FastAPI backend if not currently reachable (e.g. Streamlit Cloud)
 def ensure_backend_running():
     try:
@@ -261,6 +292,12 @@ elif st.session_state.page == "Risk Monitor":
         data = projects_res["data"]
         df = pd.DataFrame(data)
         
+        # Apply real names from CSV lookup — overrides any stale DB values
+        name_lookup = load_name_lookup()
+        if name_lookup:
+            df["mp_name"] = df["project_id"].map(lambda pid: name_lookup.get(pid, {}).get("mp_name", df.loc[df["project_id"]==pid, "mp_name"].iloc[0] if (df["project_id"]==pid).any() else ""))
+            df["constituency"] = df["project_id"].map(lambda pid: name_lookup.get(pid, {}).get("constituency", ""))
+        
         c_head1, c_head2 = st.columns([3, 1])
         c_head1.caption(f"Showing {len(df)} matching projects (sorted by Risk Score desc)")
         
@@ -335,6 +372,13 @@ elif st.session_state.page == "Project Investigation":
     proj_res = fetch_api(f"/projects/{selected_id}")
     if proj_res and proj_res.get("data"):
         p = proj_res["data"]
+        
+        # Apply real names from CSV lookup
+        name_lookup = load_name_lookup()
+        pid = p.get("project_id", "")
+        if name_lookup and pid in name_lookup:
+            p["mp_name"] = name_lookup[pid]["mp_name"]
+            p["constituency"] = name_lookup[pid]["constituency"]
         
         # Identity Header
         c_meta1, c_meta2 = st.columns([3, 1])
