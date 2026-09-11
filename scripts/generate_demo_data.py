@@ -12,13 +12,52 @@ def generate_demo_data(num_projects=1000):
     vendors = ["ABC Construction", "XYZ Builders", "MNO Contractors", "PQR Engineering"]
     statuses = ["Completed", "In Progress", "Not Started", "Delayed"]
     
+    # Realistic Indian MP names (49 representatives across states)
+    mp_names = [
+        "Narayan Rane", "Supriya Sule", "Sanjay Raut", "Piyush Goyal", "Nana Patole",
+        "Lalu Prasad Yadav", "Nitish Kumar", "Ram Vilas Paswan", "Chirag Paswan", "Pappu Yadav",
+        "Mamata Banerjee", "Sudip Bandyopadhyay", "Mimi Chakraborty", "Nusrat Jahan", "Sougata Ray",
+        "Mulayam Singh Yadav", "Akhilesh Yadav", "Dimple Yadav", "Ram Gopal Yadav", "Jaya Bachchan",
+        "Shashi Tharoor", "K. C. Venugopal", "A. K. Antony", "V. Muraleedharan", "Rajmohan Unnithan",
+        "Rajnath Singh", "Smriti Irani", "Uma Bharti", "Yogi Adityanath", "Hema Malini",
+        "Amit Shah", "Anandiben Patel", "Hardik Patel", "Paresh Rawal", "Devusinh Chauhan",
+        "Sharad Pawar", "Uddhav Thackeray", "Priyanka Chaturvedi", "Milind Deora", "Anil Desai",
+        "Manoj Tiwari", "Gautam Gambhir", "Ramvir Singh Bidhuri", "Parvesh Verma", "Hans Raj Hans",
+        "Mallikarjun Kharge", "Sonia Gandhi", "Rahul Gandhi", "Priyanka Gandhi", "P. Chidambaram",
+    ]
+    constituencies = [
+        "Mumbai North", "Baramati", "Mumbai North West", "Mumbai North East", "Nagpur",
+        "Saran", "Nalanda", "Hajipur", "Jamui", "Madhepura",
+        "Kolkata South", "Kolkata North", "Jadavpur", "Basirhat", "Dum Dum",
+        "Mainpuri", "Azamgarh", "Firozabad", "Sambhal", "Amroha",
+        "Thiruvananthapuram", "Alappuzha", "Pathanamthitta", "Thrissur", "Kasaragod",
+        "Lucknow", "Amethi", "Jhansi", "Gorakhpur", "Mathura",
+        "Gandhinagar", "Anand", "Jamnagar", "Ahmedabad East", "Amreli",
+        "Satara", "Mumbai South", "Mumbai South Central", "Mumbai North Central", "Mumbai East",
+        "North East Delhi", "East Delhi", "South Delhi", "West Delhi", "North West Delhi",
+        "Gulbarga", "Wayanad", "Rae Bareli", "Varanasi", "Sivaganga",
+    ]
+    districts = [
+        "Mumbai", "Pune", "Nashik", "Aurangabad", "Nagpur",
+        "Saran", "Nalanda", "Vaishali", "Jamui", "Madhepura",
+        "Kolkata", "North 24 Parganas", "South 24 Parganas", "Nadia", "Howrah",
+        "Mainpuri", "Azamgarh", "Firozabad", "Sambhal", "Amroha",
+        "Thiruvananthapuram", "Alappuzha", "Pathanamthitta", "Thrissur", "Kasaragod",
+        "Lucknow", "Amethi", "Jhansi", "Gorakhpur", "Mathura",
+        "Gandhinagar", "Anand", "Jamnagar", "Ahmedabad", "Amreli",
+        "Satara", "Mumbai", "Mumbai", "Mumbai", "Mumbai",
+        "East Delhi", "East Delhi", "South Delhi", "West Delhi", "North West Delhi",
+        "Gulbarga", "Wayanad", "Rae Bareli", "Varanasi", "Sivaganga",
+    ]
+    
     data = []
     for i in range(num_projects):
+        mp_idx = np.random.randint(0, len(mp_names))
+        mp_name = mp_names[mp_idx]
+        constituency = constituencies[mp_idx]
+        district = districts[mp_idx]
         state = np.random.choice(states)
-        district = f"District_{np.random.randint(1, 10)}"
-        constituency = f"Constituency_{np.random.randint(1, 20)}"
-        mp_name = f"MP_{np.random.randint(1, 50)}"
-        
+
         category = np.random.choice(categories)
         work_name = f"Construction of {category} at location {np.random.randint(1, 1000)}"
         

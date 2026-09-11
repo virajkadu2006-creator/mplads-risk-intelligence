@@ -1,6 +1,6 @@
 {
   "model_version": "isolation_forest_v1",
-  "trained_at": "2026-09-08T07:29:53.444179Z",
+  "trained_at": "2026-09-11T11:03:13.233848Z",
   "feature_list": [
     "cost_overrun_ratio",
     "underutilization_ratio",
@@ -14,7 +14,7 @@
   "random_state": 42,
   "dataset_row_count": 1001,
   "normalization_bounds": {
-    "min": -0.1915925718657453,
-    "max": 0.11018745476029734
+    "min": -0.2207189473403271,
+    "max": 0.11413602423816227
   }
 }

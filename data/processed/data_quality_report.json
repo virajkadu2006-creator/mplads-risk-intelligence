@@ -1,10 +1,10 @@
 {
-  "run_id": "2f50f737-74e5-4065-b12b-6bded3032526",
-  "generated_at": "2026-09-08T07:29:50.460124Z",
+  "run_id": "1b941a35-7098-4bfa-87e5-534d4eda4b85",
+  "generated_at": "2026-09-11T11:03:01.383498Z",
   "total_rows_ingested": {
     "recommended": 1001,
-    "sanctioned": 904,
-    "payments": 509
+    "sanctioned": 894,
+    "payments": 500
   },
   "rows_rejected": {
     "count": 0,
@@ -16,20 +16,36 @@
   "join_coverage_pct": 100.0,
   "fields_with_high_nullness": [
     {
+      "field": "sanction_amount",
+      "null_pct": 10.69
+    },
+    {
+      "field": "sanction_date",
+      "null_pct": 10.89
+    },
+    {
+      "field": "work_status",
+      "null_pct": 10.69
+    },
+    {
+      "field": "district",
+      "null_pct": 10.69
+    },
+    {
       "field": "amount_spent",
-      "null_pct": 49.15
+      "null_pct": 50.05
     },
     {
       "field": "num_payments",
-      "null_pct": 49.15
+      "null_pct": 50.05
     },
     {
       "field": "last_payment_date",
-      "null_pct": 49.15
+      "null_pct": 50.05
     },
     {
       "field": "max_vendor_share",
-      "null_pct": 49.15
+      "null_pct": 50.05
     }
   ]
 }

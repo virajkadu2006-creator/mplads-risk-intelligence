@@ -261,9 +261,6 @@ elif st.session_state.page == "Risk Monitor":
         data = projects_res["data"]
         df = pd.DataFrame(data)
         
-        # Derive explicit MP Number column (e.g., MP #19 from MP_19)
-        df["mp_number"] = df["mp_name"].apply(lambda name: f"MP #{str(name).split('_')[-1]}" if name and '_' in str(name) else (f"MP #{name}" if name else "N/A"))
-        
         c_head1, c_head2 = st.columns([3, 1])
         c_head1.caption(f"Showing {len(df)} matching projects (sorted by Risk Score desc)")
         
@@ -277,16 +274,16 @@ elif st.session_state.page == "Risk Monitor":
         )
         
         display_df = df[[
-            "project_id", "risk_score", "risk_category", "mp_number", "mp_name", 
-            "state", "district", "work_name", "sanction_amount", "amount_spent", "delay_days"
+            "project_id", "risk_score", "risk_category", "mp_name", 
+            "constituency", "state", "district", "work_name", "sanction_amount", "amount_spent", "delay_days"
         ]].copy()
         
         display_df.rename(columns={
             "project_id": "Work ID",
             "risk_score": "Score",
             "risk_category": "Risk Level",
-            "mp_number": "MP Number",
             "mp_name": "MP Name",
+            "constituency": "Constituency",
             "state": "State",
             "district": "District",
             "work_name": "Project Name",
