@@ -6,10 +6,10 @@ import pandas as pd
 import yaml
 import json
 
-from frontend.theme import inject_theme
-from frontend.api_client import fetch_api, post_api, load_name_lookup, API_URL
-from frontend.components import render_metric_card, render_badge, render_evidence_card, render_risk_breakdown_chart
-from frontend.charts import render_risk_severity_donut, render_funds_overview_bar, render_geo_bar, render_ml_scatter
+from theme import inject_theme
+from api_client import fetch_api, post_api, load_name_lookup, API_URL
+from components import render_metric_card, render_badge, render_evidence_card, render_risk_breakdown_chart
+from charts import render_risk_severity_donut, render_funds_overview_bar, render_geo_bar, render_ml_scatter
 
 # Auto-launcher for FastAPI backend
 def ensure_backend_running():

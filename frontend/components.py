@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
-from frontend.theme import apply_chart_theme, get_theme
+from theme import apply_chart_theme, get_theme
 
 def render_metric_card(label, value, sublabel=None, badge_text=None, badge_class=None):
     """Render a KPI metric card styled with CSS."""

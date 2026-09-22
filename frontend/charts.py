@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
-from frontend.theme import apply_chart_theme
+from theme import apply_chart_theme
 
 def render_risk_severity_donut(risk_counts, is_dark=True):
     """Render the risk severity donut chart on the Overview screen."""
