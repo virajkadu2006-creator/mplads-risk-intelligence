@@ -2,46 +2,18 @@ import os
 import threading
 import time
 import streamlit as st
-import requests
 import pandas as pd
-import plotly.express as px
+import yaml
 import json
 
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
+from frontend.theme import inject_theme
+from frontend.api_client import fetch_api, post_api, load_name_lookup, API_URL
+from frontend.components import render_metric_card, render_badge, render_evidence_card, render_risk_breakdown_chart
+from frontend.charts import render_risk_severity_donut, render_funds_overview_bar, render_geo_bar, render_ml_scatter
 
-# ---------------------------------------------------------------------------
-# Load MP name + constituency lookup directly from raw CSV (always up to date)
-# This bypasses any stale backend DB and ensures real names are always shown.
-# ---------------------------------------------------------------------------
-@st.cache_data(ttl=3600)
-def load_name_lookup():
-    """Returns dict: unique_work_number -> {mp_name, constituency}"""
-    try:
-        csv_path = os.path.join(os.path.dirname(__file__), "..", "data", "raw", "recommended_works.csv")
-        csv_path = os.path.abspath(csv_path)
-        df = pd.read_csv(csv_path, usecols=["unique_work_number", "mp_name", "constituency"])
-        # Build project_id -> names dict (project_id == unique_work_number in the DB)
-        return {
-            row["unique_work_number"]: {
-                "mp_name": row["mp_name"],
-                "constituency": row["constituency"]
-            }
-            for _, row in df.iterrows()
-        }
-    except Exception:
-        return {}
-
-def apply_name_lookup(df, lookup):
-    """Replace mp_name and constituency in a dataframe using the CSV lookup."""
-    if lookup and "project_id" in df.columns:
-        df = df.copy()
-        df["mp_name"] = df["project_id"].map(lambda pid: lookup.get(pid, {}).get("mp_name") or df.loc[df["project_id"]==pid, "mp_name"].values[0] if pid in lookup else df.loc[df["project_id"]==pid, "mp_name"].values[0])
-        df["constituency"] = df["project_id"].map(lambda pid: lookup.get(pid, {}).get("constituency") or "")
-    return df
-
-
-# Auto-launcher for FastAPI backend if not currently reachable (e.g. Streamlit Cloud)
+# Auto-launcher for FastAPI backend
 def ensure_backend_running():
+    import requests
     try:
         r = requests.get(f"{API_URL}/health", timeout=2)
         if r.status_code == 200:
@@ -53,7 +25,6 @@ def ensure_backend_running():
         try:
             import uvicorn
             import sys
-            # Ensure repository root is in python path
             root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
             if root_dir not in sys.path:
                 sys.path.insert(0, root_dir)
@@ -67,7 +38,6 @@ def ensure_backend_running():
     time.sleep(2)
 
 ensure_backend_running()
-
 
 st.set_page_config(
     page_title="MPLADS Risk Intelligence System",
@@ -96,105 +66,21 @@ theme = st.sidebar.radio("🎨 Theme Mode", ["Dark 🌙", "Light ☀️"], index
 st.session_state.theme_mode = theme
 is_dark = "Dark" in theme
 
-# Theme variables
-bg_color = "#0f172a" if is_dark else "#f8fafc"
-card_bg = "#1e293b" if is_dark else "#ffffff"
-card_border = "#334155" if is_dark else "#e2e8f0"
-text_color = "#f8fafc" if is_dark else "#1e293b"
-muted_text = "#94a3b8" if is_dark else "#64748b"
-disclaimer_border = "#334155" if is_dark else "#cbd5e1"
-plotly_template = "plotly_dark" if is_dark else "plotly_white"
+# Inject Theme
+inject_theme(is_dark)
 
-# Dynamic CSS Injection
-st.markdown(f"""
-<style>
-    .stApp {{
-        background-color: {bg_color};
-        color: {text_color};
-    }}
-    .main-header {{
-        font-size: 26px;
-        font-weight: 700;
-        color: {text_color};
-        margin-bottom: 20px;
-    }}
-    .metric-card {{
-        background: {card_bg};
-        padding: 18px;
-        border-radius: 8px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-        border: 1px solid {card_border};
-        color: {text_color};
-    }}
-    .card-label {{
-        font-size: 14px;
-        color: {muted_text};
-    }}
-    .card-value {{
-        font-size: 42px;
-        font-weight: 800;
-        color: {text_color};
-    }}
-    .badge-critical {{
-        background-color: {"rgba(185, 28, 28, 0.25)" if is_dark else "#fee2e2"};
-        color: {"#fca5a5" if is_dark else "#991b1b"};
-        border: 1px solid {"#ef4444" if is_dark else "#f87171"};
-        padding: 4px 10px;
-        border-radius: 12px;
-        font-weight: 600;
-    }}
-    .badge-high {{
-        background-color: {"rgba(234, 88, 12, 0.25)" if is_dark else "#ffedd5"};
-        color: {"#fdba74" if is_dark else "#9a3412"};
-        border: 1px solid {"#f97316" if is_dark else "#fb923c"};
-        padding: 4px 10px;
-        border-radius: 12px;
-        font-weight: 600;
-    }}
-    .badge-medium {{
-        background-color: {"rgba(234, 179, 8, 0.25)" if is_dark else "#fef9c3"};
-        color: {"#fde047" if is_dark else "#854d0e"};
-        border: 1px solid {"#eab308" if is_dark else "#facc15"};
-        padding: 4px 10px;
-        border-radius: 12px;
-        font-weight: 600;
-    }}
-    .badge-low {{
-        background-color: {"rgba(22, 163, 74, 0.25)" if is_dark else "#dcfce7"};
-        color: {"#86efac" if is_dark else "#166534"};
-        border: 1px solid {"#22c55e" if is_dark else "#4ade80"};
-        padding: 4px 10px;
-        border-radius: 12px;
-        font-weight: 600;
-    }}
-    .disclaimer {{
-        font-size: 12px;
-        color: {muted_text};
-        border-top: 1px solid {disclaimer_border};
-        padding-top: 12px;
-        margin-top: 30px;
-    }}
-</style>
-""", unsafe_allow_html=True)
-
-@st.cache_data(ttl=15)
-def fetch_api(endpoint, params=None):
+# Load config for weights
+@st.cache_data
+def load_config():
     try:
-        response = requests.get(f"{API_URL}{endpoint}", params=params, timeout=10)
-        response.raise_for_status()
-        return response.json()
-    except Exception as e:
-        return None
+        config_path = os.path.join(os.path.dirname(__file__), "..", "config", "thresholds.yaml")
+        with open(config_path, "r") as f:
+            return yaml.safe_load(f)
+    except Exception:
+        return {}
 
-def post_api(endpoint, payload):
-    try:
-        response = requests.post(f"{API_URL}{endpoint}", json=payload, timeout=10)
-        response.raise_for_status()
-        st.cache_data.clear()
-        return response.json()
-    except Exception as e:
-        st.error(f"Action failed: {e}")
-        return None
+config_data = load_config()
+risk_weights = config_data.get("risk_scoring", {}).get("weights", {"cost": 25, "delay": 25, "ml": 25, "compliance": 25, "under_utilization": 15})
 
 # -------------------------------------------------------------
 # SCREEN 1: OVERVIEW
@@ -202,50 +88,123 @@ def post_api(endpoint, payload):
 if st.session_state.page == "Overview":
     st.markdown("<div class='main-header'>📊 Executive Overview</div>", unsafe_allow_html=True)
     
-    stats = fetch_api("/statistics")
+    with st.spinner("Loading risk data..."):
+        stats = fetch_api("/statistics")
+        
     if stats:
         kpis = stats["kpis"]
         dq_raw = stats.get("data_quality", "{}")
         dq = json.loads(dq_raw) if isinstance(dq_raw, str) else dq_raw
         
-        c1, c2, c3, c4, c5 = st.columns(5)
-        c1.metric("Total Works Ingested", f"{kpis['total_works']:,}")
-        c2.metric("Total Sanctioned", f"₹{kpis['total_sanctioned']/1e7:.2f} Cr" if kpis['total_sanctioned'] else "₹0")
-        c3.metric("Total Expenditure", f"₹{kpis['total_spent']/1e7:.2f} Cr" if kpis['total_spent'] else "₹0")
-        
         rc = kpis.get("risk_counts", {})
         high_crit = rc.get("High", 0) + rc.get("Critical", 0)
-        c4.metric("High/Critical Risk", f"{high_crit}", delta=f"{rc.get('Critical', 0)} Critical", delta_color="inverse")
         raw_cov = float(dq.get('join_coverage_pct', 0))
         capped_cov = min(100.0, raw_cov)
         cov_str = f"{capped_cov:.1f}%" if capped_cov % 1 != 0 else f"{int(capped_cov)}%"
-        c5.metric("Data Quality Score", f"{cov_str} Valid")
+        
+        # Flex KPI row
+        st.markdown("<div class='kpi-row'>", unsafe_allow_html=True)
+        col1, col2, col3, col4, col5 = st.columns(5)
+        with col1: render_metric_card("Total Works Ingested", f"{kpis['total_works']:,}")
+        with col2: render_metric_card("Total Sanctioned", f"₹{kpis['total_sanctioned']/1e7:.2f} Cr" if kpis['total_sanctioned'] else "₹0")
+        with col3: render_metric_card("Total Expenditure", f"₹{kpis['total_spent']/1e7:.2f} Cr" if kpis['total_spent'] else "₹0")
+        with col4: render_metric_card("High/Critical Risk", f"{high_crit}", sublabel=f"{rc.get('Critical', 0)} Critical")
+        with col5: render_metric_card("Data Quality Score", f"{cov_str} Valid")
+        st.markdown("</div>", unsafe_allow_html=True)
         
         st.markdown("---")
         col_pie, col_bar = st.columns([1, 1])
         
         with col_pie:
-            st.subheader("Risk Severity Breakdown")
-            df_risk = pd.DataFrame(list(rc.items()), columns=["Category", "Count"])
-            fig_pie = px.pie(
-                df_risk, names="Category", values="Count", color="Category",
-                color_discrete_map={"Critical": "#b91c1c", "High": "#ea580c", "Medium": "#eab308", "Low": "#16a34a"},
-                hole=0.4
-            )
-            fig_pie.update_layout(template=plotly_template, paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
-            st.plotly_chart(fig_pie, width='stretch')
+            st.markdown("<div class='section-header'>Risk Severity Breakdown</div>", unsafe_allow_html=True)
+            render_risk_severity_donut(rc, is_dark)
+            st.caption("Distribution of active projects across risk tiers.")
             
         with col_bar:
-            st.subheader("Funds Overview (Sanctioned vs Spent)")
-            funds_df = pd.DataFrame({
-                "Type": ["Sanctioned", "Spent"],
-                "Amount (₹ Cr)": [kpis['total_sanctioned']/1e7, kpis['total_spent']/1e7]
-            })
-            fig_bar = px.bar(funds_df, x="Type", y="Amount (₹ Cr)", color="Type", color_discrete_sequence=["#3b82f6", "#0d9488"])
-            fig_bar.update_layout(template=plotly_template, paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
-            st.plotly_chart(fig_bar, width='stretch')
+            st.markdown("<div class='section-header'>Funds Overview (Sanctioned vs Spent)</div>", unsafe_allow_html=True)
+            render_funds_overview_bar(kpis['total_sanctioned'], kpis['total_spent'], is_dark)
+            st.caption("Aggregate comparison of allocated vs utilized capital.")
             
-        st.info("💡 **Auditor Workflow:** Go to **Risk Monitor** to inspect ranked candidate projects, or click **Project Investigation** to view evidence dossiers.")
+        st.markdown("---")
+        
+        # New sections below charts
+        col_list, col_feed = st.columns([2, 1])
+        
+        with col_list:
+            st.markdown("<div class='section-header'>🔥 Top Risk Projects</div>", unsafe_allow_html=True)
+            with st.spinner("Loading top projects..."):
+                top_projects_res = fetch_api("/projects", {"sort": "risk_score", "order": "desc", "page_size": 8})
+                
+            if top_projects_res and top_projects_res.get("data"):
+                df_top = pd.DataFrame(top_projects_res["data"])
+                name_lookup = load_name_lookup()
+                if name_lookup:
+                    df_top["mp_name"] = df_top["project_id"].map(lambda pid: name_lookup.get(pid, {}).get("mp_name", df_top.loc[df_top["project_id"]==pid, "mp_name"].iloc[0] if (df_top["project_id"]==pid).any() else ""))
+                
+                df_top = df_top[["project_id", "risk_score", "work_name", "sanction_amount", "amount_spent"]]
+                
+                # Render using column config
+                st.dataframe(
+                    df_top,
+                    column_config={
+                        "project_id": "Work ID",
+                        "risk_score": st.column_config.ProgressColumn("Score", min_value=0, max_value=100, format="%d"),
+                        "work_name": "Project Name",
+                        "sanction_amount": st.column_config.NumberColumn("Sanction", format="₹%d"),
+                        "amount_spent": st.column_config.NumberColumn("Spent", format="₹%d")
+                    },
+                    hide_index=True,
+                    use_container_width=True
+                )
+                
+                # Navigate button below table
+                selected_top_pid = st.selectbox("Inspect Project:", df_top["project_id"], key="top_proj_select", label_visibility="collapsed")
+                if st.button("Open Investigation Dossier", key="btn_open_top"):
+                    st.session_state.selected_project = selected_top_pid
+                    st.session_state.page = "Project Investigation"
+                    st.rerun()
+            else:
+                st.info("No high-risk projects found.")
+                
+            st.markdown("<div class='section-header'>💡 Actionable Insights</div>", unsafe_allow_html=True)
+            with st.spinner("Generating insights..."):
+                states_res = fetch_api("/states")
+                
+            if states_res and states_res.get("data"):
+                states_df = pd.DataFrame(states_res["data"])
+                if not states_df.empty:
+                    states_df["High_Plus_Critical"] = states_df["critical_count"] + states_df["high_count"]
+                    top_state = states_df.sort_values("High_Plus_Critical", ascending=False).iloc[0]
+                    total_high_crit = states_df["High_Plus_Critical"].sum()
+                    
+                    if total_high_crit > 0:
+                        concentration = (top_state["High_Plus_Critical"] / total_high_crit) * 100
+                        st.info(f"**Geographic Risk:** {concentration:.1f}% of all high/critical risk works are concentrated in **{top_state['state']}**.")
+                    
+                    if kpis.get("total_spent") and kpis.get("total_sanctioned"):
+                        avg_ratio = kpis["total_spent"] / kpis["total_sanctioned"] * 100
+                        st.info(f"**Financial Trend:** The portfolio shows a {avg_ratio:.1f}% average fund utilization rate.")
+        
+        with col_feed:
+            st.markdown("<div class='section-header'>🚨 Recent Anomalies</div>", unsafe_allow_html=True)
+            with st.spinner("Loading anomalies..."):
+                anomalies_res = fetch_api("/anomalies", {"limit": 6})
+                
+            if anomalies_res and anomalies_res.get("data"):
+                for a in anomalies_res["data"]:
+                    render_evidence_card(a)
+                    if st.button(f"Investigate {a.get('project_id')}", key=f"btn_anom_{a.get('id')}", use_container_width=True):
+                        st.session_state.selected_project = a.get("project_id")
+                        st.session_state.page = "Project Investigation"
+                        st.rerun()
+            else:
+                st.info("No recent anomalies found.")
+                
+        st.markdown("""
+        <div class='disclaimer'>
+            💡 <b>Auditor Workflow:</b> Go to <b>Risk Monitor</b> to inspect ranked candidate projects, or click <b>Project Investigation</b> to view evidence dossiers.
+        </div>
+        """, unsafe_allow_html=True)
 
 # -------------------------------------------------------------
 # SCREEN 2: RISK MONITOR
@@ -253,26 +212,8 @@ if st.session_state.page == "Overview":
 elif st.session_state.page == "Risk Monitor":
     st.markdown("<div class='main-header'>🔍 Risk Monitor (Global Ranked Projects)</div>", unsafe_allow_html=True)
     
-    with st.expander("ℹ️ How is the Composite Risk Score Calculated? (Click to expand)"):
-        st.markdown("""
-        **The Composite Risk Score (0 – 100)** is calculated using 5 weighted analytical risk indicators:
-        
-        | Risk Component | Max Weight | Calculation Logic & Description |
-        | :--- | :--- | :--- |
-        | **💰 Cost Overrun** | **25 pts** | Based on expenditure vs sanction ratio (`amount_spent / sanction_amount`). Overruns above 1.0 scale up to 25 pts for a 2.0x overrun. |
-        | **⏱️ Timeline Delay** | **25 pts** | Based on project duration exceeding the 1-year (365-day) norm. Delays up to 730 days scale linearly to 25 pts. |
-        | **🤖 ML Anomaly Score** | **25 pts** | Unsupervised Isolation Forest model score [0 to 25 pts] detecting multivariate outliers across 7 scaled features. |
-        | **⚖️ Compliance & Trust** | **25 pts** | Triggered if MP annual trust/society aggregate cap (>₹1 Crore) is breached or exact duplicate works exist. |
-        | **📉 Under-Utilization** | **+15 pts** | Applied as an added penalty if project age > 180 days with < 10% fund utilization. |
-        
-        *Total score is clipped to a maximum of 100 points. Risk levels are categorized into:*
-        - 🟢 **Low Risk**: 0 – 24 pts
-        - 🟡 **Medium Risk**: 25 – 49 pts
-        - 🟠 **High Risk**: 50 – 74 pts
-        - 🔴 **Critical Risk**: 75 – 100 pts
-        """)
-
-    filters_data = fetch_api("/filters") or {"states": [], "categories": [], "risk_levels": ["Critical", "High", "Medium", "Low"]}
+    with st.spinner("Loading filters..."):
+        filters_data = fetch_api("/filters") or {"states": [], "categories": [], "risk_levels": ["Critical", "High", "Medium", "Low"]}
     
     fc1, fc2, fc3, fc4 = st.columns(4)
     risk_level = fc1.selectbox("Filter by Severity", ["All"] + filters_data.get("risk_levels", []))
@@ -286,13 +227,13 @@ elif st.session_state.page == "Risk Monitor":
     if category != "All": params["category"] = category
     if search_q: params["q"] = search_q
     
-    projects_res = fetch_api("/projects", params)
+    with st.spinner("Loading projects..."):
+        projects_res = fetch_api("/projects", params)
     
     if projects_res and projects_res.get("data"):
         data = projects_res["data"]
         df = pd.DataFrame(data)
         
-        # Apply real names from CSV lookup — overrides any stale DB values
         name_lookup = load_name_lookup()
         if name_lookup:
             df["mp_name"] = df["project_id"].map(lambda pid: name_lookup.get(pid, {}).get("mp_name", df.loc[df["project_id"]==pid, "mp_name"].iloc[0] if (df["project_id"]==pid).any() else ""))
@@ -301,37 +242,35 @@ elif st.session_state.page == "Risk Monitor":
         c_head1, c_head2 = st.columns([3, 1])
         c_head1.caption(f"Showing {len(df)} matching projects (sorted by Risk Score desc)")
         
-        # CSV Export Button
         csv_data = df.to_csv(index=False)
-        c_head2.download_button(
-            label="📥 Download CSV",
-            data=csv_data,
-            file_name="mplads_risk_monitor.csv",
-            mime="text/csv"
-        )
+        c_head2.download_button("📥 Download CSV", data=csv_data, file_name="mplads_risk_monitor.csv", mime="text/csv")
         
         display_df = df[[
             "project_id", "risk_score", "risk_category", "mp_name", 
             "constituency", "state", "district", "work_name", "sanction_amount", "amount_spent", "delay_days"
         ]].copy()
         
-        display_df.rename(columns={
-            "project_id": "Work ID",
-            "risk_score": "Score",
-            "risk_category": "Risk Level",
-            "mp_name": "MP Name",
-            "constituency": "Constituency",
-            "state": "State",
-            "district": "District",
-            "work_name": "Project Name",
-            "sanction_amount": "Sanction (₹)",
-            "amount_spent": "Spent (₹)",
-            "delay_days": "Delay (Days)"
-        }, inplace=True)
+        st.dataframe(
+            display_df,
+            column_config={
+                "project_id": "Work ID",
+                "risk_score": st.column_config.ProgressColumn("Score", min_value=0, max_value=100, format="%d"),
+                "risk_category": "Risk Level",
+                "mp_name": "MP Name",
+                "constituency": "Constituency",
+                "state": "State",
+                "district": "District",
+                "work_name": "Project Name",
+                "sanction_amount": st.column_config.NumberColumn("Sanction", format="₹%d"),
+                "amount_spent": st.column_config.NumberColumn("Spent", format="₹%d"),
+                "delay_days": st.column_config.NumberColumn("Delay (Days)", format="%d")
+            },
+            width=None,
+            use_container_width=True,
+            hide_index=True
+        )
         
-        st.dataframe(display_df, width='stretch', hide_index=True)
-        
-        st.markdown("### 🔎 Project Deep-Dive")
+        st.markdown("<div class='section-header'>🔎 Project Deep-Dive</div>", unsafe_allow_html=True)
         col_sel, col_btn = st.columns([3, 1])
         options = [f"{r['project_id']} — {r['work_name']} (Score: {r['risk_score']})" for _, r in df.iterrows()]
         selected_option = col_sel.selectbox("Select project to inspect:", options)
@@ -350,30 +289,30 @@ elif st.session_state.page == "Risk Monitor":
 elif st.session_state.page == "Project Investigation":
     st.markdown("<div class='main-header'>📁 Project Investigation Dossier</div>", unsafe_allow_html=True)
     
-    # Load all project IDs for convenient switching directly on this screen
-    all_proj_res = fetch_api("/projects", {"page_size": 200, "sort": "risk_score", "order": "desc"})
+    with st.spinner("Loading project list..."):
+        all_proj_res = fetch_api("/projects", {"page_size": 200, "sort": "risk_score", "order": "desc"})
+        
     all_projects = all_proj_res.get("data", []) if all_proj_res else []
     
     if all_projects:
         project_ids = [p["project_id"] for p in all_projects]
         id_to_label = {p["project_id"]: f"{p['project_id']} — {p['work_name']} [Score: {p['risk_score']}, {p['risk_category']}]" for p in all_projects}
         
-        # If no project selected yet, default to highest risk
         if "selected_project" not in st.session_state or st.session_state.selected_project not in id_to_label:
             st.session_state.selected_project = project_ids[0]
             
-        current_idx = project_ids.index(st.session_state.selected_project)
+        current_idx = project_ids.index(st.session_state.selected_project) if st.session_state.selected_project in project_ids else 0
         selected_label = st.selectbox("Switch Project Dossier:", [id_to_label[pid] for pid in project_ids], index=current_idx)
         st.session_state.selected_project = selected_label.split(" — ")[0]
         selected_id = st.session_state.selected_project
     else:
         selected_id = st.session_state.get("selected_project", "W-1000")
 
-    proj_res = fetch_api(f"/projects/{selected_id}")
+    with st.spinner("Loading dossier..."):
+        proj_res = fetch_api(f"/projects/{selected_id}")
+        
     if proj_res and proj_res.get("data"):
         p = proj_res["data"]
-        
-        # Apply real names from CSV lookup
         name_lookup = load_name_lookup()
         pid = p.get("project_id", "")
         if name_lookup and pid in name_lookup:
@@ -390,34 +329,29 @@ elif st.session_state.page == "Project Investigation":
         with c_meta2:
             score = p.get('risk_score', 0)
             cat = p.get('risk_category', 'Low')
-            color_class = "badge-critical" if cat == "Critical" else "badge-high" if cat == "High" else "badge-medium" if cat == "Medium" else "badge-low"
-            st.markdown(f"""
-            <div class='metric-card' style='text-align: center;'>
-                <div class='card-label'>Composite Risk Score</div>
-                <div class='card-value'>{score}<span style='font-size: 20px; color:{muted_text};'>/100</span></div>
-                <span class='{color_class}'>{cat.upper()} RISK</span>
-            </div>
-            """, unsafe_allow_html=True)
+            render_metric_card("Composite Risk Score", f"{score}", sublabel="/100", badge_text=f"{cat.upper()} RISK", badge_class=f"badge-{cat.lower()}")
             
         st.markdown("---")
         
         # Alerts Box
-        st.markdown("#### 🚨 Triggered Anomaly Signals & Objective Review Reasons")
+        st.markdown("<div class='section-header'>🚨 Triggered Anomaly Signals</div>", unsafe_allow_html=True)
         alerts = p.get("alerts", [])
         if alerts:
             for a in alerts:
-                sev = a.get("severity", "Info")
-                badge = "🔴" if sev == "Critical" else "🟠" if sev == "High" else "🟡"
-                st.warning(f"{badge} **[{a.get('alert_type')}]** {a.get('reason_text')}")
+                render_evidence_card(a)
         else:
             st.success("No active threshold anomalies detected for this project.")
             
+        # NEW: Risk Score Breakdown Chart
+        st.markdown("<div class='section-header'>📊 Risk Score Breakdown</div>", unsafe_allow_html=True)
+        render_risk_breakdown_chart(p, risk_weights, is_dark)
+        
         st.markdown("---")
         
         # Financial & Timeline Panels
         col_fin, col_time = st.columns(2)
         with col_fin:
-            st.markdown("#### 💰 Financial Panel")
+            st.markdown("<div class='section-header'>💰 Financial Panel</div>", unsafe_allow_html=True)
             sanc = p.get("sanction_amount") or 0.0
             spent = p.get("amount_spent") or 0.0
             overrun = spent - sanc if spent > sanc else 0.0
@@ -434,7 +368,7 @@ elif st.session_state.page == "Project Investigation":
             st.caption(f"Expenditure to Sanction Ratio: {ratio*100:.1f}%")
 
         with col_time:
-            st.markdown("#### ⏱️ Timeline & Progress Panel")
+            st.markdown("<div class='section-header'>⏱️ Timeline & Progress Panel</div>", unsafe_allow_html=True)
             st.write(f"- **Recommended Date:** {p.get('date_recommended') or 'N/A'}")
             st.write(f"- **Sanction Date:** {p.get('sanction_date') or 'N/A'}")
             st.write(f"- **Project Age / Duration:** {p.get('delay_days') or 0} days")
@@ -445,7 +379,7 @@ elif st.session_state.page == "Project Investigation":
         # Peer Comparison & ML Insights
         col_peer, col_ml = st.columns(2)
         with col_peer:
-            st.markdown("#### 👥 Peer Group Benchmarking")
+            st.markdown("<div class='section-header'>👥 Peer Group Benchmarking</div>", unsafe_allow_html=True)
             peer = p.get("peer_comparison", {})
             st.write(f"- **Category:** `{peer.get('category')}`")
             cost_pct = peer.get("percentile_cost", 50)
@@ -456,7 +390,7 @@ elif st.session_state.page == "Project Investigation":
             st.caption(f"Project duration is longer than **{delay_pct}%** of works in {peer.get('category')}.")
             
         with col_ml:
-            st.markdown("#### 🤖 Unsupervised ML (Isolation Forest)")
+            st.markdown("<div class='section-header'>🤖 Unsupervised ML (Isolation Forest)</div>", unsafe_allow_html=True)
             ml_score = p.get("ml_risk_score") or 0.0
             st.metric("ML Anomaly Score", f"{ml_score:.1f}/100", help="Continuous score generated by Isolation Forest across 7 scaled features")
             st.write(f"- **Model:** `{p.get('model_version', 'isolation_forest_v1')}`")
@@ -467,7 +401,7 @@ elif st.session_state.page == "Project Investigation":
         similar = p.get("similar_projects", [])
         if similar:
             st.markdown("---")
-            st.markdown("#### 🔁 Possible Duplicate / Overlapping Works Detected")
+            st.markdown("<div class='section-header'>🔁 Possible Duplicate / Overlapping Works Detected</div>", unsafe_allow_html=True)
             for s in similar:
                 col_sim_txt, col_sim_btn = st.columns([3, 1])
                 col_sim_txt.info(f"Matched Group `{p.get('duplicate_group_id')}` | Work ID: `{s['project_id']}` — *{s['work_name']}* (Risk Score: {s['risk_score']})")
@@ -488,7 +422,7 @@ elif st.session_state.page == "Project Investigation":
             
         # Investigation Notes Workflow
         st.markdown("---")
-        st.markdown("#### 📝 Auditor Investigation Workflow & Case Notes")
+        st.markdown("<div class='section-header'>📝 Auditor Investigation Workflow & Case Notes</div>", unsafe_allow_html=True)
         
         with st.form("add_note_form", clear_on_submit=True):
             note_text = st.text_area("Add Observation or Field Audit Note:", placeholder="e.g., Requested expenditure vouchers from District Authority on 08/09...")
@@ -496,7 +430,7 @@ elif st.session_state.page == "Project Investigation":
             submitted = st.form_submit_button("Save Note to Dossier", type="primary")
             if submitted and note_text:
                 post_api(f"/projects/{p['project_id']}/notes", {"note_text": note_text, "created_by": author})
-                st.success("Note saved to database.")
+                st.toast("Note saved to dossier! ✅") # Replaced st.success with st.toast
                 st.rerun()
                 
         notes = p.get("notes", [])
@@ -513,42 +447,41 @@ elif st.session_state.page == "Project Investigation":
 elif st.session_state.page == "Geo Analysis":
     st.markdown("<div class='main-header'>🗺️ Geographic Risk Distribution</div>", unsafe_allow_html=True)
     
-    states_res = fetch_api("/states")
+    with st.spinner("Loading geography data..."):
+        states_res = fetch_api("/states")
+        
     if states_res and states_res.get("data"):
         geo_summary = pd.DataFrame(states_res["data"])
         geo_summary["High_Plus_Critical"] = geo_summary["critical_count"] + geo_summary["high_count"]
         
         col_m1, col_m2 = st.columns([1, 1])
         with col_m1:
-            st.subheader("State-Wise Risk Concentration")
-            fig_geo_bar = px.bar(
-                geo_summary, x="state", y="High_Plus_Critical",
-                labels={"state": "State", "High_Plus_Critical": "High + Critical Works"},
-                color="High_Plus_Critical",
-                color_continuous_scale="Reds"
-            )
-            fig_geo_bar.update_layout(template=plotly_template, paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
-            st.plotly_chart(fig_geo_bar, width='stretch')
+            st.markdown("<div class='section-header'>State-Wise Risk Concentration</div>", unsafe_allow_html=True)
+            render_geo_bar(geo_summary, is_dark)
+            st.caption("Total high and critical risk works per state.")
             
         with col_m2:
-            st.subheader("Ranked State Statistics")
+            st.markdown("<div class='section-header'>Ranked State Statistics</div>", unsafe_allow_html=True)
             geo_display = geo_summary[[
                 "state", "total_works", "total_sanctioned", "total_spent", 
                 "critical_count", "high_count", "avg_risk_score"
             ]].copy()
-            geo_display["total_sanctioned"] = geo_display["total_sanctioned"].apply(lambda v: f"₹{v/1e7:.2f} Cr")
-            geo_display["total_spent"] = geo_display["total_spent"].apply(lambda v: f"₹{v/1e7:.2f} Cr")
-            geo_display["avg_risk_score"] = geo_display["avg_risk_score"].round(1)
-            geo_display.rename(columns={
-                "state": "State",
-                "total_works": "Total Works",
-                "total_sanctioned": "Sanctioned",
-                "total_spent": "Spent",
-                "critical_count": "Critical",
-                "high_count": "High",
-                "avg_risk_score": "Avg Risk"
-            }, inplace=True)
-            st.dataframe(geo_display, width='stretch', hide_index=True)
+            
+            st.dataframe(
+                geo_display,
+                column_config={
+                    "state": "State",
+                    "total_works": "Total Works",
+                    "total_sanctioned": st.column_config.NumberColumn("Sanctioned", format="₹%d"),
+                    "total_spent": st.column_config.NumberColumn("Spent", format="₹%d"),
+                    "critical_count": "Critical",
+                    "high_count": "High",
+                    "avg_risk_score": st.column_config.NumberColumn("Avg Risk", format="%.1f")
+                },
+                width=None,
+                use_container_width=True,
+                hide_index=True
+            )
     else:
         st.warning("Unable to fetch geographic state summary.")
 
@@ -558,31 +491,23 @@ elif st.session_state.page == "Geo Analysis":
 elif st.session_state.page == "ML Insights":
     st.markdown("<div class='main-header'>🧠 Machine Learning Model Diagnostics</div>", unsafe_allow_html=True)
     
-    projects_res = fetch_api("/projects", {"page_size": 1000})
+    with st.spinner("Loading ML diagnostics..."):
+        projects_res = fetch_api("/projects", {"page_size": 1000})
+        
     if projects_res and projects_res.get("data"):
         df = pd.DataFrame(projects_res["data"])
         
+        # Use CSS metric cards for the top row
+        st.markdown("<div class='kpi-row'>", unsafe_allow_html=True)
         c1, c2, c3 = st.columns(3)
-        c1.metric("Model Architecture", "Isolation Forest")
-        c2.metric("Trees (Estimators)", "200")
-        c3.metric("Assumed Contamination", "5.0%")
+        with c1: render_metric_card("Model Architecture", "Isolation Forest")
+        with c2: render_metric_card("Trees (Estimators)", "200")
+        with c3: render_metric_card("Assumed Contamination", "5.0%")
+        st.markdown("</div>", unsafe_allow_html=True)
         
-        st.subheader("Multivariate Outlier Clustering (Expenditure vs Delay)")
-        st.caption("Visualizing statistical separation between normal and anomalous work patterns.")
-        
-        plot_df = df[df["cost_overrun_ratio"].notnull()].copy()
-        fig_scatter = px.scatter(
-            plot_df,
-            x="cost_overrun_ratio",
-            y="delay_days",
-            color="risk_category",
-            size="ml_risk_score",
-            hover_data=["project_id", "mp_name", "work_name", "risk_score"],
-            labels={"cost_overrun_ratio": "Cost Overrun Ratio", "delay_days": "Delay in Days"},
-            color_discrete_map={"Critical": "#ef4444", "High": "#f97316", "Medium": "#eab308", "Low": "#22c55e"}
-        )
-        fig_scatter.update_layout(template=plotly_template, paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
-        st.plotly_chart(fig_scatter, width='stretch')
+        st.markdown("<div class='section-header'>Multivariate Outlier Clustering (Expenditure vs Delay)</div>", unsafe_allow_html=True)
+        render_ml_scatter(df, is_dark)
+        st.caption("Visualizing statistical separation between normal and anomalous work patterns. Size of dot indicates ML Risk Score.")
     else:
         st.warning("Unable to load ML insights data.")
 
