@@ -191,9 +191,9 @@ if st.session_state.page == "Overview":
                 anomalies_res = fetch_api("/anomalies", {"limit": 6})
                 
             if anomalies_res and anomalies_res.get("data"):
-                for a in anomalies_res["data"]:
+                for idx, a in enumerate(anomalies_res["data"]):
                     render_evidence_card(a)
-                    if st.button(f"Investigate {a.get('project_id')}", key=f"btn_anom_{a.get('id')}", use_container_width=True):
+                    if st.button(f"Investigate {a.get('project_id')}", key=f"btn_anom_{idx}_{a.get('project_id')}", use_container_width=True):
                         st.session_state.selected_project = a.get("project_id")
                         st.session_state.page = "Project Investigation"
                         st.rerun()
